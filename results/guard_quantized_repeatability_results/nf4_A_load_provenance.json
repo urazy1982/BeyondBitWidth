@@ -1,0 +1,11 @@
+{
+  "format": "nf4",
+  "revision": null,
+  "tokenizer_revision": null,
+  "linear4bit_count": 252,
+  "quant_type_seen": [
+    "nf4"
+  ],
+  "config": "BitsAndBytesConfig {\n  \"_load_in_4bit\": true,\n  \"_load_in_8bit\": false,\n  \"bnb_4bit_compute_dtype\": \"bfloat16\",\n  \"bnb_4bit_quant_storage\": \"uint8\",\n  \"bnb_4bit_quant_type\": \"nf4\",\n  \"bnb_4bit_use_double_quant\": false,\n  \"llm_int8_enable_fp32_cpu_offload\": false,\n  \"llm_int8_has_fp16_weight\": false,\n  \"llm_int8_skip_modules\": null,\n  \"llm_int8_threshold\": 6.0,\n  \"load_in_4bit\": true,\n  \"load_in_8bit\": false,\n  \"quant_method\": \"bitsandbytes\"\n}\n",
+  "load_time_utc": "2026-11-08T18:54:17.363671+00:00"
+}

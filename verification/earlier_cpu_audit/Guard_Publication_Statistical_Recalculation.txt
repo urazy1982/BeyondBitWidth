@@ -1,0 +1,8 @@
+NF4_vs_FP4 Qwen3GuardTest flip 14 CI (1.11, 3.1) dAcc pp -0.797 accCI (-1.769, 0.175) p= 0.17957 Holm4= 0.5387 Holm8= 1.0 dFNRpp= 1.572 FNp= 0.2266
+NF4_vs_FP4 ToxicChat flip 81 CI (1.31, 2.01) dAcc pp 0.5 accCI (0.147, 0.853) p= 0.00728 Holm4= 0.0291 Holm8= 0.0582 dFNRpp= 1.13 FNp= 0.125
+NF4_vs_FP4 XSTest flip 9 CI (1.06, 3.76) dAcc pp 0.222 accCI (-1.084, 1.529) p= 1.0 Holm4= 1.0 Holm8= 1.0 dFNRpp= -1.0 FNp= 0.5
+NF4_vs_FP4 BeaverTails flip 48 CI (1.2, 2.1) dAcc pp -0.066 accCI (-0.516, 0.383) p= 0.88543 Holm4= 1.0 Holm8= 1.0 dFNRpp= 0.462 FNp= 0.1153
+FP8_vs_INT8 Qwen3GuardTest flip 11 CI (0.82, 2.6) dAcc pp 0.664 accCI (-0.198, 1.526) p= 0.22656 Holm4= 0.90625 Holm8= 1.0 dFNRpp= -2.201 FNp= 0.0391
+FP8_vs_INT8 ToxicChat flip 31 CI (0.44, 0.88) dAcc pp -0.1 accCI (-0.318, 0.118) p= 0.47313 Holm4= 1.0 Holm8= 1.0 dFNRpp= -0.282 FNp= 1.0
+FP8_vs_INT8 XSTest flip 7 CI (0.76, 3.18) dAcc pp -0.222 accCI (-1.374, 0.93) p= 1.0 Holm4= 1.0 Holm8= 1.0 dFNRpp= -1.0 FNp= 0.5
+FP8_vs_INT8 BeaverTails flip 16 CI (0.33, 0.86) dAcc pp 0.0 accCI (-0.26, 0.26) p= 1.0 Holm4= 1.0 Holm8= 1.0 dFNRpp= -0.346 FNp= 0.0703

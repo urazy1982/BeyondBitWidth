@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen3Guard-Gen-4B",
+  "tokenizer_commit": null,
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "transformers": "5.22.2",
+  "bitsandbytes": "0.50.2",
+  "seed": 20261108,
+  "per_class": 128,
+  "do_sample": false,
+  "batch_size": 1,
+  "cudnn_benchmark": false,
+  "deterministic_algorithms": false,
+  "run_started_utc": "2026-11-08T18:54:13.045004+00:00",
+  "design": "Independent model reload per (format,repeat)"
+}

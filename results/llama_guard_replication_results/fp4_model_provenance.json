@@ -1,0 +1,9 @@
+{
+  "arm": "fp4",
+  "linear4bit_layers": 224,
+  "layer_quant_types": [
+    "fp4"
+  ],
+  "quant_config": "None",
+  "model_config_commit": null
+}

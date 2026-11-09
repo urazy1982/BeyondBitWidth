@@ -1,0 +1,10 @@
+test_beaver_response (test_logic.LogicTest.test_beaver_response) ... ok
+test_hash_stability (test_logic.LogicTest.test_hash_stability) ... ok
+test_pairs (test_logic.LogicTest.test_pairs) ... ok
+test_toxicity (test_logic.LogicTest.test_toxicity) ... ok
+test_wildguard_prompt_only (test_logic.LogicTest.test_wildguard_prompt_only) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK

@@ -1,0 +1,766 @@
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 5082 examples [00:00, 241144.13 examples/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 5083 examples [00:00, 352921.70 examples/s]
+toxicchat_prompt: prepared 5000; labels {'safe': 4646, 'unsafe': 354}
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:19,  4.99it/s]Loading weights:   1%|          | 2/399 [00:00<01:15,  5.29it/s]Loading weights:   4%|▍         | 17/399 [00:00<00:07, 48.45it/s]Loading weights:  10%|▉         | 39/399 [00:00<00:03, 96.66it/s]Loading weights:  15%|█▌        | 61/399 [00:00<00:02, 131.20it/s]Loading weights:  21%|██        | 83/399 [00:00<00:02, 153.32it/s]Loading weights:  26%|██▌       | 104/399 [00:00<00:01, 167.09it/s]Loading weights:  32%|███▏      | 126/399 [00:01<00:01, 178.95it/s]Loading weights:  37%|███▋      | 148/399 [00:01<00:01, 190.29it/s]Loading weights:  43%|████▎     | 170/399 [00:01<00:01, 196.51it/s]Loading weights:  48%|████▊     | 192/399 [00:01<00:01, 201.08it/s]Loading weights:  54%|█████▎    | 214/399 [00:01<00:00, 205.69it/s]Loading weights:  59%|█████▉    | 236/399 [00:01<00:00, 204.52it/s]Loading weights:  64%|██████▍   | 257/399 [00:01<00:00, 196.62it/s]Loading weights:  70%|███████   | 281/399 [00:01<00:00, 207.00it/s]Loading weights:  77%|███████▋  | 307/399 [00:01<00:00, 219.39it/s]Loading weights:  83%|████████▎ | 330/399 [00:01<00:00, 219.85it/s]Loading weights:  89%|████████▊ | 354/399 [00:02<00:00, 225.56it/s]Loading weights:  94%|█████████▍| 377/399 [00:02<00:00, 222.03it/s]Loading weights: 100%|██████████| 399/399 [00:02<00:00, 174.32it/s]
+toxicchat_prompt/bf16: 20/5000 elapsed=5s
+toxicchat_prompt/bf16: 40/5000 elapsed=10s
+toxicchat_prompt/bf16: 60/5000 elapsed=14s
+toxicchat_prompt/bf16: 80/5000 elapsed=18s
+toxicchat_prompt/bf16: 100/5000 elapsed=23s
+toxicchat_prompt/bf16: 120/5000 elapsed=27s
+toxicchat_prompt/bf16: 140/5000 elapsed=32s
+toxicchat_prompt/bf16: 160/5000 elapsed=37s
+toxicchat_prompt/bf16: 180/5000 elapsed=41s
+toxicchat_prompt/bf16: 200/5000 elapsed=45s
+toxicchat_prompt/bf16: 220/5000 elapsed=49s
+toxicchat_prompt/bf16: 240/5000 elapsed=53s
+toxicchat_prompt/bf16: 260/5000 elapsed=57s
+toxicchat_prompt/bf16: 280/5000 elapsed=63s
+toxicchat_prompt/bf16: 300/5000 elapsed=69s
+toxicchat_prompt/bf16: 320/5000 elapsed=75s
+toxicchat_prompt/bf16: 340/5000 elapsed=81s
+toxicchat_prompt/bf16: 360/5000 elapsed=87s
+toxicchat_prompt/bf16: 380/5000 elapsed=92s
+toxicchat_prompt/bf16: 400/5000 elapsed=97s
+toxicchat_prompt/bf16: 420/5000 elapsed=102s
+toxicchat_prompt/bf16: 440/5000 elapsed=108s
+toxicchat_prompt/bf16: 460/5000 elapsed=113s
+toxicchat_prompt/bf16: 480/5000 elapsed=119s
+toxicchat_prompt/bf16: 500/5000 elapsed=125s
+toxicchat_prompt/bf16: 520/5000 elapsed=131s
+toxicchat_prompt/bf16: 540/5000 elapsed=137s
+toxicchat_prompt/bf16: 560/5000 elapsed=143s
+toxicchat_prompt/bf16: 580/5000 elapsed=150s
+toxicchat_prompt/bf16: 600/5000 elapsed=156s
+toxicchat_prompt/bf16: 620/5000 elapsed=161s
+toxicchat_prompt/bf16: 640/5000 elapsed=167s
+toxicchat_prompt/bf16: 660/5000 elapsed=172s
+toxicchat_prompt/bf16: 680/5000 elapsed=177s
+toxicchat_prompt/bf16: 700/5000 elapsed=183s
+toxicchat_prompt/bf16: 720/5000 elapsed=189s
+toxicchat_prompt/bf16: 740/5000 elapsed=195s
+toxicchat_prompt/bf16: 760/5000 elapsed=200s
+toxicchat_prompt/bf16: 780/5000 elapsed=205s
+toxicchat_prompt/bf16: 800/5000 elapsed=210s
+toxicchat_prompt/bf16: 820/5000 elapsed=215s
+toxicchat_prompt/bf16: 840/5000 elapsed=220s
+toxicchat_prompt/bf16: 860/5000 elapsed=226s
+toxicchat_prompt/bf16: 880/5000 elapsed=232s
+toxicchat_prompt/bf16: 900/5000 elapsed=237s
+toxicchat_prompt/bf16: 920/5000 elapsed=243s
+toxicchat_prompt/bf16: 940/5000 elapsed=249s
+toxicchat_prompt/bf16: 960/5000 elapsed=255s
+toxicchat_prompt/bf16: 980/5000 elapsed=260s
+toxicchat_prompt/bf16: 1000/5000 elapsed=266s
+toxicchat_prompt/bf16: 1020/5000 elapsed=271s
+toxicchat_prompt/bf16: 1040/5000 elapsed=277s
+toxicchat_prompt/bf16: 1060/5000 elapsed=283s
+toxicchat_prompt/bf16: 1080/5000 elapsed=288s
+toxicchat_prompt/bf16: 1100/5000 elapsed=294s
+toxicchat_prompt/bf16: 1120/5000 elapsed=299s
+toxicchat_prompt/bf16: 1140/5000 elapsed=305s
+toxicchat_prompt/bf16: 1160/5000 elapsed=311s
+toxicchat_prompt/bf16: 1180/5000 elapsed=316s
+toxicchat_prompt/bf16: 1200/5000 elapsed=322s
+toxicchat_prompt/bf16: 1220/5000 elapsed=328s
+toxicchat_prompt/bf16: 1240/5000 elapsed=333s
+toxicchat_prompt/bf16: 1260/5000 elapsed=339s
+toxicchat_prompt/bf16: 1280/5000 elapsed=344s
+toxicchat_prompt/bf16: 1300/5000 elapsed=350s
+toxicchat_prompt/bf16: 1320/5000 elapsed=356s
+toxicchat_prompt/bf16: 1340/5000 elapsed=362s
+toxicchat_prompt/bf16: 1360/5000 elapsed=367s
+toxicchat_prompt/bf16: 1380/5000 elapsed=372s
+toxicchat_prompt/bf16: 1400/5000 elapsed=377s
+toxicchat_prompt/bf16: 1420/5000 elapsed=383s
+toxicchat_prompt/bf16: 1440/5000 elapsed=388s
+toxicchat_prompt/bf16: 1460/5000 elapsed=393s
+toxicchat_prompt/bf16: 1480/5000 elapsed=399s
+toxicchat_prompt/bf16: 1500/5000 elapsed=405s
+toxicchat_prompt/bf16: 1520/5000 elapsed=410s
+toxicchat_prompt/bf16: 1540/5000 elapsed=415s
+toxicchat_prompt/bf16: 1560/5000 elapsed=420s
+toxicchat_prompt/bf16: 1580/5000 elapsed=425s
+toxicchat_prompt/bf16: 1600/5000 elapsed=431s
+toxicchat_prompt/bf16: 1620/5000 elapsed=436s
+toxicchat_prompt/bf16: 1640/5000 elapsed=441s
+toxicchat_prompt/bf16: 1660/5000 elapsed=446s
+toxicchat_prompt/bf16: 1680/5000 elapsed=451s
+toxicchat_prompt/bf16: 1700/5000 elapsed=456s
+toxicchat_prompt/bf16: 1720/5000 elapsed=461s
+toxicchat_prompt/bf16: 1740/5000 elapsed=466s
+toxicchat_prompt/bf16: 1760/5000 elapsed=471s
+toxicchat_prompt/bf16: 1780/5000 elapsed=476s
+toxicchat_prompt/bf16: 1800/5000 elapsed=481s
+toxicchat_prompt/bf16: 1820/5000 elapsed=486s
+toxicchat_prompt/bf16: 1840/5000 elapsed=492s
+toxicchat_prompt/bf16: 1860/5000 elapsed=498s
+toxicchat_prompt/bf16: 1880/5000 elapsed=504s
+toxicchat_prompt/bf16: 1900/5000 elapsed=510s
+toxicchat_prompt/bf16: 1920/5000 elapsed=516s
+toxicchat_prompt/bf16: 1940/5000 elapsed=522s
+toxicchat_prompt/bf16: 1960/5000 elapsed=528s
+toxicchat_prompt/bf16: 1980/5000 elapsed=534s
+toxicchat_prompt/bf16: 2000/5000 elapsed=541s
+toxicchat_prompt/bf16: 2020/5000 elapsed=547s
+toxicchat_prompt/bf16: 2040/5000 elapsed=553s
+toxicchat_prompt/bf16: 2060/5000 elapsed=559s
+toxicchat_prompt/bf16: 2080/5000 elapsed=564s
+toxicchat_prompt/bf16: 2100/5000 elapsed=571s
+toxicchat_prompt/bf16: 2120/5000 elapsed=577s
+toxicchat_prompt/bf16: 2140/5000 elapsed=583s
+toxicchat_prompt/bf16: 2160/5000 elapsed=588s
+toxicchat_prompt/bf16: 2180/5000 elapsed=594s
+toxicchat_prompt/bf16: 2200/5000 elapsed=600s
+toxicchat_prompt/bf16: 2220/5000 elapsed=605s
+toxicchat_prompt/bf16: 2240/5000 elapsed=611s
+toxicchat_prompt/bf16: 2260/5000 elapsed=617s
+toxicchat_prompt/bf16: 2280/5000 elapsed=622s
+toxicchat_prompt/bf16: 2300/5000 elapsed=629s
+toxicchat_prompt/bf16: 2320/5000 elapsed=636s
+toxicchat_prompt/bf16: 2340/5000 elapsed=642s
+toxicchat_prompt/bf16: 2360/5000 elapsed=648s
+toxicchat_prompt/bf16: 2380/5000 elapsed=654s
+toxicchat_prompt/bf16: 2400/5000 elapsed=660s
+toxicchat_prompt/bf16: 2420/5000 elapsed=666s
+toxicchat_prompt/bf16: 2440/5000 elapsed=671s
+toxicchat_prompt/bf16: 2460/5000 elapsed=676s
+toxicchat_prompt/bf16: 2480/5000 elapsed=681s
+toxicchat_prompt/bf16: 2500/5000 elapsed=686s
+toxicchat_prompt/bf16: 2520/5000 elapsed=691s
+toxicchat_prompt/bf16: 2540/5000 elapsed=697s
+toxicchat_prompt/bf16: 2560/5000 elapsed=702s
+toxicchat_prompt/bf16: 2580/5000 elapsed=707s
+toxicchat_prompt/bf16: 2600/5000 elapsed=713s
+toxicchat_prompt/bf16: 2620/5000 elapsed=718s
+toxicchat_prompt/bf16: 2640/5000 elapsed=723s
+toxicchat_prompt/bf16: 2660/5000 elapsed=729s
+toxicchat_prompt/bf16: 2680/5000 elapsed=735s
+toxicchat_prompt/bf16: 2700/5000 elapsed=741s
+toxicchat_prompt/bf16: 2720/5000 elapsed=747s
+toxicchat_prompt/bf16: 2740/5000 elapsed=753s
+toxicchat_prompt/bf16: 2760/5000 elapsed=758s
+toxicchat_prompt/bf16: 2780/5000 elapsed=763s
+toxicchat_prompt/bf16: 2800/5000 elapsed=768s
+toxicchat_prompt/bf16: 2820/5000 elapsed=773s
+toxicchat_prompt/bf16: 2840/5000 elapsed=778s
+toxicchat_prompt/bf16: 2860/5000 elapsed=783s
+toxicchat_prompt/bf16: 2880/5000 elapsed=788s
+toxicchat_prompt/bf16: 2900/5000 elapsed=793s
+toxicchat_prompt/bf16: 2920/5000 elapsed=799s
+toxicchat_prompt/bf16: 2940/5000 elapsed=804s
+toxicchat_prompt/bf16: 2960/5000 elapsed=809s
+toxicchat_prompt/bf16: 2980/5000 elapsed=814s
+toxicchat_prompt/bf16: 3000/5000 elapsed=820s
+toxicchat_prompt/bf16: 3020/5000 elapsed=825s
+toxicchat_prompt/bf16: 3040/5000 elapsed=830s
+toxicchat_prompt/bf16: 3060/5000 elapsed=834s
+toxicchat_prompt/bf16: 3080/5000 elapsed=839s
+toxicchat_prompt/bf16: 3100/5000 elapsed=844s
+toxicchat_prompt/bf16: 3120/5000 elapsed=848s
+toxicchat_prompt/bf16: 3140/5000 elapsed=853s
+toxicchat_prompt/bf16: 3160/5000 elapsed=857s
+toxicchat_prompt/bf16: 3180/5000 elapsed=862s
+toxicchat_prompt/bf16: 3200/5000 elapsed=867s
+toxicchat_prompt/bf16: 3220/5000 elapsed=871s
+toxicchat_prompt/bf16: 3240/5000 elapsed=876s
+toxicchat_prompt/bf16: 3260/5000 elapsed=880s
+toxicchat_prompt/bf16: 3280/5000 elapsed=885s
+toxicchat_prompt/bf16: 3300/5000 elapsed=890s
+toxicchat_prompt/bf16: 3320/5000 elapsed=894s
+toxicchat_prompt/bf16: 3340/5000 elapsed=899s
+toxicchat_prompt/bf16: 3360/5000 elapsed=903s
+toxicchat_prompt/bf16: 3380/5000 elapsed=908s
+toxicchat_prompt/bf16: 3400/5000 elapsed=912s
+toxicchat_prompt/bf16: 3420/5000 elapsed=916s
+toxicchat_prompt/bf16: 3440/5000 elapsed=921s
+toxicchat_prompt/bf16: 3460/5000 elapsed=926s
+toxicchat_prompt/bf16: 3480/5000 elapsed=930s
+toxicchat_prompt/bf16: 3500/5000 elapsed=934s
+toxicchat_prompt/bf16: 3520/5000 elapsed=939s
+toxicchat_prompt/bf16: 3540/5000 elapsed=943s
+toxicchat_prompt/bf16: 3560/5000 elapsed=947s
+toxicchat_prompt/bf16: 3580/5000 elapsed=952s
+toxicchat_prompt/bf16: 3600/5000 elapsed=956s
+toxicchat_prompt/bf16: 3620/5000 elapsed=961s
+toxicchat_prompt/bf16: 3640/5000 elapsed=965s
+toxicchat_prompt/bf16: 3660/5000 elapsed=970s
+toxicchat_prompt/bf16: 3680/5000 elapsed=974s
+toxicchat_prompt/bf16: 3700/5000 elapsed=979s
+toxicchat_prompt/bf16: 3720/5000 elapsed=983s
+toxicchat_prompt/bf16: 3740/5000 elapsed=987s
+toxicchat_prompt/bf16: 3760/5000 elapsed=991s
+toxicchat_prompt/bf16: 3780/5000 elapsed=996s
+toxicchat_prompt/bf16: 3800/5000 elapsed=1000s
+toxicchat_prompt/bf16: 3820/5000 elapsed=1004s
+toxicchat_prompt/bf16: 3840/5000 elapsed=1008s
+toxicchat_prompt/bf16: 3860/5000 elapsed=1012s
+toxicchat_prompt/bf16: 3880/5000 elapsed=1016s
+toxicchat_prompt/bf16: 3900/5000 elapsed=1020s
+toxicchat_prompt/bf16: 3920/5000 elapsed=1024s
+toxicchat_prompt/bf16: 3940/5000 elapsed=1028s
+toxicchat_prompt/bf16: 3960/5000 elapsed=1032s
+toxicchat_prompt/bf16: 3980/5000 elapsed=1036s
+toxicchat_prompt/bf16: 4000/5000 elapsed=1041s
+toxicchat_prompt/bf16: 4020/5000 elapsed=1045s
+toxicchat_prompt/bf16: 4040/5000 elapsed=1049s
+toxicchat_prompt/bf16: 4060/5000 elapsed=1053s
+toxicchat_prompt/bf16: 4080/5000 elapsed=1057s
+toxicchat_prompt/bf16: 4100/5000 elapsed=1062s
+toxicchat_prompt/bf16: 4120/5000 elapsed=1066s
+toxicchat_prompt/bf16: 4140/5000 elapsed=1070s
+toxicchat_prompt/bf16: 4160/5000 elapsed=1074s
+toxicchat_prompt/bf16: 4180/5000 elapsed=1079s
+toxicchat_prompt/bf16: 4200/5000 elapsed=1084s
+toxicchat_prompt/bf16: 4220/5000 elapsed=1089s
+toxicchat_prompt/bf16: 4240/5000 elapsed=1095s
+toxicchat_prompt/bf16: 4260/5000 elapsed=1101s
+toxicchat_prompt/bf16: 4280/5000 elapsed=1107s
+toxicchat_prompt/bf16: 4300/5000 elapsed=1112s
+toxicchat_prompt/bf16: 4320/5000 elapsed=1118s
+toxicchat_prompt/bf16: 4340/5000 elapsed=1123s
+toxicchat_prompt/bf16: 4360/5000 elapsed=1128s
+toxicchat_prompt/bf16: 4380/5000 elapsed=1133s
+toxicchat_prompt/bf16: 4400/5000 elapsed=1138s
+toxicchat_prompt/bf16: 4420/5000 elapsed=1143s
+toxicchat_prompt/bf16: 4440/5000 elapsed=1148s
+toxicchat_prompt/bf16: 4460/5000 elapsed=1153s
+toxicchat_prompt/bf16: 4480/5000 elapsed=1159s
+toxicchat_prompt/bf16: 4500/5000 elapsed=1164s
+toxicchat_prompt/bf16: 4520/5000 elapsed=1168s
+toxicchat_prompt/bf16: 4540/5000 elapsed=1173s
+toxicchat_prompt/bf16: 4560/5000 elapsed=1179s
+toxicchat_prompt/bf16: 4580/5000 elapsed=1184s
+toxicchat_prompt/bf16: 4600/5000 elapsed=1188s
+toxicchat_prompt/bf16: 4620/5000 elapsed=1193s
+toxicchat_prompt/bf16: 4640/5000 elapsed=1197s
+toxicchat_prompt/bf16: 4660/5000 elapsed=1202s
+toxicchat_prompt/bf16: 4680/5000 elapsed=1207s
+toxicchat_prompt/bf16: 4700/5000 elapsed=1212s
+toxicchat_prompt/bf16: 4720/5000 elapsed=1216s
+toxicchat_prompt/bf16: 4740/5000 elapsed=1221s
+toxicchat_prompt/bf16: 4760/5000 elapsed=1227s
+toxicchat_prompt/bf16: 4780/5000 elapsed=1231s
+toxicchat_prompt/bf16: 4800/5000 elapsed=1236s
+toxicchat_prompt/bf16: 4820/5000 elapsed=1241s
+toxicchat_prompt/bf16: 4840/5000 elapsed=1246s
+toxicchat_prompt/bf16: 4860/5000 elapsed=1251s
+toxicchat_prompt/bf16: 4880/5000 elapsed=1256s
+toxicchat_prompt/bf16: 4900/5000 elapsed=1260s
+toxicchat_prompt/bf16: 4920/5000 elapsed=1265s
+toxicchat_prompt/bf16: 4940/5000 elapsed=1270s
+toxicchat_prompt/bf16: 4960/5000 elapsed=1275s
+toxicchat_prompt/bf16: 4980/5000 elapsed=1279s
+toxicchat_prompt/bf16: 5000/5000 elapsed=1284s
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:13,  5.42it/s]Loading weights:   1%|          | 2/399 [00:00<01:09,  5.67it/s]Loading weights:   1%|▏         | 5/399 [00:00<00:29, 13.14it/s]Loading weights:   7%|▋         | 26/399 [00:00<00:05, 72.75it/s]Loading weights:  12%|█▏        | 48/399 [00:00<00:03, 113.20it/s]Loading weights:  18%|█▊        | 70/399 [00:00<00:02, 140.88it/s]Loading weights:  22%|██▏       | 87/399 [00:00<00:02, 149.18it/s]Loading weights:  26%|██▌       | 103/399 [00:00<00:01, 150.25it/s]Loading weights:  31%|███▏      | 125/399 [00:01<00:01, 164.77it/s]Loading weights:  37%|███▋      | 147/399 [00:01<00:01, 178.92it/s]Loading weights:  42%|████▏     | 169/399 [00:01<00:01, 186.58it/s]Loading weights:  48%|████▊     | 191/399 [00:01<00:01, 192.69it/s]Loading weights:  53%|█████▎    | 211/399 [00:01<00:00, 192.36it/s]Loading weights:  58%|█████▊    | 231/399 [00:01<00:00, 191.06it/s]Loading weights:  63%|██████▎   | 251/399 [00:01<00:00, 186.20it/s]Loading weights:  68%|██████▊   | 270/399 [00:01<00:00, 181.77it/s]Loading weights:  73%|███████▎  | 292/399 [00:01<00:00, 187.78it/s]Loading weights:  79%|███████▊  | 314/399 [00:02<00:00, 193.54it/s]Loading weights:  84%|████████▍ | 336/399 [00:02<00:00, 195.68it/s]Loading weights:  90%|████████▉ | 358/399 [00:02<00:00, 198.29it/s]Loading weights:  95%|█████████▌| 380/399 [00:02<00:00, 199.50it/s]Loading weights: 100%|██████████| 399/399 [00:02<00:00, 161.19it/s]
+toxicchat_prompt/nf4: 20/5000 elapsed=6s
+toxicchat_prompt/nf4: 40/5000 elapsed=13s
+toxicchat_prompt/nf4: 60/5000 elapsed=19s
+toxicchat_prompt/nf4: 80/5000 elapsed=25s
+toxicchat_prompt/nf4: 100/5000 elapsed=32s
+toxicchat_prompt/nf4: 120/5000 elapsed=38s
+toxicchat_prompt/nf4: 140/5000 elapsed=45s
+toxicchat_prompt/nf4: 160/5000 elapsed=51s
+toxicchat_prompt/nf4: 180/5000 elapsed=58s
+toxicchat_prompt/nf4: 200/5000 elapsed=64s
+toxicchat_prompt/nf4: 220/5000 elapsed=70s
+toxicchat_prompt/nf4: 240/5000 elapsed=77s
+toxicchat_prompt/nf4: 260/5000 elapsed=83s
+toxicchat_prompt/nf4: 280/5000 elapsed=90s
+toxicchat_prompt/nf4: 300/5000 elapsed=96s
+toxicchat_prompt/nf4: 320/5000 elapsed=103s
+toxicchat_prompt/nf4: 340/5000 elapsed=109s
+toxicchat_prompt/nf4: 360/5000 elapsed=116s
+toxicchat_prompt/nf4: 380/5000 elapsed=123s
+toxicchat_prompt/nf4: 400/5000 elapsed=130s
+toxicchat_prompt/nf4: 420/5000 elapsed=136s
+toxicchat_prompt/nf4: 440/5000 elapsed=144s
+toxicchat_prompt/nf4: 460/5000 elapsed=151s
+toxicchat_prompt/nf4: 480/5000 elapsed=159s
+toxicchat_prompt/nf4: 500/5000 elapsed=165s
+toxicchat_prompt/nf4: 520/5000 elapsed=171s
+toxicchat_prompt/nf4: 540/5000 elapsed=178s
+toxicchat_prompt/nf4: 560/5000 elapsed=184s
+toxicchat_prompt/nf4: 580/5000 elapsed=191s
+toxicchat_prompt/nf4: 600/5000 elapsed=197s
+toxicchat_prompt/nf4: 620/5000 elapsed=203s
+toxicchat_prompt/nf4: 640/5000 elapsed=209s
+toxicchat_prompt/nf4: 660/5000 elapsed=217s
+toxicchat_prompt/nf4: 680/5000 elapsed=223s
+toxicchat_prompt/nf4: 700/5000 elapsed=231s
+toxicchat_prompt/nf4: 720/5000 elapsed=239s
+toxicchat_prompt/nf4: 740/5000 elapsed=246s
+toxicchat_prompt/nf4: 760/5000 elapsed=254s
+toxicchat_prompt/nf4: 780/5000 elapsed=261s
+toxicchat_prompt/nf4: 800/5000 elapsed=268s
+toxicchat_prompt/nf4: 820/5000 elapsed=274s
+toxicchat_prompt/nf4: 840/5000 elapsed=282s
+toxicchat_prompt/nf4: 860/5000 elapsed=290s
+toxicchat_prompt/nf4: 880/5000 elapsed=296s
+toxicchat_prompt/nf4: 900/5000 elapsed=303s
+toxicchat_prompt/nf4: 920/5000 elapsed=311s
+toxicchat_prompt/nf4: 940/5000 elapsed=319s
+toxicchat_prompt/nf4: 960/5000 elapsed=325s
+toxicchat_prompt/nf4: 980/5000 elapsed=332s
+toxicchat_prompt/nf4: 1000/5000 elapsed=340s
+toxicchat_prompt/nf4: 1020/5000 elapsed=347s
+toxicchat_prompt/nf4: 1040/5000 elapsed=355s
+toxicchat_prompt/nf4: 1060/5000 elapsed=362s
+toxicchat_prompt/nf4: 1080/5000 elapsed=369s
+toxicchat_prompt/nf4: 1100/5000 elapsed=376s
+toxicchat_prompt/nf4: 1120/5000 elapsed=382s
+toxicchat_prompt/nf4: 1140/5000 elapsed=389s
+toxicchat_prompt/nf4: 1160/5000 elapsed=394s
+toxicchat_prompt/nf4: 1180/5000 elapsed=400s
+toxicchat_prompt/nf4: 1200/5000 elapsed=406s
+toxicchat_prompt/nf4: 1220/5000 elapsed=412s
+toxicchat_prompt/nf4: 1240/5000 elapsed=418s
+toxicchat_prompt/nf4: 1260/5000 elapsed=424s
+toxicchat_prompt/nf4: 1280/5000 elapsed=430s
+toxicchat_prompt/nf4: 1300/5000 elapsed=436s
+toxicchat_prompt/nf4: 1320/5000 elapsed=442s
+toxicchat_prompt/nf4: 1340/5000 elapsed=449s
+toxicchat_prompt/nf4: 1360/5000 elapsed=455s
+toxicchat_prompt/nf4: 1380/5000 elapsed=461s
+toxicchat_prompt/nf4: 1400/5000 elapsed=467s
+toxicchat_prompt/nf4: 1420/5000 elapsed=473s
+toxicchat_prompt/nf4: 1440/5000 elapsed=480s
+toxicchat_prompt/nf4: 1460/5000 elapsed=487s
+toxicchat_prompt/nf4: 1480/5000 elapsed=493s
+toxicchat_prompt/nf4: 1500/5000 elapsed=500s
+toxicchat_prompt/nf4: 1520/5000 elapsed=506s
+toxicchat_prompt/nf4: 1540/5000 elapsed=513s
+toxicchat_prompt/nf4: 1560/5000 elapsed=519s
+toxicchat_prompt/nf4: 1580/5000 elapsed=525s
+toxicchat_prompt/nf4: 1600/5000 elapsed=532s
+toxicchat_prompt/nf4: 1620/5000 elapsed=539s
+toxicchat_prompt/nf4: 1640/5000 elapsed=546s
+toxicchat_prompt/nf4: 1660/5000 elapsed=552s
+toxicchat_prompt/nf4: 1680/5000 elapsed=558s
+toxicchat_prompt/nf4: 1700/5000 elapsed=565s
+toxicchat_prompt/nf4: 1720/5000 elapsed=572s
+toxicchat_prompt/nf4: 1740/5000 elapsed=578s
+toxicchat_prompt/nf4: 1760/5000 elapsed=585s
+toxicchat_prompt/nf4: 1780/5000 elapsed=591s
+toxicchat_prompt/nf4: 1800/5000 elapsed=598s
+toxicchat_prompt/nf4: 1820/5000 elapsed=604s
+toxicchat_prompt/nf4: 1840/5000 elapsed=610s
+toxicchat_prompt/nf4: 1860/5000 elapsed=617s
+toxicchat_prompt/nf4: 1880/5000 elapsed=623s
+toxicchat_prompt/nf4: 1900/5000 elapsed=630s
+toxicchat_prompt/nf4: 1920/5000 elapsed=636s
+toxicchat_prompt/nf4: 1940/5000 elapsed=643s
+toxicchat_prompt/nf4: 1960/5000 elapsed=649s
+toxicchat_prompt/nf4: 1980/5000 elapsed=656s
+toxicchat_prompt/nf4: 2000/5000 elapsed=662s
+toxicchat_prompt/nf4: 2020/5000 elapsed=669s
+toxicchat_prompt/nf4: 2040/5000 elapsed=677s
+toxicchat_prompt/nf4: 2060/5000 elapsed=684s
+toxicchat_prompt/nf4: 2080/5000 elapsed=690s
+toxicchat_prompt/nf4: 2100/5000 elapsed=697s
+toxicchat_prompt/nf4: 2120/5000 elapsed=704s
+toxicchat_prompt/nf4: 2140/5000 elapsed=710s
+toxicchat_prompt/nf4: 2160/5000 elapsed=717s
+toxicchat_prompt/nf4: 2180/5000 elapsed=723s
+toxicchat_prompt/nf4: 2200/5000 elapsed=729s
+toxicchat_prompt/nf4: 2220/5000 elapsed=735s
+toxicchat_prompt/nf4: 2240/5000 elapsed=741s
+toxicchat_prompt/nf4: 2260/5000 elapsed=748s
+toxicchat_prompt/nf4: 2280/5000 elapsed=754s
+toxicchat_prompt/nf4: 2300/5000 elapsed=761s
+toxicchat_prompt/nf4: 2320/5000 elapsed=767s
+toxicchat_prompt/nf4: 2340/5000 elapsed=773s
+toxicchat_prompt/nf4: 2360/5000 elapsed=780s
+toxicchat_prompt/nf4: 2380/5000 elapsed=786s
+toxicchat_prompt/nf4: 2400/5000 elapsed=792s
+toxicchat_prompt/nf4: 2420/5000 elapsed=798s
+toxicchat_prompt/nf4: 2440/5000 elapsed=804s
+toxicchat_prompt/nf4: 2460/5000 elapsed=809s
+toxicchat_prompt/nf4: 2480/5000 elapsed=815s
+toxicchat_prompt/nf4: 2500/5000 elapsed=821s
+toxicchat_prompt/nf4: 2520/5000 elapsed=827s
+toxicchat_prompt/nf4: 2540/5000 elapsed=835s
+toxicchat_prompt/nf4: 2560/5000 elapsed=842s
+toxicchat_prompt/nf4: 2580/5000 elapsed=848s
+toxicchat_prompt/nf4: 2600/5000 elapsed=855s
+toxicchat_prompt/nf4: 2620/5000 elapsed=860s
+toxicchat_prompt/nf4: 2640/5000 elapsed=866s
+toxicchat_prompt/nf4: 2660/5000 elapsed=873s
+toxicchat_prompt/nf4: 2680/5000 elapsed=879s
+toxicchat_prompt/nf4: 2700/5000 elapsed=885s
+toxicchat_prompt/nf4: 2720/5000 elapsed=891s
+toxicchat_prompt/nf4: 2740/5000 elapsed=897s
+toxicchat_prompt/nf4: 2760/5000 elapsed=903s
+toxicchat_prompt/nf4: 2780/5000 elapsed=908s
+toxicchat_prompt/nf4: 2800/5000 elapsed=914s
+toxicchat_prompt/nf4: 2820/5000 elapsed=920s
+toxicchat_prompt/nf4: 2840/5000 elapsed=926s
+toxicchat_prompt/nf4: 2860/5000 elapsed=932s
+toxicchat_prompt/nf4: 2880/5000 elapsed=938s
+toxicchat_prompt/nf4: 2900/5000 elapsed=944s
+toxicchat_prompt/nf4: 2920/5000 elapsed=950s
+toxicchat_prompt/nf4: 2940/5000 elapsed=956s
+toxicchat_prompt/nf4: 2960/5000 elapsed=962s
+toxicchat_prompt/nf4: 2980/5000 elapsed=968s
+toxicchat_prompt/nf4: 3000/5000 elapsed=974s
+toxicchat_prompt/nf4: 3020/5000 elapsed=979s
+toxicchat_prompt/nf4: 3040/5000 elapsed=985s
+toxicchat_prompt/nf4: 3060/5000 elapsed=991s
+toxicchat_prompt/nf4: 3080/5000 elapsed=997s
+toxicchat_prompt/nf4: 3100/5000 elapsed=1003s
+toxicchat_prompt/nf4: 3120/5000 elapsed=1008s
+toxicchat_prompt/nf4: 3140/5000 elapsed=1013s
+toxicchat_prompt/nf4: 3160/5000 elapsed=1019s
+toxicchat_prompt/nf4: 3180/5000 elapsed=1025s
+toxicchat_prompt/nf4: 3200/5000 elapsed=1031s
+toxicchat_prompt/nf4: 3220/5000 elapsed=1037s
+toxicchat_prompt/nf4: 3240/5000 elapsed=1043s
+toxicchat_prompt/nf4: 3260/5000 elapsed=1049s
+toxicchat_prompt/nf4: 3280/5000 elapsed=1055s
+toxicchat_prompt/nf4: 3300/5000 elapsed=1060s
+toxicchat_prompt/nf4: 3320/5000 elapsed=1067s
+toxicchat_prompt/nf4: 3340/5000 elapsed=1073s
+toxicchat_prompt/nf4: 3360/5000 elapsed=1078s
+toxicchat_prompt/nf4: 3380/5000 elapsed=1084s
+toxicchat_prompt/nf4: 3400/5000 elapsed=1090s
+toxicchat_prompt/nf4: 3420/5000 elapsed=1096s
+toxicchat_prompt/nf4: 3440/5000 elapsed=1101s
+toxicchat_prompt/nf4: 3460/5000 elapsed=1107s
+toxicchat_prompt/nf4: 3480/5000 elapsed=1113s
+toxicchat_prompt/nf4: 3500/5000 elapsed=1119s
+toxicchat_prompt/nf4: 3520/5000 elapsed=1125s
+toxicchat_prompt/nf4: 3540/5000 elapsed=1131s
+toxicchat_prompt/nf4: 3560/5000 elapsed=1137s
+toxicchat_prompt/nf4: 3580/5000 elapsed=1143s
+toxicchat_prompt/nf4: 3600/5000 elapsed=1149s
+toxicchat_prompt/nf4: 3620/5000 elapsed=1155s
+toxicchat_prompt/nf4: 3640/5000 elapsed=1161s
+toxicchat_prompt/nf4: 3660/5000 elapsed=1167s
+toxicchat_prompt/nf4: 3680/5000 elapsed=1173s
+toxicchat_prompt/nf4: 3700/5000 elapsed=1179s
+toxicchat_prompt/nf4: 3720/5000 elapsed=1184s
+toxicchat_prompt/nf4: 3740/5000 elapsed=1190s
+toxicchat_prompt/nf4: 3760/5000 elapsed=1196s
+toxicchat_prompt/nf4: 3780/5000 elapsed=1201s
+toxicchat_prompt/nf4: 3800/5000 elapsed=1207s
+toxicchat_prompt/nf4: 3820/5000 elapsed=1212s
+toxicchat_prompt/nf4: 3840/5000 elapsed=1218s
+toxicchat_prompt/nf4: 3860/5000 elapsed=1223s
+toxicchat_prompt/nf4: 3880/5000 elapsed=1229s
+toxicchat_prompt/nf4: 3900/5000 elapsed=1235s
+toxicchat_prompt/nf4: 3920/5000 elapsed=1240s
+toxicchat_prompt/nf4: 3940/5000 elapsed=1246s
+toxicchat_prompt/nf4: 3960/5000 elapsed=1253s
+toxicchat_prompt/nf4: 3980/5000 elapsed=1259s
+toxicchat_prompt/nf4: 4000/5000 elapsed=1265s
+toxicchat_prompt/nf4: 4020/5000 elapsed=1271s
+toxicchat_prompt/nf4: 4040/5000 elapsed=1277s
+toxicchat_prompt/nf4: 4060/5000 elapsed=1283s
+toxicchat_prompt/nf4: 4080/5000 elapsed=1289s
+toxicchat_prompt/nf4: 4100/5000 elapsed=1296s
+toxicchat_prompt/nf4: 4120/5000 elapsed=1302s
+toxicchat_prompt/nf4: 4140/5000 elapsed=1308s
+toxicchat_prompt/nf4: 4160/5000 elapsed=1315s
+toxicchat_prompt/nf4: 4180/5000 elapsed=1321s
+toxicchat_prompt/nf4: 4200/5000 elapsed=1327s
+toxicchat_prompt/nf4: 4220/5000 elapsed=1333s
+toxicchat_prompt/nf4: 4240/5000 elapsed=1339s
+toxicchat_prompt/nf4: 4260/5000 elapsed=1346s
+toxicchat_prompt/nf4: 4280/5000 elapsed=1352s
+toxicchat_prompt/nf4: 4300/5000 elapsed=1358s
+toxicchat_prompt/nf4: 4320/5000 elapsed=1363s
+toxicchat_prompt/nf4: 4340/5000 elapsed=1369s
+toxicchat_prompt/nf4: 4360/5000 elapsed=1374s
+toxicchat_prompt/nf4: 4380/5000 elapsed=1380s
+toxicchat_prompt/nf4: 4400/5000 elapsed=1386s
+toxicchat_prompt/nf4: 4420/5000 elapsed=1393s
+toxicchat_prompt/nf4: 4440/5000 elapsed=1399s
+toxicchat_prompt/nf4: 4460/5000 elapsed=1405s
+toxicchat_prompt/nf4: 4480/5000 elapsed=1411s
+toxicchat_prompt/nf4: 4500/5000 elapsed=1418s
+toxicchat_prompt/nf4: 4520/5000 elapsed=1423s
+toxicchat_prompt/nf4: 4540/5000 elapsed=1430s
+toxicchat_prompt/nf4: 4560/5000 elapsed=1436s
+toxicchat_prompt/nf4: 4580/5000 elapsed=1441s
+toxicchat_prompt/nf4: 4600/5000 elapsed=1447s
+toxicchat_prompt/nf4: 4620/5000 elapsed=1453s
+toxicchat_prompt/nf4: 4640/5000 elapsed=1459s
+toxicchat_prompt/nf4: 4660/5000 elapsed=1466s
+toxicchat_prompt/nf4: 4680/5000 elapsed=1473s
+toxicchat_prompt/nf4: 4700/5000 elapsed=1479s
+toxicchat_prompt/nf4: 4720/5000 elapsed=1485s
+toxicchat_prompt/nf4: 4740/5000 elapsed=1492s
+toxicchat_prompt/nf4: 4760/5000 elapsed=1500s
+toxicchat_prompt/nf4: 4780/5000 elapsed=1507s
+toxicchat_prompt/nf4: 4800/5000 elapsed=1513s
+toxicchat_prompt/nf4: 4820/5000 elapsed=1519s
+toxicchat_prompt/nf4: 4840/5000 elapsed=1525s
+toxicchat_prompt/nf4: 4860/5000 elapsed=1532s
+toxicchat_prompt/nf4: 4880/5000 elapsed=1538s
+toxicchat_prompt/nf4: 4900/5000 elapsed=1544s
+toxicchat_prompt/nf4: 4920/5000 elapsed=1550s
+toxicchat_prompt/nf4: 4940/5000 elapsed=1556s
+toxicchat_prompt/nf4: 4960/5000 elapsed=1563s
+toxicchat_prompt/nf4: 4980/5000 elapsed=1570s
+toxicchat_prompt/nf4: 5000/5000 elapsed=1577s
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:19,  5.04it/s]Loading weights:   1%|          | 2/399 [00:00<01:12,  5.44it/s]Loading weights:   1%|          | 4/399 [00:00<00:44,  8.88it/s]Loading weights:   3%|▎         | 13/399 [00:00<00:12, 31.68it/s]Loading weights:   6%|▌         | 23/399 [00:00<00:07, 50.06it/s]Loading weights:   9%|▊         | 34/399 [00:00<00:05, 64.96it/s]Loading weights:  11%|█         | 43/399 [00:00<00:05, 68.94it/s]Loading weights:  14%|█▎        | 54/399 [00:01<00:04, 80.23it/s]Loading weights:  16%|█▌        | 64/399 [00:01<00:03, 85.23it/s]Loading weights:  18%|█▊        | 73/399 [00:01<00:03, 85.68it/s]Loading weights:  21%|██        | 83/399 [00:01<00:03, 86.92it/s]Loading weights:  24%|██▍       | 97/399 [00:01<00:03, 99.61it/s]Loading weights:  27%|██▋       | 108/399 [00:01<00:02, 99.15it/s]Loading weights:  30%|███       | 120/399 [00:01<00:02, 103.42it/s]Loading weights:  34%|███▍      | 136/399 [00:01<00:02, 116.31it/s]Loading weights:  37%|███▋      | 148/399 [00:01<00:02, 113.86it/s]Loading weights:  41%|████      | 163/399 [00:02<00:01, 122.10it/s]Loading weights:  44%|████▍     | 176/399 [00:02<00:01, 118.42it/s]Loading weights:  47%|████▋     | 188/399 [00:02<00:01, 117.32it/s]Loading weights:  51%|█████     | 202/399 [00:02<00:01, 118.39it/s]Loading weights:  54%|█████▍    | 215/399 [00:02<00:01, 119.82it/s]Loading weights:  58%|█████▊    | 230/399 [00:02<00:01, 126.41it/s]Loading weights:  62%|██████▏   | 246/399 [00:02<00:01, 130.49it/s]Loading weights:  65%|██████▌   | 260/399 [00:02<00:01, 114.15it/s]Loading weights:  69%|██████▊   | 274/399 [00:02<00:01, 118.73it/s]Loading weights:  72%|███████▏  | 288/399 [00:03<00:00, 122.07it/s]Loading weights:  75%|███████▌  | 301/399 [00:03<00:00, 122.75it/s]Loading weights:  79%|███████▊  | 314/399 [00:03<00:00, 119.28it/s]Loading weights:  82%|████████▏ | 329/399 [00:03<00:00, 122.55it/s]Loading weights:  86%|████████▌ | 342/399 [00:03<00:00, 116.50it/s]Loading weights:  89%|████████▊ | 354/399 [00:03<00:00, 110.95it/s]Loading weights:  92%|█████████▏| 366/399 [00:03<00:00, 112.68it/s]Loading weights:  95%|█████████▍| 378/399 [00:03<00:00, 100.30it/s]Loading weights:  97%|█████████▋| 389/399 [00:04<00:00, 97.36it/s] Loading weights: 100%|██████████| 399/399 [00:04<00:00, 97.12it/s]Loading weights: 100%|██████████| 399/399 [00:04<00:00, 96.75it/s]
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 2134.76it/s]
+toxicchat_prompt/fp8: 20/5000 elapsed=20s
+toxicchat_prompt/fp8: 40/5000 elapsed=30s
+toxicchat_prompt/fp8: 60/5000 elapsed=39s
+toxicchat_prompt/fp8: 80/5000 elapsed=48s
+toxicchat_prompt/fp8: 100/5000 elapsed=58s
+toxicchat_prompt/fp8: 120/5000 elapsed=67s
+toxicchat_prompt/fp8: 140/5000 elapsed=76s
+toxicchat_prompt/fp8: 160/5000 elapsed=85s
+toxicchat_prompt/fp8: 180/5000 elapsed=95s
+toxicchat_prompt/fp8: 200/5000 elapsed=104s
+toxicchat_prompt/fp8: 220/5000 elapsed=113s
+toxicchat_prompt/fp8: 240/5000 elapsed=121s
+toxicchat_prompt/fp8: 260/5000 elapsed=130s
+toxicchat_prompt/fp8: 280/5000 elapsed=139s
+toxicchat_prompt/fp8: 300/5000 elapsed=148s
+toxicchat_prompt/fp8: 320/5000 elapsed=158s
+toxicchat_prompt/fp8: 340/5000 elapsed=167s
+toxicchat_prompt/fp8: 360/5000 elapsed=176s
+toxicchat_prompt/fp8: 380/5000 elapsed=185s
+toxicchat_prompt/fp8: 400/5000 elapsed=193s
+toxicchat_prompt/fp8: 420/5000 elapsed=203s
+toxicchat_prompt/fp8: 440/5000 elapsed=212s
+toxicchat_prompt/fp8: 460/5000 elapsed=221s
+toxicchat_prompt/fp8: 480/5000 elapsed=230s
+toxicchat_prompt/fp8: 500/5000 elapsed=239s
+toxicchat_prompt/fp8: 520/5000 elapsed=248s
+toxicchat_prompt/fp8: 540/5000 elapsed=257s
+toxicchat_prompt/fp8: 560/5000 elapsed=266s
+toxicchat_prompt/fp8: 580/5000 elapsed=275s
+toxicchat_prompt/fp8: 600/5000 elapsed=284s
+toxicchat_prompt/fp8: 620/5000 elapsed=293s
+toxicchat_prompt/fp8: 640/5000 elapsed=302s
+toxicchat_prompt/fp8: 660/5000 elapsed=312s
+toxicchat_prompt/fp8: 680/5000 elapsed=321s
+toxicchat_prompt/fp8: 700/5000 elapsed=330s
+toxicchat_prompt/fp8: 720/5000 elapsed=339s
+toxicchat_prompt/fp8: 740/5000 elapsed=349s
+toxicchat_prompt/fp8: 760/5000 elapsed=358s
+toxicchat_prompt/fp8: 780/5000 elapsed=366s
+toxicchat_prompt/fp8: 800/5000 elapsed=375s
+toxicchat_prompt/fp8: 820/5000 elapsed=383s
+toxicchat_prompt/fp8: 840/5000 elapsed=392s
+toxicchat_prompt/fp8: 860/5000 elapsed=402s
+toxicchat_prompt/fp8: 880/5000 elapsed=411s
+toxicchat_prompt/fp8: 900/5000 elapsed=420s
+toxicchat_prompt/fp8: 920/5000 elapsed=428s
+toxicchat_prompt/fp8: 940/5000 elapsed=437s
+toxicchat_prompt/fp8: 960/5000 elapsed=446s
+toxicchat_prompt/fp8: 980/5000 elapsed=454s
+toxicchat_prompt/fp8: 1000/5000 elapsed=463s
+toxicchat_prompt/fp8: 1020/5000 elapsed=471s
+toxicchat_prompt/fp8: 1040/5000 elapsed=480s
+toxicchat_prompt/fp8: 1060/5000 elapsed=488s
+toxicchat_prompt/fp8: 1080/5000 elapsed=497s
+toxicchat_prompt/fp8: 1100/5000 elapsed=507s
+toxicchat_prompt/fp8: 1120/5000 elapsed=516s
+toxicchat_prompt/fp8: 1140/5000 elapsed=525s
+toxicchat_prompt/fp8: 1160/5000 elapsed=534s
+toxicchat_prompt/fp8: 1180/5000 elapsed=544s
+toxicchat_prompt/fp8: 1200/5000 elapsed=553s
+toxicchat_prompt/fp8: 1220/5000 elapsed=561s
+toxicchat_prompt/fp8: 1240/5000 elapsed=570s
+toxicchat_prompt/fp8: 1260/5000 elapsed=579s
+toxicchat_prompt/fp8: 1280/5000 elapsed=588s
+toxicchat_prompt/fp8: 1300/5000 elapsed=598s
+toxicchat_prompt/fp8: 1320/5000 elapsed=607s
+toxicchat_prompt/fp8: 1340/5000 elapsed=617s
+toxicchat_prompt/fp8: 1360/5000 elapsed=626s
+toxicchat_prompt/fp8: 1380/5000 elapsed=634s
+toxicchat_prompt/fp8: 1400/5000 elapsed=642s
+toxicchat_prompt/fp8: 1420/5000 elapsed=651s
+toxicchat_prompt/fp8: 1440/5000 elapsed=660s
+toxicchat_prompt/fp8: 1460/5000 elapsed=668s
+toxicchat_prompt/fp8: 1480/5000 elapsed=678s
+toxicchat_prompt/fp8: 1500/5000 elapsed=687s
+toxicchat_prompt/fp8: 1520/5000 elapsed=696s
+toxicchat_prompt/fp8: 1540/5000 elapsed=705s
+toxicchat_prompt/fp8: 1560/5000 elapsed=714s
+toxicchat_prompt/fp8: 1580/5000 elapsed=722s
+toxicchat_prompt/fp8: 1600/5000 elapsed=731s
+toxicchat_prompt/fp8: 1620/5000 elapsed=740s
+toxicchat_prompt/fp8: 1640/5000 elapsed=749s
+toxicchat_prompt/fp8: 1660/5000 elapsed=758s
+toxicchat_prompt/fp8: 1680/5000 elapsed=766s
+toxicchat_prompt/fp8: 1700/5000 elapsed=775s
+toxicchat_prompt/fp8: 1720/5000 elapsed=784s
+toxicchat_prompt/fp8: 1740/5000 elapsed=792s
+toxicchat_prompt/fp8: 1760/5000 elapsed=801s
+toxicchat_prompt/fp8: 1780/5000 elapsed=809s
+toxicchat_prompt/fp8: 1800/5000 elapsed=818s
+toxicchat_prompt/fp8: 1820/5000 elapsed=826s
+toxicchat_prompt/fp8: 1840/5000 elapsed=835s
+toxicchat_prompt/fp8: 1860/5000 elapsed=844s
+toxicchat_prompt/fp8: 1880/5000 elapsed=853s
+toxicchat_prompt/fp8: 1900/5000 elapsed=861s
+toxicchat_prompt/fp8: 1920/5000 elapsed=869s
+toxicchat_prompt/fp8: 1940/5000 elapsed=878s
+toxicchat_prompt/fp8: 1960/5000 elapsed=886s
+toxicchat_prompt/fp8: 1980/5000 elapsed=895s
+toxicchat_prompt/fp8: 2000/5000 elapsed=905s
+toxicchat_prompt/fp8: 2020/5000 elapsed=913s
+toxicchat_prompt/fp8: 2040/5000 elapsed=923s
+toxicchat_prompt/fp8: 2060/5000 elapsed=933s
+toxicchat_prompt/fp8: 2080/5000 elapsed=943s
+toxicchat_prompt/fp8: 2100/5000 elapsed=952s
+toxicchat_prompt/fp8: 2120/5000 elapsed=961s
+toxicchat_prompt/fp8: 2140/5000 elapsed=971s
+toxicchat_prompt/fp8: 2160/5000 elapsed=981s
+toxicchat_prompt/fp8: 2180/5000 elapsed=991s
+toxicchat_prompt/fp8: 2200/5000 elapsed=1001s
+toxicchat_prompt/fp8: 2220/5000 elapsed=1010s
+toxicchat_prompt/fp8: 2240/5000 elapsed=1018s
+toxicchat_prompt/fp8: 2260/5000 elapsed=1028s
+toxicchat_prompt/fp8: 2280/5000 elapsed=1036s
+toxicchat_prompt/fp8: 2300/5000 elapsed=1047s
+toxicchat_prompt/fp8: 2320/5000 elapsed=1057s
+toxicchat_prompt/fp8: 2340/5000 elapsed=1066s
+toxicchat_prompt/fp8: 2360/5000 elapsed=1076s
+toxicchat_prompt/fp8: 2380/5000 elapsed=1085s
+toxicchat_prompt/fp8: 2400/5000 elapsed=1095s
+toxicchat_prompt/fp8: 2420/5000 elapsed=1104s
+toxicchat_prompt/fp8: 2440/5000 elapsed=1112s
+toxicchat_prompt/fp8: 2460/5000 elapsed=1121s
+toxicchat_prompt/fp8: 2480/5000 elapsed=1129s
+toxicchat_prompt/fp8: 2500/5000 elapsed=1137s
+toxicchat_prompt/fp8: 2520/5000 elapsed=1145s
+toxicchat_prompt/fp8: 2540/5000 elapsed=1154s
+toxicchat_prompt/fp8: 2560/5000 elapsed=1163s
+toxicchat_prompt/fp8: 2580/5000 elapsed=1172s
+toxicchat_prompt/fp8: 2600/5000 elapsed=1182s
+toxicchat_prompt/fp8: 2620/5000 elapsed=1190s
+toxicchat_prompt/fp8: 2640/5000 elapsed=1199s
+toxicchat_prompt/fp8: 2660/5000 elapsed=1208s
+toxicchat_prompt/fp8: 2680/5000 elapsed=1217s
+toxicchat_prompt/fp8: 2700/5000 elapsed=1226s
+toxicchat_prompt/fp8: 2720/5000 elapsed=1236s
+toxicchat_prompt/fp8: 2740/5000 elapsed=1246s
+toxicchat_prompt/fp8: 2760/5000 elapsed=1254s
+toxicchat_prompt/fp8: 2780/5000 elapsed=1263s
+toxicchat_prompt/fp8: 2800/5000 elapsed=1271s
+toxicchat_prompt/fp8: 2820/5000 elapsed=1282s
+toxicchat_prompt/fp8: 2840/5000 elapsed=1292s
+toxicchat_prompt/fp8: 2860/5000 elapsed=1302s
+toxicchat_prompt/fp8: 2880/5000 elapsed=1311s
+toxicchat_prompt/fp8: 2900/5000 elapsed=1320s
+toxicchat_prompt/fp8: 2920/5000 elapsed=1331s
+toxicchat_prompt/fp8: 2940/5000 elapsed=1342s
+toxicchat_prompt/fp8: 2960/5000 elapsed=1353s
+toxicchat_prompt/fp8: 2980/5000 elapsed=1365s
+toxicchat_prompt/fp8: 3000/5000 elapsed=1378s
+toxicchat_prompt/fp8: 3020/5000 elapsed=1392s
+toxicchat_prompt/fp8: 3040/5000 elapsed=1406s
+toxicchat_prompt/fp8: 3060/5000 elapsed=1419s
+toxicchat_prompt/fp8: 3080/5000 elapsed=1432s
+toxicchat_prompt/fp8: 3100/5000 elapsed=1446s
+toxicchat_prompt/fp8: 3120/5000 elapsed=1458s
+toxicchat_prompt/fp8: 3140/5000 elapsed=1472s
+toxicchat_prompt/fp8: 3160/5000 elapsed=1486s
+toxicchat_prompt/fp8: 3180/5000 elapsed=1499s
+toxicchat_prompt/fp8: 3200/5000 elapsed=1512s
+toxicchat_prompt/fp8: 3220/5000 elapsed=1525s
+toxicchat_prompt/fp8: 3240/5000 elapsed=1539s
+toxicchat_prompt/fp8: 3260/5000 elapsed=1552s
+toxicchat_prompt/fp8: 3280/5000 elapsed=1564s
+toxicchat_prompt/fp8: 3300/5000 elapsed=1575s
+toxicchat_prompt/fp8: 3320/5000 elapsed=1588s
+toxicchat_prompt/fp8: 3340/5000 elapsed=1601s
+toxicchat_prompt/fp8: 3360/5000 elapsed=1612s
+toxicchat_prompt/fp8: 3380/5000 elapsed=1623s
+toxicchat_prompt/fp8: 3400/5000 elapsed=1633s
+toxicchat_prompt/fp8: 3420/5000 elapsed=1642s
+toxicchat_prompt/fp8: 3440/5000 elapsed=1652s
+toxicchat_prompt/fp8: 3460/5000 elapsed=1662s
+toxicchat_prompt/fp8: 3480/5000 elapsed=1671s
+toxicchat_prompt/fp8: 3500/5000 elapsed=1681s
+toxicchat_prompt/fp8: 3520/5000 elapsed=1690s
+toxicchat_prompt/fp8: 3540/5000 elapsed=1699s
+toxicchat_prompt/fp8: 3560/5000 elapsed=1709s
+toxicchat_prompt/fp8: 3580/5000 elapsed=1719s
+toxicchat_prompt/fp8: 3600/5000 elapsed=1728s
+toxicchat_prompt/fp8: 3620/5000 elapsed=1737s
+toxicchat_prompt/fp8: 3640/5000 elapsed=1746s
+toxicchat_prompt/fp8: 3660/5000 elapsed=1755s
+toxicchat_prompt/fp8: 3680/5000 elapsed=1764s
+toxicchat_prompt/fp8: 3700/5000 elapsed=1773s
+toxicchat_prompt/fp8: 3720/5000 elapsed=1782s
+toxicchat_prompt/fp8: 3740/5000 elapsed=1791s
+toxicchat_prompt/fp8: 3760/5000 elapsed=1799s
+toxicchat_prompt/fp8: 3780/5000 elapsed=1807s
+toxicchat_prompt/fp8: 3800/5000 elapsed=1817s
+toxicchat_prompt/fp8: 3820/5000 elapsed=1826s
+toxicchat_prompt/fp8: 3840/5000 elapsed=1835s
+toxicchat_prompt/fp8: 3860/5000 elapsed=1844s
+toxicchat_prompt/fp8: 3880/5000 elapsed=1853s
+toxicchat_prompt/fp8: 3900/5000 elapsed=1861s
+toxicchat_prompt/fp8: 3920/5000 elapsed=1870s
+toxicchat_prompt/fp8: 3940/5000 elapsed=1879s
+toxicchat_prompt/fp8: 3960/5000 elapsed=1889s
+toxicchat_prompt/fp8: 3980/5000 elapsed=1898s
+toxicchat_prompt/fp8: 4000/5000 elapsed=1908s
+toxicchat_prompt/fp8: 4020/5000 elapsed=1919s
+toxicchat_prompt/fp8: 4040/5000 elapsed=1928s
+toxicchat_prompt/fp8: 4060/5000 elapsed=1937s
+toxicchat_prompt/fp8: 4080/5000 elapsed=1946s
+toxicchat_prompt/fp8: 4100/5000 elapsed=1955s
+toxicchat_prompt/fp8: 4120/5000 elapsed=1964s
+toxicchat_prompt/fp8: 4140/5000 elapsed=1974s
+toxicchat_prompt/fp8: 4160/5000 elapsed=1983s
+toxicchat_prompt/fp8: 4180/5000 elapsed=1992s
+toxicchat_prompt/fp8: 4200/5000 elapsed=2001s
+toxicchat_prompt/fp8: 4220/5000 elapsed=2010s
+toxicchat_prompt/fp8: 4240/5000 elapsed=2020s
+toxicchat_prompt/fp8: 4260/5000 elapsed=2030s
+toxicchat_prompt/fp8: 4280/5000 elapsed=2039s
+toxicchat_prompt/fp8: 4300/5000 elapsed=2048s
+toxicchat_prompt/fp8: 4320/5000 elapsed=2058s
+toxicchat_prompt/fp8: 4340/5000 elapsed=2067s
+toxicchat_prompt/fp8: 4360/5000 elapsed=2076s
+toxicchat_prompt/fp8: 4380/5000 elapsed=2086s
+toxicchat_prompt/fp8: 4400/5000 elapsed=2095s
+toxicchat_prompt/fp8: 4420/5000 elapsed=2105s
+toxicchat_prompt/fp8: 4440/5000 elapsed=2114s
+toxicchat_prompt/fp8: 4460/5000 elapsed=2124s
+toxicchat_prompt/fp8: 4480/5000 elapsed=2133s
+toxicchat_prompt/fp8: 4500/5000 elapsed=2142s
+toxicchat_prompt/fp8: 4520/5000 elapsed=2152s
+toxicchat_prompt/fp8: 4540/5000 elapsed=2164s
+toxicchat_prompt/fp8: 4560/5000 elapsed=2177s
+toxicchat_prompt/fp8: 4580/5000 elapsed=2188s
+toxicchat_prompt/fp8: 4600/5000 elapsed=2200s
+toxicchat_prompt/fp8: 4620/5000 elapsed=2210s
+toxicchat_prompt/fp8: 4640/5000 elapsed=2220s
+toxicchat_prompt/fp8: 4660/5000 elapsed=2229s
+toxicchat_prompt/fp8: 4680/5000 elapsed=2240s
+toxicchat_prompt/fp8: 4700/5000 elapsed=2249s
+toxicchat_prompt/fp8: 4720/5000 elapsed=2258s
+toxicchat_prompt/fp8: 4740/5000 elapsed=2268s
+toxicchat_prompt/fp8: 4760/5000 elapsed=2279s
+toxicchat_prompt/fp8: 4780/5000 elapsed=2289s
+toxicchat_prompt/fp8: 4800/5000 elapsed=2299s
+toxicchat_prompt/fp8: 4820/5000 elapsed=2309s
+toxicchat_prompt/fp8: 4840/5000 elapsed=2318s
+toxicchat_prompt/fp8: 4860/5000 elapsed=2328s
+toxicchat_prompt/fp8: 4880/5000 elapsed=2337s
+toxicchat_prompt/fp8: 4900/5000 elapsed=2346s
+toxicchat_prompt/fp8: 4920/5000 elapsed=2355s
+toxicchat_prompt/fp8: 4940/5000 elapsed=2365s
+toxicchat_prompt/fp8: 4960/5000 elapsed=2375s
+toxicchat_prompt/fp8: 4980/5000 elapsed=2384s
+toxicchat_prompt/fp8: 5000/5000 elapsed=2394s
+
+toxicchat_prompt (prompt_toxicity_proxy, n=5000)
+  bf16: accuracy=0.9206 FNR=0.025423728813559324 FPR=0.08351269909599655 invalid=0
+  nf4: accuracy=0.9170 FNR=0.01694915254237288 FPR=0.08803271631510977 invalid=0
+  fp8: accuracy=0.9210 FNR=0.022598870056497175 FPR=0.08329746018080068 invalid=0
+  bf16_vs_nf4: flips=50, regressions=34, recoveries=16
+  bf16_vs_fp8: flips=28, regressions=13, recoveries=15
+  nf4_vs_fp8: flips=54, regressions=17, recoveries=37
+Saved: /home/uraz/guard-study/guard_five_datasets/five_results/cross_dataset_summary.json /home/uraz/guard-study/guard_five_datasets/five_results/summary_table.csv

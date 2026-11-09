@@ -1,0 +1,13 @@
+test_complete_synthetic_archive_and_corruption (test_cpu_audit.CoreAuditTests.test_complete_synthetic_archive_and_corruption) ... ok
+test_hash_order (test_cpu_audit.CoreAuditTests.test_hash_order) ... ok
+test_pair_rejects_different_lengths (test_cpu_audit.CoreAuditTests.test_pair_rejects_different_lengths) ... ok
+test_pair_rejects_id_mismatch (test_cpu_audit.CoreAuditTests.test_pair_rejects_id_mismatch) ... ok
+test_pair_unsafe_miss (test_cpu_audit.CoreAuditTests.test_pair_unsafe_miss) ... ok
+test_pair_unsafe_recovery (test_cpu_audit.CoreAuditTests.test_pair_unsafe_recovery) ... ok
+test_parser (test_cpu_audit.CoreAuditTests.test_parser) ... ok
+test_rate_counts_invalid (test_cpu_audit.CoreAuditTests.test_rate_counts_invalid) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.602s
+
+OK

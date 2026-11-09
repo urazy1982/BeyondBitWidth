@@ -1,0 +1,407 @@
+Original Llama checkpoint: 7327bd9f6efbbe6101dc6cc4736302b3cbb6e425 samples: {'xstest_prompt': 450, 'beavertails_response': 1500}
+INDEPENDENT MODEL LOAD: nf4 A
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<01:48,  2.68it/s]Loading weights:   1%|          | 2/291 [00:00<01:46,  2.72it/s]Loading weights:   1%|▏         | 4/291 [00:00<00:54,  5.26it/s]Loading weights:   3%|▎         | 10/291 [00:01<00:18, 15.39it/s]Loading weights:   5%|▌         | 15/291 [00:01<00:13, 20.98it/s]Loading weights:   8%|▊         | 23/291 [00:01<00:08, 32.13it/s]Loading weights:  11%|█         | 31/291 [00:01<00:06, 40.39it/s]Loading weights:  12%|█▏        | 36/291 [00:01<00:06, 41.79it/s]Loading weights:  14%|█▍        | 41/291 [00:01<00:05, 42.41it/s]Loading weights:  17%|█▋        | 49/291 [00:01<00:04, 48.72it/s]Loading weights:  19%|█▉        | 55/291 [00:01<00:04, 49.25it/s]Loading weights:  21%|██        | 61/291 [00:02<00:04, 46.44it/s]Loading weights:  23%|██▎       | 68/291 [00:02<00:04, 48.66it/s]Loading weights:  26%|██▌       | 76/291 [00:02<00:04, 52.49it/s]Loading weights:  28%|██▊       | 82/291 [00:02<00:04, 52.13it/s]Loading weights:  30%|███       | 88/291 [00:02<00:04, 48.58it/s]Loading weights:  33%|███▎      | 95/291 [00:02<00:03, 52.14it/s]Loading weights:  35%|███▌      | 103/291 [00:02<00:03, 56.52it/s]Loading weights:  37%|███▋      | 109/291 [00:02<00:03, 55.24it/s]Loading weights:  40%|███▉      | 115/291 [00:03<00:03, 52.94it/s]Loading weights:  42%|████▏     | 122/291 [00:03<00:03, 55.18it/s]Loading weights:  45%|████▍     | 130/291 [00:03<00:02, 59.53it/s]Loading weights:  47%|████▋     | 136/291 [00:03<00:02, 57.30it/s]Loading weights:  49%|████▉     | 142/291 [00:03<00:02, 54.64it/s]Loading weights:  51%|█████     | 149/291 [00:03<00:02, 56.57it/s]Loading weights:  54%|█████▍    | 157/291 [00:03<00:02, 60.51it/s]Loading weights:  56%|█████▋    | 164/291 [00:03<00:02, 60.68it/s]Loading weights:  59%|█████▉    | 171/291 [00:03<00:02, 56.86it/s]Loading weights:  61%|██████    | 177/291 [00:04<00:02, 52.39it/s]Loading weights:  64%|██████▎   | 185/291 [00:04<00:01, 56.71it/s]Loading weights:  66%|██████▋   | 193/291 [00:04<00:01, 61.89it/s]Loading weights:  69%|██████▊   | 200/291 [00:04<00:01, 61.11it/s]Loading weights:  71%|███████   | 207/291 [00:04<00:01, 56.60it/s]Loading weights:  73%|███████▎  | 213/291 [00:04<00:01, 52.70it/s]Loading weights:  76%|███████▌  | 221/291 [00:04<00:01, 57.42it/s]Loading weights:  79%|███████▊  | 229/291 [00:04<00:01, 61.23it/s]Loading weights:  81%|████████  | 236/291 [00:05<00:00, 61.17it/s]Loading weights:  84%|████████▎ | 243/291 [00:05<00:00, 57.57it/s]Loading weights:  86%|████████▌ | 249/291 [00:05<00:00, 52.84it/s]Loading weights:  88%|████████▊ | 257/291 [00:05<00:00, 57.49it/s]Loading weights:  91%|█████████ | 265/291 [00:05<00:00, 60.44it/s]Loading weights:  93%|█████████▎| 272/291 [00:05<00:00, 60.76it/s]Loading weights:  96%|█████████▌| 279/291 [00:05<00:00, 56.97it/s]Loading weights:  98%|█████████▊| 285/291 [00:05<00:00, 53.09it/s]Loading weights: 100%|██████████| 291/291 [00:06<00:00, 48.50it/s]
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+xstest_prompt nf4_A 20/450 elapsed=3s
+xstest_prompt nf4_A 40/450 elapsed=5s
+xstest_prompt nf4_A 60/450 elapsed=7s
+xstest_prompt nf4_A 80/450 elapsed=9s
+xstest_prompt nf4_A 100/450 elapsed=11s
+xstest_prompt nf4_A 120/450 elapsed=14s
+xstest_prompt nf4_A 140/450 elapsed=15s
+xstest_prompt nf4_A 160/450 elapsed=18s
+xstest_prompt nf4_A 180/450 elapsed=20s
+xstest_prompt nf4_A 200/450 elapsed=22s
+xstest_prompt nf4_A 220/450 elapsed=23s
+xstest_prompt nf4_A 240/450 elapsed=25s
+xstest_prompt nf4_A 260/450 elapsed=27s
+xstest_prompt nf4_A 280/450 elapsed=29s
+xstest_prompt nf4_A 300/450 elapsed=32s
+xstest_prompt nf4_A 320/450 elapsed=34s
+xstest_prompt nf4_A 340/450 elapsed=36s
+xstest_prompt nf4_A 360/450 elapsed=37s
+xstest_prompt nf4_A 380/450 elapsed=40s
+xstest_prompt nf4_A 400/450 elapsed=42s
+xstest_prompt nf4_A 420/450 elapsed=43s
+xstest_prompt nf4_A 440/450 elapsed=46s
+xstest_prompt nf4_A 450/450 elapsed=47s
+beavertails_response nf4_A 20/1500 elapsed=2s
+beavertails_response nf4_A 40/1500 elapsed=4s
+beavertails_response nf4_A 60/1500 elapsed=6s
+beavertails_response nf4_A 80/1500 elapsed=9s
+beavertails_response nf4_A 100/1500 elapsed=11s
+beavertails_response nf4_A 120/1500 elapsed=13s
+beavertails_response nf4_A 140/1500 elapsed=15s
+beavertails_response nf4_A 160/1500 elapsed=17s
+beavertails_response nf4_A 180/1500 elapsed=19s
+beavertails_response nf4_A 200/1500 elapsed=21s
+beavertails_response nf4_A 220/1500 elapsed=24s
+beavertails_response nf4_A 240/1500 elapsed=26s
+beavertails_response nf4_A 260/1500 elapsed=28s
+beavertails_response nf4_A 280/1500 elapsed=30s
+beavertails_response nf4_A 300/1500 elapsed=32s
+beavertails_response nf4_A 320/1500 elapsed=34s
+beavertails_response nf4_A 340/1500 elapsed=36s
+beavertails_response nf4_A 360/1500 elapsed=39s
+beavertails_response nf4_A 380/1500 elapsed=41s
+beavertails_response nf4_A 400/1500 elapsed=43s
+beavertails_response nf4_A 420/1500 elapsed=45s
+beavertails_response nf4_A 440/1500 elapsed=47s
+beavertails_response nf4_A 460/1500 elapsed=49s
+beavertails_response nf4_A 480/1500 elapsed=51s
+beavertails_response nf4_A 500/1500 elapsed=54s
+beavertails_response nf4_A 520/1500 elapsed=56s
+beavertails_response nf4_A 540/1500 elapsed=58s
+beavertails_response nf4_A 560/1500 elapsed=60s
+beavertails_response nf4_A 580/1500 elapsed=62s
+beavertails_response nf4_A 600/1500 elapsed=64s
+beavertails_response nf4_A 620/1500 elapsed=67s
+beavertails_response nf4_A 640/1500 elapsed=69s
+beavertails_response nf4_A 660/1500 elapsed=72s
+beavertails_response nf4_A 680/1500 elapsed=74s
+beavertails_response nf4_A 700/1500 elapsed=76s
+beavertails_response nf4_A 720/1500 elapsed=78s
+beavertails_response nf4_A 740/1500 elapsed=80s
+beavertails_response nf4_A 760/1500 elapsed=82s
+beavertails_response nf4_A 780/1500 elapsed=84s
+beavertails_response nf4_A 800/1500 elapsed=86s
+beavertails_response nf4_A 820/1500 elapsed=89s
+beavertails_response nf4_A 840/1500 elapsed=91s
+beavertails_response nf4_A 860/1500 elapsed=93s
+beavertails_response nf4_A 880/1500 elapsed=94s
+beavertails_response nf4_A 900/1500 elapsed=96s
+beavertails_response nf4_A 920/1500 elapsed=98s
+beavertails_response nf4_A 940/1500 elapsed=100s
+beavertails_response nf4_A 960/1500 elapsed=103s
+beavertails_response nf4_A 980/1500 elapsed=105s
+beavertails_response nf4_A 1000/1500 elapsed=107s
+beavertails_response nf4_A 1020/1500 elapsed=109s
+beavertails_response nf4_A 1040/1500 elapsed=111s
+beavertails_response nf4_A 1060/1500 elapsed=113s
+beavertails_response nf4_A 1080/1500 elapsed=115s
+beavertails_response nf4_A 1100/1500 elapsed=117s
+beavertails_response nf4_A 1120/1500 elapsed=119s
+beavertails_response nf4_A 1140/1500 elapsed=121s
+beavertails_response nf4_A 1160/1500 elapsed=123s
+beavertails_response nf4_A 1180/1500 elapsed=126s
+beavertails_response nf4_A 1200/1500 elapsed=128s
+beavertails_response nf4_A 1220/1500 elapsed=130s
+beavertails_response nf4_A 1240/1500 elapsed=132s
+beavertails_response nf4_A 1260/1500 elapsed=134s
+beavertails_response nf4_A 1280/1500 elapsed=136s
+beavertails_response nf4_A 1300/1500 elapsed=139s
+beavertails_response nf4_A 1320/1500 elapsed=141s
+beavertails_response nf4_A 1340/1500 elapsed=143s
+beavertails_response nf4_A 1360/1500 elapsed=145s
+beavertails_response nf4_A 1380/1500 elapsed=148s
+beavertails_response nf4_A 1400/1500 elapsed=150s
+beavertails_response nf4_A 1420/1500 elapsed=152s
+beavertails_response nf4_A 1440/1500 elapsed=154s
+beavertails_response nf4_A 1460/1500 elapsed=156s
+beavertails_response nf4_A 1480/1500 elapsed=158s
+beavertails_response nf4_A 1500/1500 elapsed=160s
+INDEPENDENT MODEL LOAD: nf4 B
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:51,  5.61it/s]Loading weights:   1%|          | 2/291 [00:00<00:48,  6.00it/s]Loading weights:   4%|▍         | 13/291 [00:00<00:06, 40.30it/s]Loading weights:   8%|▊         | 24/291 [00:00<00:04, 58.79it/s]Loading weights:  12%|█▏        | 36/291 [00:00<00:03, 75.84it/s]Loading weights:  17%|█▋        | 49/291 [00:00<00:02, 87.37it/s]Loading weights:  21%|██        | 60/291 [00:00<00:02, 92.43it/s]Loading weights:  26%|██▌       | 76/291 [00:01<00:01, 108.10it/s]Loading weights:  30%|███       | 88/291 [00:01<00:01, 105.06it/s]Loading weights:  37%|███▋      | 109/291 [00:01<00:01, 133.21it/s]Loading weights:  42%|████▏     | 123/291 [00:01<00:01, 110.90it/s]Loading weights:  47%|████▋     | 136/291 [00:01<00:01, 115.25it/s]Loading weights:  51%|█████     | 149/291 [00:01<00:01, 105.38it/s]Loading weights:  55%|█████▌    | 161/291 [00:01<00:01, 104.48it/s]Loading weights:  59%|█████▉    | 172/291 [00:01<00:01, 103.43it/s]Loading weights:  63%|██████▎   | 184/291 [00:01<00:01, 104.16it/s]Loading weights:  67%|██████▋   | 195/291 [00:02<00:01, 95.10it/s] Loading weights:  71%|███████▏  | 208/291 [00:02<00:00, 102.72it/s]Loading weights:  76%|███████▌  | 220/291 [00:02<00:00, 107.24it/s]Loading weights:  79%|███████▉  | 231/291 [00:02<00:00, 98.37it/s] Loading weights:  85%|████████▍ | 247/291 [00:02<00:00, 109.52it/s]Loading weights:  89%|████████▉ | 259/291 [00:02<00:00, 103.01it/s]Loading weights:  93%|█████████▎| 271/291 [00:02<00:00, 106.38it/s]Loading weights:  97%|█████████▋| 283/291 [00:02<00:00, 107.55it/s]Loading weights: 100%|██████████| 291/291 [00:03<00:00, 96.64it/s] 
+xstest_prompt nf4_B 20/450 elapsed=2s
+xstest_prompt nf4_B 40/450 elapsed=4s
+xstest_prompt nf4_B 60/450 elapsed=6s
+xstest_prompt nf4_B 80/450 elapsed=8s
+xstest_prompt nf4_B 100/450 elapsed=10s
+xstest_prompt nf4_B 120/450 elapsed=13s
+xstest_prompt nf4_B 140/450 elapsed=14s
+xstest_prompt nf4_B 160/450 elapsed=17s
+xstest_prompt nf4_B 180/450 elapsed=19s
+xstest_prompt nf4_B 200/450 elapsed=21s
+xstest_prompt nf4_B 220/450 elapsed=22s
+xstest_prompt nf4_B 240/450 elapsed=24s
+xstest_prompt nf4_B 260/450 elapsed=26s
+xstest_prompt nf4_B 280/450 elapsed=28s
+xstest_prompt nf4_B 300/450 elapsed=31s
+xstest_prompt nf4_B 320/450 elapsed=33s
+xstest_prompt nf4_B 340/450 elapsed=35s
+xstest_prompt nf4_B 360/450 elapsed=36s
+xstest_prompt nf4_B 380/450 elapsed=39s
+xstest_prompt nf4_B 400/450 elapsed=41s
+xstest_prompt nf4_B 420/450 elapsed=43s
+xstest_prompt nf4_B 440/450 elapsed=45s
+xstest_prompt nf4_B 450/450 elapsed=46s
+beavertails_response nf4_B 20/1500 elapsed=2s
+beavertails_response nf4_B 40/1500 elapsed=4s
+beavertails_response nf4_B 60/1500 elapsed=6s
+beavertails_response nf4_B 80/1500 elapsed=9s
+beavertails_response nf4_B 100/1500 elapsed=11s
+beavertails_response nf4_B 120/1500 elapsed=13s
+beavertails_response nf4_B 140/1500 elapsed=15s
+beavertails_response nf4_B 160/1500 elapsed=17s
+beavertails_response nf4_B 180/1500 elapsed=19s
+beavertails_response nf4_B 200/1500 elapsed=21s
+beavertails_response nf4_B 220/1500 elapsed=23s
+beavertails_response nf4_B 240/1500 elapsed=25s
+beavertails_response nf4_B 260/1500 elapsed=27s
+beavertails_response nf4_B 280/1500 elapsed=29s
+beavertails_response nf4_B 300/1500 elapsed=32s
+beavertails_response nf4_B 320/1500 elapsed=34s
+beavertails_response nf4_B 340/1500 elapsed=36s
+beavertails_response nf4_B 360/1500 elapsed=39s
+beavertails_response nf4_B 380/1500 elapsed=41s
+beavertails_response nf4_B 400/1500 elapsed=43s
+beavertails_response nf4_B 420/1500 elapsed=45s
+beavertails_response nf4_B 440/1500 elapsed=47s
+beavertails_response nf4_B 460/1500 elapsed=49s
+beavertails_response nf4_B 480/1500 elapsed=51s
+beavertails_response nf4_B 500/1500 elapsed=54s
+beavertails_response nf4_B 520/1500 elapsed=56s
+beavertails_response nf4_B 540/1500 elapsed=58s
+beavertails_response nf4_B 560/1500 elapsed=60s
+beavertails_response nf4_B 580/1500 elapsed=62s
+beavertails_response nf4_B 600/1500 elapsed=64s
+beavertails_response nf4_B 620/1500 elapsed=67s
+beavertails_response nf4_B 640/1500 elapsed=69s
+beavertails_response nf4_B 660/1500 elapsed=71s
+beavertails_response nf4_B 680/1500 elapsed=73s
+beavertails_response nf4_B 700/1500 elapsed=76s
+beavertails_response nf4_B 720/1500 elapsed=78s
+beavertails_response nf4_B 740/1500 elapsed=80s
+beavertails_response nf4_B 760/1500 elapsed=82s
+beavertails_response nf4_B 780/1500 elapsed=84s
+beavertails_response nf4_B 800/1500 elapsed=86s
+beavertails_response nf4_B 820/1500 elapsed=89s
+beavertails_response nf4_B 840/1500 elapsed=91s
+beavertails_response nf4_B 860/1500 elapsed=92s
+beavertails_response nf4_B 880/1500 elapsed=94s
+beavertails_response nf4_B 900/1500 elapsed=96s
+beavertails_response nf4_B 920/1500 elapsed=98s
+beavertails_response nf4_B 940/1500 elapsed=100s
+beavertails_response nf4_B 960/1500 elapsed=103s
+beavertails_response nf4_B 980/1500 elapsed=105s
+beavertails_response nf4_B 1000/1500 elapsed=107s
+beavertails_response nf4_B 1020/1500 elapsed=109s
+beavertails_response nf4_B 1040/1500 elapsed=111s
+beavertails_response nf4_B 1060/1500 elapsed=113s
+beavertails_response nf4_B 1080/1500 elapsed=115s
+beavertails_response nf4_B 1100/1500 elapsed=117s
+beavertails_response nf4_B 1120/1500 elapsed=119s
+beavertails_response nf4_B 1140/1500 elapsed=121s
+beavertails_response nf4_B 1160/1500 elapsed=123s
+beavertails_response nf4_B 1180/1500 elapsed=126s
+beavertails_response nf4_B 1200/1500 elapsed=128s
+beavertails_response nf4_B 1220/1500 elapsed=130s
+beavertails_response nf4_B 1240/1500 elapsed=132s
+beavertails_response nf4_B 1260/1500 elapsed=134s
+beavertails_response nf4_B 1280/1500 elapsed=136s
+beavertails_response nf4_B 1300/1500 elapsed=138s
+beavertails_response nf4_B 1320/1500 elapsed=141s
+beavertails_response nf4_B 1340/1500 elapsed=143s
+beavertails_response nf4_B 1360/1500 elapsed=145s
+beavertails_response nf4_B 1380/1500 elapsed=147s
+beavertails_response nf4_B 1400/1500 elapsed=150s
+beavertails_response nf4_B 1420/1500 elapsed=152s
+beavertails_response nf4_B 1440/1500 elapsed=154s
+beavertails_response nf4_B 1460/1500 elapsed=156s
+beavertails_response nf4_B 1480/1500 elapsed=158s
+beavertails_response nf4_B 1500/1500 elapsed=160s
+INDEPENDENT MODEL LOAD: fp4 A
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<01:04,  4.52it/s]Loading weights:   1%|          | 2/291 [00:00<00:58,  4.95it/s]Loading weights:   5%|▍         | 14/291 [00:00<00:07, 37.02it/s]Loading weights:  11%|█▏        | 33/291 [00:00<00:03, 79.39it/s]Loading weights:  17%|█▋        | 50/291 [00:00<00:02, 99.63it/s]Loading weights:  22%|██▏       | 64/291 [00:00<00:02, 110.57it/s]Loading weights:  26%|██▋       | 77/291 [00:00<00:01, 114.34it/s]Loading weights:  31%|███       | 90/291 [00:01<00:01, 115.53it/s]Loading weights:  35%|███▌      | 103/291 [00:01<00:01, 108.09it/s]Loading weights:  40%|███▉      | 115/291 [00:01<00:01, 110.14it/s]Loading weights:  44%|████▎     | 127/291 [00:01<00:01, 112.26it/s]Loading weights:  48%|████▊     | 139/291 [00:01<00:01, 114.05it/s]Loading weights:  52%|█████▏    | 151/291 [00:01<00:01, 113.83it/s]Loading weights:  57%|█████▋    | 167/291 [00:01<00:01, 121.78it/s]Loading weights:  62%|██████▏   | 180/291 [00:01<00:00, 118.94it/s]Loading weights:  66%|██████▌   | 192/291 [00:01<00:00, 118.20it/s]Loading weights:  70%|███████   | 204/291 [00:02<00:00, 101.40it/s]Loading weights:  75%|███████▍  | 217/291 [00:02<00:00, 108.03it/s]Loading weights:  79%|███████▉  | 230/291 [00:02<00:00, 110.91it/s]Loading weights:  83%|████████▎ | 242/291 [00:02<00:00, 112.48it/s]Loading weights:  88%|████████▊ | 256/291 [00:02<00:00, 117.74it/s]Loading weights:  92%|█████████▏| 268/291 [00:02<00:00, 107.75it/s]Loading weights:  96%|█████████▌| 280/291 [00:02<00:00, 109.78it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 101.47it/s]
+xstest_prompt fp4_A 20/450 elapsed=2s
+xstest_prompt fp4_A 40/450 elapsed=4s
+xstest_prompt fp4_A 60/450 elapsed=6s
+xstest_prompt fp4_A 80/450 elapsed=8s
+xstest_prompt fp4_A 100/450 elapsed=11s
+xstest_prompt fp4_A 120/450 elapsed=13s
+xstest_prompt fp4_A 140/450 elapsed=15s
+xstest_prompt fp4_A 160/450 elapsed=17s
+xstest_prompt fp4_A 180/450 elapsed=19s
+xstest_prompt fp4_A 200/450 elapsed=21s
+xstest_prompt fp4_A 220/450 elapsed=23s
+xstest_prompt fp4_A 240/450 elapsed=25s
+xstest_prompt fp4_A 260/450 elapsed=27s
+xstest_prompt fp4_A 280/450 elapsed=28s
+xstest_prompt fp4_A 300/450 elapsed=31s
+xstest_prompt fp4_A 320/450 elapsed=33s
+xstest_prompt fp4_A 340/450 elapsed=35s
+xstest_prompt fp4_A 360/450 elapsed=36s
+xstest_prompt fp4_A 380/450 elapsed=38s
+xstest_prompt fp4_A 400/450 elapsed=41s
+xstest_prompt fp4_A 420/450 elapsed=42s
+xstest_prompt fp4_A 440/450 elapsed=45s
+xstest_prompt fp4_A 450/450 elapsed=46s
+beavertails_response fp4_A 20/1500 elapsed=2s
+beavertails_response fp4_A 40/1500 elapsed=4s
+beavertails_response fp4_A 60/1500 elapsed=6s
+beavertails_response fp4_A 80/1500 elapsed=9s
+beavertails_response fp4_A 100/1500 elapsed=11s
+beavertails_response fp4_A 120/1500 elapsed=13s
+beavertails_response fp4_A 140/1500 elapsed=15s
+beavertails_response fp4_A 160/1500 elapsed=17s
+beavertails_response fp4_A 180/1500 elapsed=19s
+beavertails_response fp4_A 200/1500 elapsed=21s
+beavertails_response fp4_A 220/1500 elapsed=23s
+beavertails_response fp4_A 240/1500 elapsed=25s
+beavertails_response fp4_A 260/1500 elapsed=27s
+beavertails_response fp4_A 280/1500 elapsed=29s
+beavertails_response fp4_A 300/1500 elapsed=31s
+beavertails_response fp4_A 320/1500 elapsed=34s
+beavertails_response fp4_A 340/1500 elapsed=36s
+beavertails_response fp4_A 360/1500 elapsed=38s
+beavertails_response fp4_A 380/1500 elapsed=40s
+beavertails_response fp4_A 400/1500 elapsed=42s
+beavertails_response fp4_A 420/1500 elapsed=44s
+beavertails_response fp4_A 440/1500 elapsed=46s
+beavertails_response fp4_A 460/1500 elapsed=49s
+beavertails_response fp4_A 480/1500 elapsed=51s
+beavertails_response fp4_A 500/1500 elapsed=53s
+beavertails_response fp4_A 520/1500 elapsed=55s
+beavertails_response fp4_A 540/1500 elapsed=57s
+beavertails_response fp4_A 560/1500 elapsed=59s
+beavertails_response fp4_A 580/1500 elapsed=61s
+beavertails_response fp4_A 600/1500 elapsed=63s
+beavertails_response fp4_A 620/1500 elapsed=66s
+beavertails_response fp4_A 640/1500 elapsed=68s
+beavertails_response fp4_A 660/1500 elapsed=70s
+beavertails_response fp4_A 680/1500 elapsed=72s
+beavertails_response fp4_A 700/1500 elapsed=74s
+beavertails_response fp4_A 720/1500 elapsed=76s
+beavertails_response fp4_A 740/1500 elapsed=78s
+beavertails_response fp4_A 760/1500 elapsed=80s
+beavertails_response fp4_A 780/1500 elapsed=82s
+beavertails_response fp4_A 800/1500 elapsed=84s
+beavertails_response fp4_A 820/1500 elapsed=86s
+beavertails_response fp4_A 840/1500 elapsed=88s
+beavertails_response fp4_A 860/1500 elapsed=90s
+beavertails_response fp4_A 880/1500 elapsed=92s
+beavertails_response fp4_A 900/1500 elapsed=94s
+beavertails_response fp4_A 920/1500 elapsed=96s
+beavertails_response fp4_A 940/1500 elapsed=98s
+beavertails_response fp4_A 960/1500 elapsed=100s
+beavertails_response fp4_A 980/1500 elapsed=102s
+beavertails_response fp4_A 1000/1500 elapsed=104s
+beavertails_response fp4_A 1020/1500 elapsed=106s
+beavertails_response fp4_A 1040/1500 elapsed=108s
+beavertails_response fp4_A 1060/1500 elapsed=111s
+beavertails_response fp4_A 1080/1500 elapsed=113s
+beavertails_response fp4_A 1100/1500 elapsed=115s
+beavertails_response fp4_A 1120/1500 elapsed=117s
+beavertails_response fp4_A 1140/1500 elapsed=119s
+beavertails_response fp4_A 1160/1500 elapsed=121s
+beavertails_response fp4_A 1180/1500 elapsed=123s
+beavertails_response fp4_A 1200/1500 elapsed=125s
+beavertails_response fp4_A 1220/1500 elapsed=127s
+beavertails_response fp4_A 1240/1500 elapsed=129s
+beavertails_response fp4_A 1260/1500 elapsed=131s
+beavertails_response fp4_A 1280/1500 elapsed=133s
+beavertails_response fp4_A 1300/1500 elapsed=136s
+beavertails_response fp4_A 1320/1500 elapsed=138s
+beavertails_response fp4_A 1340/1500 elapsed=140s
+beavertails_response fp4_A 1360/1500 elapsed=142s
+beavertails_response fp4_A 1380/1500 elapsed=144s
+beavertails_response fp4_A 1400/1500 elapsed=147s
+beavertails_response fp4_A 1420/1500 elapsed=149s
+beavertails_response fp4_A 1440/1500 elapsed=151s
+beavertails_response fp4_A 1460/1500 elapsed=153s
+beavertails_response fp4_A 1480/1500 elapsed=155s
+beavertails_response fp4_A 1500/1500 elapsed=157s
+INDEPENDENT MODEL LOAD: fp4 B
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<01:01,  4.72it/s]Loading weights:   1%|          | 2/291 [00:00<00:50,  5.67it/s]Loading weights:   4%|▍         | 13/291 [00:00<00:07, 38.92it/s]Loading weights:   8%|▊         | 23/291 [00:00<00:04, 54.08it/s]Loading weights:  11%|█▏        | 33/291 [00:00<00:04, 63.08it/s]Loading weights:  17%|█▋        | 49/291 [00:00<00:02, 85.81it/s]Loading weights:  20%|██        | 59/291 [00:00<00:02, 84.98it/s]Loading weights:  24%|██▎       | 69/291 [00:01<00:02, 87.83it/s]Loading weights:  29%|██▉       | 85/291 [00:01<00:02, 102.20it/s]Loading weights:  33%|███▎      | 96/291 [00:01<00:02, 90.99it/s] Loading weights:  36%|███▋      | 106/291 [00:01<00:01, 92.86it/s]Loading weights:  40%|███▉      | 116/291 [00:01<00:01, 94.18it/s]Loading weights:  45%|████▌     | 131/291 [00:01<00:01, 107.51it/s]Loading weights:  49%|████▉     | 142/291 [00:01<00:01, 107.29it/s]Loading weights:  54%|█████▍    | 157/291 [00:01<00:01, 112.53it/s]Loading weights:  58%|█████▊    | 169/291 [00:01<00:01, 106.75it/s]Loading weights:  64%|██████▎   | 185/291 [00:02<00:00, 117.12it/s]Loading weights:  70%|██████▉   | 203/291 [00:02<00:00, 130.75it/s]Loading weights:  76%|███████▌  | 220/291 [00:02<00:00, 138.20it/s]Loading weights:  80%|████████  | 234/291 [00:02<00:00, 129.89it/s]Loading weights:  85%|████████▌ | 248/291 [00:02<00:00, 131.93it/s]Loading weights:  90%|█████████ | 262/291 [00:02<00:00, 129.23it/s]Loading weights:  95%|█████████▍| 276/291 [00:02<00:00, 127.17it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 101.98it/s]
+xstest_prompt fp4_B 20/450 elapsed=2s
+xstest_prompt fp4_B 40/450 elapsed=4s
+xstest_prompt fp4_B 60/450 elapsed=6s
+xstest_prompt fp4_B 80/450 elapsed=8s
+xstest_prompt fp4_B 100/450 elapsed=10s
+xstest_prompt fp4_B 120/450 elapsed=13s
+xstest_prompt fp4_B 140/450 elapsed=14s
+xstest_prompt fp4_B 160/450 elapsed=17s
+xstest_prompt fp4_B 180/450 elapsed=19s
+xstest_prompt fp4_B 200/450 elapsed=21s
+xstest_prompt fp4_B 220/450 elapsed=22s
+xstest_prompt fp4_B 240/450 elapsed=24s
+xstest_prompt fp4_B 260/450 elapsed=26s
+xstest_prompt fp4_B 280/450 elapsed=28s
+xstest_prompt fp4_B 300/450 elapsed=30s
+xstest_prompt fp4_B 320/450 elapsed=32s
+xstest_prompt fp4_B 340/450 elapsed=34s
+xstest_prompt fp4_B 360/450 elapsed=36s
+xstest_prompt fp4_B 380/450 elapsed=38s
+xstest_prompt fp4_B 400/450 elapsed=40s
+xstest_prompt fp4_B 420/450 elapsed=42s
+xstest_prompt fp4_B 440/450 elapsed=44s
+xstest_prompt fp4_B 450/450 elapsed=45s
+beavertails_response fp4_B 20/1500 elapsed=2s
+beavertails_response fp4_B 40/1500 elapsed=4s
+beavertails_response fp4_B 60/1500 elapsed=6s
+beavertails_response fp4_B 80/1500 elapsed=9s
+beavertails_response fp4_B 100/1500 elapsed=11s
+beavertails_response fp4_B 120/1500 elapsed=13s
+beavertails_response fp4_B 140/1500 elapsed=15s
+beavertails_response fp4_B 160/1500 elapsed=17s
+beavertails_response fp4_B 180/1500 elapsed=19s
+beavertails_response fp4_B 200/1500 elapsed=21s
+beavertails_response fp4_B 220/1500 elapsed=24s
+beavertails_response fp4_B 240/1500 elapsed=26s
+beavertails_response fp4_B 260/1500 elapsed=28s
+beavertails_response fp4_B 280/1500 elapsed=30s
+beavertails_response fp4_B 300/1500 elapsed=32s
+beavertails_response fp4_B 320/1500 elapsed=34s
+beavertails_response fp4_B 340/1500 elapsed=36s
+beavertails_response fp4_B 360/1500 elapsed=39s
+beavertails_response fp4_B 380/1500 elapsed=41s
+beavertails_response fp4_B 400/1500 elapsed=43s
+beavertails_response fp4_B 420/1500 elapsed=45s
+beavertails_response fp4_B 440/1500 elapsed=47s
+beavertails_response fp4_B 460/1500 elapsed=49s
+beavertails_response fp4_B 480/1500 elapsed=51s
+beavertails_response fp4_B 500/1500 elapsed=53s
+beavertails_response fp4_B 520/1500 elapsed=55s
+beavertails_response fp4_B 540/1500 elapsed=57s
+beavertails_response fp4_B 560/1500 elapsed=60s
+beavertails_response fp4_B 580/1500 elapsed=62s
+beavertails_response fp4_B 600/1500 elapsed=64s
+beavertails_response fp4_B 620/1500 elapsed=66s
+beavertails_response fp4_B 640/1500 elapsed=68s
+beavertails_response fp4_B 660/1500 elapsed=71s
+beavertails_response fp4_B 680/1500 elapsed=73s
+beavertails_response fp4_B 700/1500 elapsed=75s
+beavertails_response fp4_B 720/1500 elapsed=77s
+beavertails_response fp4_B 740/1500 elapsed=79s
+beavertails_response fp4_B 760/1500 elapsed=81s
+beavertails_response fp4_B 780/1500 elapsed=83s
+beavertails_response fp4_B 800/1500 elapsed=85s
+beavertails_response fp4_B 820/1500 elapsed=88s
+beavertails_response fp4_B 840/1500 elapsed=90s
+beavertails_response fp4_B 860/1500 elapsed=92s
+beavertails_response fp4_B 880/1500 elapsed=94s
+beavertails_response fp4_B 900/1500 elapsed=95s
+beavertails_response fp4_B 920/1500 elapsed=98s
+beavertails_response fp4_B 940/1500 elapsed=100s
+beavertails_response fp4_B 960/1500 elapsed=102s
+beavertails_response fp4_B 980/1500 elapsed=104s
+beavertails_response fp4_B 1000/1500 elapsed=106s
+beavertails_response fp4_B 1020/1500 elapsed=108s
+beavertails_response fp4_B 1040/1500 elapsed=110s
+beavertails_response fp4_B 1060/1500 elapsed=112s
+beavertails_response fp4_B 1080/1500 elapsed=115s
+beavertails_response fp4_B 1100/1500 elapsed=117s
+beavertails_response fp4_B 1120/1500 elapsed=119s
+beavertails_response fp4_B 1140/1500 elapsed=121s
+beavertails_response fp4_B 1160/1500 elapsed=123s
+beavertails_response fp4_B 1180/1500 elapsed=125s
+beavertails_response fp4_B 1200/1500 elapsed=127s
+beavertails_response fp4_B 1220/1500 elapsed=129s
+beavertails_response fp4_B 1240/1500 elapsed=131s
+beavertails_response fp4_B 1260/1500 elapsed=133s
+beavertails_response fp4_B 1280/1500 elapsed=136s
+beavertails_response fp4_B 1300/1500 elapsed=138s
+beavertails_response fp4_B 1320/1500 elapsed=140s
+beavertails_response fp4_B 1340/1500 elapsed=142s
+beavertails_response fp4_B 1360/1500 elapsed=144s
+beavertails_response fp4_B 1380/1500 elapsed=146s
+beavertails_response fp4_B 1400/1500 elapsed=149s
+beavertails_response fp4_B 1420/1500 elapsed=151s
+beavertails_response fp4_B 1440/1500 elapsed=153s
+beavertails_response fp4_B 1460/1500 elapsed=155s
+beavertails_response fp4_B 1480/1500 elapsed=157s
+beavertails_response fp4_B 1500/1500 elapsed=159s
+REPORT: /home/uraz/guard-study/llama_guard_reload_repeatability/llama_reload_cross_dataset_summary.json
+xstest_prompt n= 450 nf4 A/B= 0 fp4 A/B= 0 NF4/FP4 original,A,B= 12 12 12
+beavertails_response n= 1500 nf4 A/B= 0 fp4 A/B= 0 NF4/FP4 original,A,B= 42 42 42
+Exporting reload experiment; exit status=0
+Saved /mnt/c/Guard/result/Guard_Llama_Reload_Repeatability.zip bytes 43601

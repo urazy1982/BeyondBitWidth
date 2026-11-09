@@ -1,0 +1,14 @@
+Data license: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Applies to: results/, analysis/output/, verification/reference_outputs/
+
+Copyright (c) 2026 Uraz Yavanoğlu for the prediction records, summaries and derived statistics.
+
+The selection files reproduce benchmark inputs that remain under their original licenses and require attribution:
+  - Qwen3GuardTest (Qwen/Qwen3GuardTest), CC BY-NC 4.0
+  - ToxicChat (lmsys/toxic-chat, toxicchat0124), CC BY-NC 4.0 - Lin et al., Findings of EMNLP 2023
+  - BeaverTails (PKU-Alignment/BeaverTails, 30k_test), CC BY-NC 4.0 - Ji et al., NeurIPS 2023
+  - XSTest (Paul/XSTest), CC BY 4.0 - Röttger et al., NAACL 2024
+Because three of the four sources are non-commercial, the combined data are released under CC BY-NC 4.0.
+Model outputs were generated with Llama Guard 3 8B (Llama 3.1 Community License) and Qwen3Guard-Gen-4B.

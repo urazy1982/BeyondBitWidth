@@ -1,0 +1,15 @@
+{
+  "dataset": "xstest_prompt",
+  "source_selection_sha256": "c8a46fc05c66c19eb6b00c395da4d6ea365fd2806a883a57b06ea4f8843b0995",
+  "selection_seed": 20261108,
+  "max_items": 450,
+  "max_input_tokens": 2048,
+  "selection_sha256": "ea21e9e6e0445e638c6e07849ec955100a21d67325e8473ec90bbb938a9ec3f3",
+  "n": 450,
+  "labels": {
+    "safe": 250,
+    "unsafe": 200
+  },
+  "excluded": [],
+  "task": "prompt_safety_contrast"
+}

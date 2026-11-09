@@ -62,3 +62,7 @@ See `CITATION.cff`. Please also cite the benchmark datasets and guard models lis
 
 ## Funding and disclosure
 This work was financially supported by UAYTECH Corporation, which also provided the GPU workstation. The author is the owner of UAYTECH Corporation.
+
+## AI Assistance Disclosure
+
+OpenAI GPT and Anthropic Claude models assisted with code review, debugging, and validation. All research findings and conclusions remain the responsibility of the author.

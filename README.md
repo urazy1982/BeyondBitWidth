@@ -1,6 +1,6 @@
 # Beyond Bit-Width: Equal-Bit-Width Quantization and the Decisions of LLM Guard Models
 
-Data, code and verification for the study *"Beyond Bit-Width: Model-Dependent Safety Risk under Fixed-Precision Quantization of LLM Guardrails"* (U. Yavanoğlu, manuscript under preparation).
+U. Yavanoglu, *"Beyond Bit-Width: Model-Dependent Safety Risk under Fixed-Precision Quantization of LLM Guardrails"* Submitted to REDACTED, 2026
 
 **Question.** Do two deployments of the same guard model with the same nominal bit width make the same safe/unsafe decisions?
 

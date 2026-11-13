@@ -1,5 +1,8 @@
 # Beyond Bit-Width: Equal-Bit-Width Quantization and the Decisions of LLM Guard Models
 
+Author: Uraz Yavanoğlu, Department of Computer Engineering, Gazi University, Ankara, Türkiye
+https://orcid.org/0000-0001-8358-8150
+
 **Question.** Do two deployments of the same guard model with the same nominal bit width make the same safe/unsafe decisions?
 
 **Answer, on the tested models.** No.

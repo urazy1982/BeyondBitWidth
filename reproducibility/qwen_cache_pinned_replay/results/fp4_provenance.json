@@ -1,0 +1,15 @@
+{
+  "pinned_revision": "6ec42827da0c1ff11e7a49dc269d2e810d27e108",
+  "model_config_commit": null,
+  "tokenizer_commit": null,
+  "quant_type": "fp4",
+  "layers": 252,
+  "quant_types_seen": [
+    "fp4"
+  ],
+  "loaded_utc": "2026-11-15T17:11:24.082099+00:00",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.2",
+  "bitsandbytes": "0.50.2",
+  "gpu": "NVIDIA GeForce RTX 5090"
+}

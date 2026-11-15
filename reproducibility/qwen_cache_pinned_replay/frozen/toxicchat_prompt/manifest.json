@@ -1,0 +1,31 @@
+{
+  "model": "Qwen/Qwen3Guard-Gen-4B",
+  "dataset": "toxicchat_prompt",
+  "source": {
+    "repo": "lmsys/toxic-chat",
+    "config": "toxicchat0124",
+    "split": "test",
+    "task": "prompt_toxicity_proxy",
+    "source_rows": 5083,
+    "eligible_rows_before_sampling": 5083,
+    "selected_rows": 5000,
+    "excluded": {},
+    "label_counts": {
+      "safe": 4646,
+      "unsafe": 354
+    },
+    "category_counts": {
+      "toxicity": 5000
+    },
+    "source_fingerprint": "b5a17bfd04fcc0e5"
+  },
+  "n": 5000,
+  "seed": 20261107,
+  "max_items": 5000,
+  "max_input_tokens": 1536,
+  "max_new_tokens": 48,
+  "selection_sha256": "4746efd3453756f90bbb356708b068f7ac5130df99f3715d9a9f0b3744749d5c",
+  "label_policy": "Safe=>safe; Unsafe/Controversial=>unsafe; invalid separate",
+  "sample_policy": "unbalanced random sample, no oversampling, selected rows frozen",
+  "created_utc": "2026-11-07T19:49:47.800555+00:00"
+}

@@ -1,0 +1,7 @@
+{
+  "arm": "bf16",
+  "linear4bit_layers": 0,
+  "layer_quant_types": [],
+  "quant_config": "None",
+  "model_config_commit": null
+}

@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen3Guard-Gen-4B",
+  "revision": "6ec42827da0c1ff11e7a49dc269d2e810d27e108",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.2",
+  "bitsandbytes": "0.50.2",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "started_utc": "2026-11-15T17:09:43.229543+00:00",
+  "greedy": true,
+  "max_new_tokens": 48,
+  "format_order": [
+    "nf4",
+    "fp4"
+  ]
+}

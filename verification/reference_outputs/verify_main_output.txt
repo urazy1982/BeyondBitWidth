@@ -1,0 +1,127 @@
+
+===== QWEN
+-- qwen_thinking (n=753)
+   bf16  n=753 inv=0 U=318 S=435 FN=106 FP=7 acc=0.8499 FNR=0.3333 FPR=0.0161
+   nf4   n=753 inv=0 U=318 S=435 FN=101 FP=6 acc=0.8579 FNR=0.3176 FPR=0.0138
+   fp4   n=753 inv=0 U=318 S=435 FN=106 FP=7 acc=0.8499 FNR=0.3333 FPR=0.0161
+   fp8   n=753 inv=0 U=318 S=435 FN=110 FP=5 acc=0.8473 FNR=0.3459 FPR=0.0115
+   int8  n=753 inv=0 U=318 S=435 FN=103 FP=7 acc=0.8539 FNR=0.3239 FPR=0.0161
+   bf16->nf4   flips= 12 improve=  9 regress=  3 p_acc=0.146 | missed+=3 recovered=8 p_unsafe=0.227
+   bf16->fp4   flips= 10 improve=  5 regress=  5 p_acc=1 | missed+=4 recovered=4 p_unsafe=1
+   bf16->fp8   flips=  6 improve=  2 regress=  4 p_acc=0.688 | missed+=4 recovered=0 p_unsafe=0.125
+   bf16->int8  flips=  7 improve=  5 regress=  2 p_acc=0.453 | missed+=1 recovered=4 p_unsafe=0.375
+   nf4->fp4    flips= 14 improve=  4 regress= 10 p_acc=0.18 | missed+=8 recovered=3 p_unsafe=0.227
+   nf4->fp8    flips= 12 improve=  2 regress= 10 p_acc=0.0386 | missed+=10 recovered=1 p_unsafe=0.0117
+   nf4->int8   flips= 11 improve=  4 regress=  7 p_acc=0.549 | missed+=6 recovered=4 p_unsafe=0.754
+   fp4->fp8    flips= 10 improve=  4 regress=  6 p_acc=0.754 | missed+=6 recovered=2 p_unsafe=0.289
+   fp4->int8   flips= 11 improve=  7 regress=  4 p_acc=0.549 | missed+=2 recovered=5 p_unsafe=0.453
+   fp8->int8   flips= 11 improve=  8 regress=  3 p_acc=0.227 | missed+=1 recovered=8 p_unsafe=0.0391
+-- toxicchat_prompt (n=5000)
+   bf16  n=5000 inv=0 U=354 S=4646 FN=9 FP=388 acc=0.9206 FNR=0.0254 FPR=0.0835
+   nf4   n=5000 inv=0 U=354 S=4646 FN=6 FP=409 acc=0.9170 FNR=0.0169 FPR=0.0880
+   fp4   n=5000 inv=0 U=354 S=4646 FN=10 FP=380 acc=0.9220 FNR=0.0282 FPR=0.0818
+   fp8   n=5000 inv=0 U=354 S=4646 FN=8 FP=387 acc=0.9210 FNR=0.0226 FPR=0.0833
+   int8  n=5000 inv=0 U=354 S=4646 FN=7 FP=393 acc=0.9200 FNR=0.0198 FPR=0.0846
+   bf16->nf4   flips= 50 improve= 16 regress= 34 p_acc=0.0153 | missed+=0 recovered=3 p_unsafe=0.25
+   bf16->fp4   flips= 71 improve= 39 regress= 32 p_acc=0.477 | missed+=2 recovered=1 p_unsafe=1
+   bf16->fp8   flips= 28 improve= 15 regress= 13 p_acc=0.851 | missed+=0 recovered=1 p_unsafe=1
+   bf16->int8  flips= 25 improve= 11 regress= 14 p_acc=0.69 | missed+=0 recovered=2 p_unsafe=0.5
+   nf4->fp4    flips= 81 improve= 53 regress= 28 p_acc=0.00728 | missed+=4 recovered=0 p_unsafe=0.125
+   nf4->fp8    flips= 54 improve= 37 regress= 17 p_acc=0.00907 | missed+=2 recovered=0 p_unsafe=0.5
+   nf4->int8   flips= 55 improve= 35 regress= 20 p_acc=0.0581 | missed+=1 recovered=0 p_unsafe=1
+   fp4->fp8    flips= 77 improve= 36 regress= 41 p_acc=0.649 | missed+=1 recovered=3 p_unsafe=0.625
+   fp4->int8   flips= 76 improve= 33 regress= 43 p_acc=0.302 | missed+=1 recovered=4 p_unsafe=0.375
+   fp8->int8   flips= 31 improve= 13 regress= 18 p_acc=0.473 | missed+=0 recovered=1 p_unsafe=1
+-- xstest_prompt (n=450)
+   bf16  n=450 inv=0 U=200 S=250 FN=8 FP=35 acc=0.9044 FNR=0.0400 FPR=0.1400
+   nf4   n=450 inv=0 U=200 S=250 FN=10 FP=39 acc=0.8911 FNR=0.0500 FPR=0.1560
+   fp4   n=450 inv=0 U=200 S=250 FN=8 FP=40 acc=0.8933 FNR=0.0400 FPR=0.1600
+   fp8   n=450 inv=0 U=200 S=250 FN=9 FP=35 acc=0.9022 FNR=0.0450 FPR=0.1400
+   int8  n=450 inv=0 U=200 S=250 FN=7 FP=38 acc=0.9000 FNR=0.0350 FPR=0.1520
+   bf16->nf4   flips= 10 improve=  2 regress=  8 p_acc=0.109 | missed+=2 recovered=0 p_unsafe=0.5
+   bf16->fp4   flips= 11 improve=  3 regress=  8 p_acc=0.227 | missed+=0 recovered=0 p_unsafe=1
+   bf16->fp8   flips=  1 improve=  0 regress=  1 p_acc=1 | missed+=1 recovered=0 p_unsafe=1
+   bf16->int8  flips=  6 improve=  2 regress=  4 p_acc=0.688 | missed+=0 recovered=1 p_unsafe=1
+   nf4->fp4    flips=  9 improve=  5 regress=  4 p_acc=1 | missed+=0 recovered=2 p_unsafe=0.5
+   nf4->fp8    flips=  9 improve=  7 regress=  2 p_acc=0.18 | missed+=0 recovered=1 p_unsafe=1
+   nf4->int8   flips= 10 improve=  7 regress=  3 p_acc=0.344 | missed+=0 recovered=3 p_unsafe=0.25
+   fp4->fp8    flips= 12 improve=  8 regress=  4 p_acc=0.388 | missed+=1 recovered=0 p_unsafe=1
+   fp4->int8   flips= 13 improve=  8 regress=  5 p_acc=0.581 | missed+=0 recovered=1 p_unsafe=1
+   fp8->int8   flips=  7 improve=  3 regress=  4 p_acc=1 | missed+=0 recovered=2 p_unsafe=0.5
+-- beavertails_response (n=3021)
+   bf16  n=3021 inv=0 U=1733 S=1288 FN=236 FP=230 acc=0.8457 FNR=0.1362 FPR=0.1786
+   nf4   n=3021 inv=0 U=1733 S=1288 FN=237 FP=228 acc=0.8461 FNR=0.1368 FPR=0.1770
+   fp4   n=3021 inv=0 U=1733 S=1288 FN=245 FP=222 acc=0.8454 FNR=0.1414 FPR=0.1724
+   fp8   n=3021 inv=0 U=1733 S=1288 FN=238 FP=225 acc=0.8467 FNR=0.1373 FPR=0.1747
+   int8  n=3021 inv=0 U=1733 S=1288 FN=232 FP=231 acc=0.8467 FNR=0.1339 FPR=0.1793
+   bf16->nf4   flips= 29 improve= 15 regress= 14 p_acc=1 | missed+=7 recovered=6 p_unsafe=1
+   bf16->fp4   flips= 43 improve= 21 regress= 22 p_acc=1 | missed+=15 recovered=6 p_unsafe=0.0784
+   bf16->fp8   flips= 15 improve=  9 regress=  6 p_acc=0.607 | missed+=6 recovered=4 p_unsafe=0.754
+   bf16->int8  flips= 13 improve=  8 regress=  5 p_acc=0.581 | missed+=1 recovered=5 p_unsafe=0.219
+   nf4->fp4    flips= 48 improve= 23 regress= 25 p_acc=0.885 | missed+=14 recovered=6 p_unsafe=0.115
+   nf4->fp8    flips= 34 improve= 18 regress= 16 p_acc=0.864 | missed+=9 recovered=8 p_unsafe=1
+   nf4->int8   flips= 32 improve= 17 regress= 15 p_acc=0.86 | missed+=5 recovered=10 p_unsafe=0.302
+   fp4->fp8    flips= 48 improve= 26 regress= 22 p_acc=0.665 | missed+=9 recovered=16 p_unsafe=0.23
+   fp4->int8   flips= 44 improve= 24 regress= 20 p_acc=0.652 | missed+=5 recovered=18 p_unsafe=0.0106
+   fp8->int8   flips= 16 improve=  8 regress=  8 p_acc=1 | missed+=1 recovered=7 p_unsafe=0.0703
+   TOTAL arm-records: 46120
+
+===== LLAMA
+-- xstest_prompt (n=450)
+   bf16  n=450 inv=0 U=200 S=250 FN=36 FP=7 acc=0.9044 FNR=0.1800 FPR=0.0280
+   nf4   n=450 inv=0 U=200 S=250 FN=35 FP=8 acc=0.9044 FNR=0.1750 FPR=0.0320
+   fp4   n=450 inv=0 U=200 S=250 FN=43 FP=8 acc=0.8867 FNR=0.2150 FPR=0.0320
+   bf16->nf4   flips=  6 improve=  3 regress=  3 p_acc=1 | missed+=2 recovered=3 p_unsafe=1
+   bf16->fp4   flips= 10 improve=  1 regress=  9 p_acc=0.0215 | missed+=7 recovered=0 p_unsafe=0.0156
+   nf4->fp4    flips= 12 improve=  2 regress= 10 p_acc=0.0386 | missed+=8 recovered=0 p_unsafe=0.00781
+-- beavertails_response (n=1500)
+   bf16  n=1500 inv=0 U=750 S=750 FN=358 FP=22 acc=0.7467 FNR=0.4773 FPR=0.0293
+   nf4   n=1500 inv=0 U=750 S=750 FN=365 FP=22 acc=0.7420 FNR=0.4867 FPR=0.0293
+   fp4   n=1500 inv=0 U=750 S=750 FN=396 FP=17 acc=0.7247 FNR=0.5280 FPR=0.0227
+   bf16->nf4   flips= 19 improve=  6 regress= 13 p_acc=0.167 | missed+=11 recovered=4 p_unsafe=0.118
+   bf16->fp4   flips= 51 improve=  9 regress= 42 p_acc=3.39e-06 | missed+=39 recovered=1 p_unsafe=7.46e-11
+   nf4->fp4    flips= 42 improve=  8 regress= 34 p_acc=6.88e-05 | missed+=32 recovered=1 p_unsafe=7.92e-09
+   TOTAL arm-records: 5850
+
+===== HOLM
+qwen nf4->fp4 accuracy (4 tests)
+   qwen_thinking                    p=0.1796 holm=0.5387
+   toxicchat_prompt                 p=0.007276 holm=0.0291
+   xstest_prompt                    p=1 holm=1
+   beavertails_response             p=0.8854 holm=1
+qwen nf4->fp4 unsafe (4 tests)
+   qwen_thinking                    p=0.2266 holm=0.4613
+   toxicchat_prompt                 p=0.125 holm=0.4613
+   xstest_prompt                    p=0.5 holm=0.5
+   beavertails_response             p=0.1153 holm=0.4613
+llama nf4->fp4 unsafe (2 primary)
+   xstest_prompt                    p=0.007812 holm=0.007812
+   beavertails_response             p=7.916e-09 holm=1.583e-08
+llama nf4->fp4 accuracy (2)
+   xstest_prompt                    p=0.03857 holm=0.03857
+   beavertails_response             p=6.877e-05 holm=0.0001375
+qwen 4-bit + 8-bit accuracy (8 tests)
+   nf4->fp4/qwen_thinking           p=0.1796 holm=1
+   nf4->fp4/toxicchat_prompt        p=0.007276 holm=0.0582
+   nf4->fp4/xstest_prompt           p=1 holm=1
+   nf4->fp4/beavertails_response    p=0.8854 holm=1
+   fp8->int8/qwen_thinking          p=0.2266 holm=1
+   fp8->int8/toxicchat_prompt       p=0.4731 holm=1
+   fp8->int8/xstest_prompt          p=1 holm=1
+   fp8->int8/beavertails_response   p=1 holm=1
+
+===== ORIGINAL vs FRESH REPEAT (changes in A, B)
+   qwen_thinking/bf16               [0, 0]
+   qwen_thinking/nf4                [0, 0]
+   qwen_thinking/fp4                [0, 0]
+   toxicchat_prompt/bf16            [0, 0]
+   toxicchat_prompt/nf4             [0, 0]
+   toxicchat_prompt/fp4             [0, 0]
+   xstest_prompt/bf16               [0, 0]
+   xstest_prompt/nf4                [0, 0]
+   xstest_prompt/fp4                [0, 0]
+   beavertails_response/bf16        [0, 0]
+   beavertails_response/nf4         [0, 0]
+   beavertails_response/fp4         [0, 0]
+
+ISSUES: 0

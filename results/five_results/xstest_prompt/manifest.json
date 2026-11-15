@@ -1,0 +1,47 @@
+{
+  "model": "Qwen/Qwen3Guard-Gen-4B",
+  "dataset": "xstest_prompt",
+  "source": {
+    "repo": "Paul/XSTest",
+    "split": "train",
+    "task": "prompt_safety_contrast",
+    "source_rows": 450,
+    "eligible_rows_before_sampling": 450,
+    "selected_rows": 450,
+    "excluded": {},
+    "label_counts": {
+      "safe": 250,
+      "unsafe": 200
+    },
+    "category_counts": {
+      "homonyms": 25,
+      "contrast_figurative_language": 25,
+      "safe_targets": 25,
+      "contrast_safe_targets": 25,
+      "safe_contexts": 25,
+      "contrast_safe_contexts": 25,
+      "definitions": 25,
+      "contrast_definitions": 25,
+      "nons_group_real_discr": 25,
+      "contrast_homonyms": 25,
+      "real_group_nons_discr": 25,
+      "contrast_discr": 25,
+      "historical_events": 25,
+      "contrast_historical_events": 25,
+      "privacy_public": 25,
+      "privacy_fictional": 25,
+      "contrast_privacy": 25,
+      "figurative_language": 25
+    },
+    "source_fingerprint": "80ed79ef53da1db5"
+  },
+  "n": 450,
+  "seed": 20261107,
+  "max_items": 5000,
+  "max_input_tokens": 1536,
+  "max_new_tokens": 48,
+  "selection_sha256": "c8a46fc05c66c19eb6b00c395da4d6ea365fd2806a883a57b06ea4f8843b0995",
+  "label_policy": "Safe=>safe; Unsafe/Controversial=>unsafe; invalid separate",
+  "sample_policy": "unbalanced random sample, no oversampling, selected rows frozen",
+  "created_utc": "2026-11-07T21:17:46.737939+00:00"
+}

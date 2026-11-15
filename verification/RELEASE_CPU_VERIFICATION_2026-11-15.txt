@@ -1,0 +1,22 @@
+== 1/4 Checksums
+PASS  all files match SHA256SUMS.txt
+== 2/4 Primary results (51,970 predictions)
+PASS  verify_main.py (identical to reference output)
+== 3/4 Repeatability controls (13,944 predictions)
+PASS  verify_repeat.py (identical to reference output)
+PASS  verify_llama_reload.py (identical to reference output)
+== 4/4 Paper statistics and tables (requires scipy)
+PASS  analysis/output/stats.json (identical to reference output)
+PASS  analysis/output/hazard.json (identical to reference output)
+PASS  analysis/output/tab_operating_points.tex (identical to reference output)
+PASS  analysis/output/tab_equal_bit.tex (identical to reference output)
+PASS  analysis/output/tab_bf16_ref.tex (identical to reference output)
+PASS  analysis/output/tab_hazard.tex (identical to reference output)
+ALL CHECKS PASSED
+PASS qwen_thinking: 46 inputs, 14 historical flips; 92 exact record matches
+PASS toxicchat_prompt: 113 inputs, 81 historical flips; 226 exact record matches
+PASS xstest_prompt: 41 inputs, 9 historical flips; 82 exact record matches
+PASS beavertails_response: 80 inputs, 48 historical flips; 160 exact record matches
+PASS pinned Qwen replay: 280 inputs, 152/152 historical flips, 128 controls, 560/560 exact predictions and raw outputs
+LIMITATION: sampled replay supports recovered snapshot but does not prove historical checkpoint identity
+FULL CPU RELEASE VERIFICATION PASS

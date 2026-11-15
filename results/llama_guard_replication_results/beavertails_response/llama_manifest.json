@@ -1,0 +1,15 @@
+{
+  "dataset": "beavertails_response",
+  "source_selection_sha256": "3d142ad74e9aa76241aa6676549e7581cd7334ba13d104545c5cd8fc78870762",
+  "selection_seed": 20261108,
+  "max_items": 1500,
+  "max_input_tokens": 2048,
+  "selection_sha256": "b5804b5c5c2ceda77ff67d1748e0a52c6b497d32c46bda007bf68af38f976f3d",
+  "n": 1500,
+  "labels": {
+    "safe": 750,
+    "unsafe": 750
+  },
+  "excluded": [],
+  "task": "response_safety"
+}

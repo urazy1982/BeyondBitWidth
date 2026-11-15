@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-08T18:30:34.419451+00:00",
+  "model": "Qwen/Qwen3Guard-Gen-4B",
+  "model_commit": null,
+  "tokenizer_commit": null,
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.2",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "max_new_tokens": "from frozen manifest",
+  "do_sample": false,
+  "padding": "same single-item batch in every run",
+  "cudnn_benchmark": false,
+  "deterministic_algorithms": false,
+  "per_class": 128,
+  "selection_seed": 20261108
+}

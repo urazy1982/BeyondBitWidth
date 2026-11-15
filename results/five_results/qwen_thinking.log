@@ -1,0 +1,128 @@
+qwen_thinking: prepared 753; labels {'unsafe': 318, 'safe': 435}
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<05:39,  1.17it/s]Loading weights:   4%|▍         | 17/399 [00:00<00:16, 23.30it/s]Loading weights:   7%|▋         | 28/399 [00:01<00:10, 35.80it/s]Loading weights:  10%|▉         | 39/399 [00:01<00:07, 49.23it/s]Loading weights:  12%|█▏        | 49/399 [00:01<00:05, 59.16it/s]Loading weights:  16%|█▌        | 62/399 [00:01<00:04, 74.05it/s]Loading weights:  18%|█▊        | 73/399 [00:01<00:04, 75.36it/s]Loading weights:  22%|██▏       | 89/399 [00:01<00:03, 93.96it/s]Loading weights:  26%|██▌       | 102/399 [00:01<00:02, 102.63it/s]Loading weights:  29%|██▉       | 115/399 [00:01<00:02, 97.75it/s] Loading weights:  32%|███▏      | 127/399 [00:02<00:02, 99.76it/s]Loading weights:  35%|███▍      | 138/399 [00:02<00:02, 97.07it/s]Loading weights:  37%|███▋      | 149/399 [00:02<00:02, 99.11it/s]Loading weights:  40%|████      | 160/399 [00:02<00:02, 99.34it/s]Loading weights:  43%|████▎     | 171/399 [00:02<00:02, 91.13it/s]Loading weights:  46%|████▌     | 184/399 [00:02<00:02, 99.20it/s]Loading weights:  49%|████▉     | 197/399 [00:02<00:02, 96.46it/s]Loading weights:  53%|█████▎    | 211/399 [00:02<00:01, 102.76it/s]Loading weights:  56%|█████▌    | 223/399 [00:02<00:01, 106.54it/s]Loading weights:  59%|█████▉    | 235/399 [00:03<00:01, 106.61it/s]Loading weights:  62%|██████▏   | 247/399 [00:03<00:01, 102.16it/s]Loading weights:  65%|██████▍   | 259/399 [00:03<00:01, 104.49it/s]Loading weights:  68%|██████▊   | 271/399 [00:03<00:01, 104.63it/s]Loading weights:  71%|███████   | 282/399 [00:03<00:01, 104.28it/s]Loading weights:  73%|███████▎  | 293/399 [00:03<00:01, 105.13it/s]Loading weights:  77%|███████▋  | 306/399 [00:03<00:00, 111.34it/s]Loading weights:  80%|███████▉  | 318/399 [00:03<00:00, 108.62it/s]Loading weights:  82%|████████▏ | 329/399 [00:03<00:00, 102.87it/s]Loading weights:  85%|████████▌ | 340/399 [00:04<00:00, 97.66it/s] Loading weights:  89%|████████▊ | 354/399 [00:04<00:00, 106.33it/s]Loading weights:  91%|█████████▏| 365/399 [00:04<00:00, 102.39it/s]Loading weights:  94%|█████████▍| 376/399 [00:04<00:00, 99.97it/s] Loading weights:  97%|█████████▋| 389/399 [00:04<00:00, 105.29it/s]Loading weights: 100%|██████████| 399/399 [00:04<00:00, 85.88it/s] 
+qwen_thinking/bf16: 20/753 elapsed=17s
+qwen_thinking/bf16: 40/753 elapsed=30s
+qwen_thinking/bf16: 60/753 elapsed=43s
+qwen_thinking/bf16: 80/753 elapsed=54s
+qwen_thinking/bf16: 100/753 elapsed=66s
+qwen_thinking/bf16: 120/753 elapsed=78s
+qwen_thinking/bf16: 140/753 elapsed=90s
+qwen_thinking/bf16: 160/753 elapsed=103s
+qwen_thinking/bf16: 180/753 elapsed=115s
+qwen_thinking/bf16: 200/753 elapsed=126s
+qwen_thinking/bf16: 220/753 elapsed=139s
+qwen_thinking/bf16: 240/753 elapsed=150s
+qwen_thinking/bf16: 260/753 elapsed=161s
+qwen_thinking/bf16: 280/753 elapsed=173s
+qwen_thinking/bf16: 300/753 elapsed=187s
+qwen_thinking/bf16: 320/753 elapsed=200s
+qwen_thinking/bf16: 340/753 elapsed=214s
+qwen_thinking/bf16: 360/753 elapsed=226s
+qwen_thinking/bf16: 380/753 elapsed=239s
+qwen_thinking/bf16: 400/753 elapsed=251s
+qwen_thinking/bf16: 420/753 elapsed=263s
+qwen_thinking/bf16: 440/753 elapsed=275s
+qwen_thinking/bf16: 460/753 elapsed=288s
+qwen_thinking/bf16: 480/753 elapsed=299s
+qwen_thinking/bf16: 500/753 elapsed=311s
+qwen_thinking/bf16: 520/753 elapsed=322s
+qwen_thinking/bf16: 540/753 elapsed=333s
+qwen_thinking/bf16: 560/753 elapsed=343s
+qwen_thinking/bf16: 580/753 elapsed=353s
+qwen_thinking/bf16: 600/753 elapsed=363s
+qwen_thinking/bf16: 620/753 elapsed=373s
+qwen_thinking/bf16: 640/753 elapsed=383s
+qwen_thinking/bf16: 660/753 elapsed=392s
+qwen_thinking/bf16: 680/753 elapsed=402s
+qwen_thinking/bf16: 700/753 elapsed=412s
+qwen_thinking/bf16: 720/753 elapsed=422s
+qwen_thinking/bf16: 740/753 elapsed=432s
+qwen_thinking/bf16: 753/753 elapsed=440s
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:42,  3.87it/s]Loading weights:   1%|          | 2/399 [00:00<01:43,  3.83it/s]Loading weights:   1%|▏         | 5/399 [00:00<00:41,  9.57it/s]Loading weights:   4%|▍         | 15/399 [00:00<00:12, 29.69it/s]Loading weights:   5%|▌         | 20/399 [00:00<00:10, 34.61it/s]Loading weights:   8%|▊         | 31/399 [00:00<00:06, 53.86it/s]Loading weights:  10%|▉         | 39/399 [00:01<00:06, 57.02it/s]Loading weights:  14%|█▍        | 56/399 [00:01<00:04, 85.13it/s]Loading weights:  18%|█▊        | 70/399 [00:01<00:03, 97.87it/s]Loading weights:  21%|██        | 82/399 [00:01<00:03, 97.82it/s]Loading weights:  23%|██▎       | 93/399 [00:01<00:04, 75.89it/s]Loading weights:  26%|██▌       | 102/399 [00:01<00:03, 77.76it/s]Loading weights:  28%|██▊       | 111/399 [00:01<00:04, 71.62it/s]Loading weights:  31%|███▏      | 125/399 [00:02<00:03, 85.40it/s]Loading weights:  35%|███▍      | 138/399 [00:02<00:02, 95.51it/s]Loading weights:  40%|███▉      | 158/399 [00:02<00:02, 117.98it/s]Loading weights:  43%|████▎     | 171/399 [00:02<00:01, 115.64it/s]Loading weights:  47%|████▋     | 189/399 [00:02<00:01, 132.31it/s]Loading weights:  51%|█████     | 204/399 [00:02<00:01, 132.08it/s]Loading weights:  56%|█████▌    | 224/399 [00:02<00:01, 144.67it/s]Loading weights:  60%|█████▉    | 239/399 [00:02<00:01, 135.46it/s]Loading weights:  63%|██████▎   | 253/399 [00:02<00:01, 132.83it/s]Loading weights:  67%|██████▋   | 268/399 [00:03<00:00, 134.83it/s]Loading weights:  71%|███████   | 282/399 [00:03<00:00, 134.33it/s]Loading weights:  75%|███████▌  | 301/399 [00:03<00:00, 141.96it/s]Loading weights:  80%|███████▉  | 318/399 [00:03<00:00, 146.80it/s]Loading weights:  84%|████████▍ | 335/399 [00:03<00:00, 150.48it/s]Loading weights:  88%|████████▊ | 351/399 [00:03<00:00, 149.17it/s]Loading weights:  92%|█████████▏| 367/399 [00:03<00:00, 149.42it/s]Loading weights:  96%|█████████▌| 382/399 [00:03<00:00, 146.38it/s]Loading weights: 100%|██████████| 399/399 [00:03<00:00, 102.03it/s]
+qwen_thinking/nf4: 20/753 elapsed=14s
+qwen_thinking/nf4: 40/753 elapsed=27s
+qwen_thinking/nf4: 60/753 elapsed=41s
+qwen_thinking/nf4: 80/753 elapsed=53s
+qwen_thinking/nf4: 100/753 elapsed=64s
+qwen_thinking/nf4: 120/753 elapsed=76s
+qwen_thinking/nf4: 140/753 elapsed=87s
+qwen_thinking/nf4: 160/753 elapsed=98s
+qwen_thinking/nf4: 180/753 elapsed=108s
+qwen_thinking/nf4: 200/753 elapsed=118s
+qwen_thinking/nf4: 220/753 elapsed=128s
+qwen_thinking/nf4: 240/753 elapsed=138s
+qwen_thinking/nf4: 260/753 elapsed=148s
+qwen_thinking/nf4: 280/753 elapsed=160s
+qwen_thinking/nf4: 300/753 elapsed=173s
+qwen_thinking/nf4: 320/753 elapsed=185s
+qwen_thinking/nf4: 340/753 elapsed=200s
+qwen_thinking/nf4: 360/753 elapsed=213s
+qwen_thinking/nf4: 380/753 elapsed=228s
+qwen_thinking/nf4: 400/753 elapsed=243s
+qwen_thinking/nf4: 420/753 elapsed=256s
+qwen_thinking/nf4: 440/753 elapsed=270s
+qwen_thinking/nf4: 460/753 elapsed=284s
+qwen_thinking/nf4: 480/753 elapsed=298s
+qwen_thinking/nf4: 500/753 elapsed=312s
+qwen_thinking/nf4: 520/753 elapsed=325s
+qwen_thinking/nf4: 540/753 elapsed=338s
+qwen_thinking/nf4: 560/753 elapsed=351s
+qwen_thinking/nf4: 580/753 elapsed=364s
+qwen_thinking/nf4: 600/753 elapsed=378s
+qwen_thinking/nf4: 620/753 elapsed=390s
+qwen_thinking/nf4: 640/753 elapsed=401s
+qwen_thinking/nf4: 660/753 elapsed=413s
+qwen_thinking/nf4: 680/753 elapsed=424s
+qwen_thinking/nf4: 700/753 elapsed=435s
+qwen_thinking/nf4: 720/753 elapsed=447s
+qwen_thinking/nf4: 740/753 elapsed=458s
+qwen_thinking/nf4: 753/753 elapsed=465s
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:23,  4.76it/s]Loading weights:   1%|          | 2/399 [00:00<01:15,  5.26it/s]Loading weights:   1%|▏         | 5/399 [00:00<00:31, 12.41it/s]Loading weights:   4%|▍         | 15/399 [00:00<00:10, 38.00it/s]Loading weights:   7%|▋         | 26/399 [00:00<00:06, 56.27it/s]Loading weights:  10%|▉         | 39/399 [00:00<00:04, 74.33it/s]Loading weights:  14%|█▎        | 54/399 [00:00<00:03, 93.32it/s]Loading weights:  18%|█▊        | 70/399 [00:01<00:03, 108.71it/s]Loading weights:  21%|██        | 82/399 [00:01<00:02, 107.57it/s]Loading weights:  24%|██▎       | 94/399 [00:01<00:02, 110.57it/s]Loading weights:  27%|██▋       | 109/399 [00:01<00:02, 119.73it/s]Loading weights:  31%|███▏      | 125/399 [00:01<00:02, 126.61it/s]Loading weights:  35%|███▍      | 138/399 [00:01<00:02, 118.44it/s]Loading weights:  38%|███▊      | 152/399 [00:01<00:02, 121.16it/s]Loading weights:  41%|████▏     | 165/399 [00:01<00:01, 122.70it/s]Loading weights:  45%|████▍     | 178/399 [00:01<00:01, 123.95it/s]Loading weights:  48%|████▊     | 191/399 [00:02<00:01, 123.12it/s]Loading weights:  51%|█████     | 204/399 [00:02<00:01, 109.75it/s]Loading weights:  55%|█████▍    | 218/399 [00:02<00:01, 116.83it/s]Loading weights:  58%|█████▊    | 230/399 [00:02<00:01, 115.59it/s]Loading weights:  61%|██████    | 242/399 [00:02<00:01, 110.05it/s]Loading weights:  64%|██████▎   | 254/399 [00:02<00:01, 107.11it/s]Loading weights:  67%|██████▋   | 268/399 [00:02<00:01, 114.96it/s]Loading weights:  70%|███████   | 281/399 [00:02<00:01, 117.30it/s]Loading weights:  74%|███████▍  | 296/399 [00:02<00:00, 122.44it/s]Loading weights:  78%|███████▊  | 310/399 [00:03<00:00, 126.27it/s]Loading weights:  81%|████████  | 324/399 [00:03<00:00, 128.95it/s]Loading weights:  84%|████████▍ | 337/399 [00:03<00:00, 119.40it/s]Loading weights:  88%|████████▊ | 350/399 [00:03<00:00, 114.70it/s]Loading weights:  91%|█████████ | 362/399 [00:03<00:00, 112.36it/s]Loading weights:  94%|█████████▍| 375/399 [00:03<00:00, 116.94it/s]Loading weights:  97%|█████████▋| 387/399 [00:03<00:00, 117.26it/s]Loading weights: 100%|██████████| 399/399 [00:03<00:00, 104.40it/s]
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 1886.78it/s]
+qwen_thinking/fp8: 20/753 elapsed=44s
+qwen_thinking/fp8: 40/753 elapsed=60s
+qwen_thinking/fp8: 60/753 elapsed=75s
+qwen_thinking/fp8: 80/753 elapsed=90s
+qwen_thinking/fp8: 100/753 elapsed=105s
+qwen_thinking/fp8: 120/753 elapsed=119s
+qwen_thinking/fp8: 140/753 elapsed=135s
+qwen_thinking/fp8: 160/753 elapsed=151s
+qwen_thinking/fp8: 180/753 elapsed=167s
+qwen_thinking/fp8: 200/753 elapsed=184s
+qwen_thinking/fp8: 220/753 elapsed=202s
+qwen_thinking/fp8: 240/753 elapsed=218s
+qwen_thinking/fp8: 260/753 elapsed=234s
+qwen_thinking/fp8: 280/753 elapsed=250s
+qwen_thinking/fp8: 300/753 elapsed=266s
+qwen_thinking/fp8: 320/753 elapsed=282s
+qwen_thinking/fp8: 340/753 elapsed=297s
+qwen_thinking/fp8: 360/753 elapsed=314s
+qwen_thinking/fp8: 380/753 elapsed=334s
+qwen_thinking/fp8: 400/753 elapsed=353s
+qwen_thinking/fp8: 420/753 elapsed=376s
+qwen_thinking/fp8: 440/753 elapsed=400s
+qwen_thinking/fp8: 460/753 elapsed=422s
+qwen_thinking/fp8: 480/753 elapsed=445s
+qwen_thinking/fp8: 500/753 elapsed=467s
+qwen_thinking/fp8: 520/753 elapsed=489s
+qwen_thinking/fp8: 540/753 elapsed=511s
+qwen_thinking/fp8: 560/753 elapsed=534s
+qwen_thinking/fp8: 580/753 elapsed=557s
+qwen_thinking/fp8: 600/753 elapsed=583s
+qwen_thinking/fp8: 620/753 elapsed=606s
+qwen_thinking/fp8: 640/753 elapsed=626s
+qwen_thinking/fp8: 660/753 elapsed=643s
+qwen_thinking/fp8: 680/753 elapsed=660s
+qwen_thinking/fp8: 700/753 elapsed=676s
+qwen_thinking/fp8: 720/753 elapsed=692s
+qwen_thinking/fp8: 740/753 elapsed=708s
+qwen_thinking/fp8: 753/753 elapsed=718s
+
+qwen_thinking (response_safety, n=753)
+  bf16: accuracy=0.8499 FNR=0.3333333333333333 FPR=0.016091954022988506 invalid=0
+  nf4: accuracy=0.8579 FNR=0.31761006289308175 FPR=0.013793103448275862 invalid=0
+  fp8: accuracy=0.8473 FNR=0.34591194968553457 FPR=0.011494252873563218 invalid=0
+  bf16_vs_nf4: flips=12, regressions=3, recoveries=9
+  bf16_vs_fp8: flips=6, regressions=4, recoveries=2
+  nf4_vs_fp8: flips=12, regressions=10, recoveries=2
+Saved: /home/uraz/guard-study/guard_five_datasets/five_results/cross_dataset_summary.json /home/uraz/guard-study/guard_five_datasets/five_results/summary_table.csv

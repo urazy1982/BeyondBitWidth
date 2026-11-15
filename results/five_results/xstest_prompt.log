@@ -1,0 +1,84 @@
+Generating train split:   0%|          | 0/450 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 450/450 [00:00<00:00, 53474.52 examples/s]
+xstest_prompt: prepared 450; labels {'safe': 250, 'unsafe': 200}
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<02:17,  2.90it/s]Loading weights:   7%|▋         | 26/399 [00:00<00:04, 74.80it/s]Loading weights:  12%|█▏        | 49/399 [00:00<00:02, 119.57it/s]Loading weights:  18%|█▊        | 72/399 [00:00<00:02, 151.63it/s]Loading weights:  25%|██▍       | 98/399 [00:00<00:01, 179.05it/s]Loading weights:  31%|███▏      | 125/399 [00:00<00:01, 203.94it/s]Loading weights:  37%|███▋      | 149/399 [00:00<00:01, 207.22it/s]Loading weights:  44%|████▍     | 177/399 [00:01<00:00, 225.55it/s]Loading weights:  51%|█████     | 202/399 [00:01<00:00, 231.81it/s]Loading weights:  57%|█████▋    | 227/399 [00:01<00:00, 228.71it/s]Loading weights:  64%|██████▎   | 254/399 [00:01<00:00, 240.08it/s]Loading weights:  70%|██████▉   | 279/399 [00:01<00:00, 240.72it/s]Loading weights:  76%|███████▌  | 304/399 [00:01<00:00, 235.13it/s]Loading weights:  82%|████████▏ | 329/399 [00:01<00:00, 239.05it/s]Loading weights:  89%|████████▉ | 356/399 [00:01<00:00, 246.87it/s]Loading weights:  95%|█████████▌| 381/399 [00:01<00:00, 234.71it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 200.89it/s]
+xstest_prompt/bf16: 20/450 elapsed=7s
+xstest_prompt/bf16: 40/450 elapsed=11s
+xstest_prompt/bf16: 60/450 elapsed=16s
+xstest_prompt/bf16: 80/450 elapsed=20s
+xstest_prompt/bf16: 100/450 elapsed=25s
+xstest_prompt/bf16: 120/450 elapsed=30s
+xstest_prompt/bf16: 140/450 elapsed=34s
+xstest_prompt/bf16: 160/450 elapsed=39s
+xstest_prompt/bf16: 180/450 elapsed=45s
+xstest_prompt/bf16: 200/450 elapsed=50s
+xstest_prompt/bf16: 220/450 elapsed=56s
+xstest_prompt/bf16: 240/450 elapsed=62s
+xstest_prompt/bf16: 260/450 elapsed=68s
+xstest_prompt/bf16: 280/450 elapsed=73s
+xstest_prompt/bf16: 300/450 elapsed=80s
+xstest_prompt/bf16: 320/450 elapsed=86s
+xstest_prompt/bf16: 340/450 elapsed=92s
+xstest_prompt/bf16: 360/450 elapsed=98s
+xstest_prompt/bf16: 380/450 elapsed=105s
+xstest_prompt/bf16: 400/450 elapsed=112s
+xstest_prompt/bf16: 420/450 elapsed=118s
+xstest_prompt/bf16: 440/450 elapsed=124s
+xstest_prompt/bf16: 450/450 elapsed=127s
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<00:48,  8.12it/s]Loading weights:   1%|          | 2/399 [00:00<00:53,  7.46it/s]Loading weights:   1%|▏         | 5/399 [00:00<00:25, 15.53it/s]Loading weights:   7%|▋         | 28/399 [00:00<00:04, 89.65it/s]Loading weights:  14%|█▎        | 54/399 [00:00<00:02, 143.86it/s]Loading weights:  18%|█▊        | 72/399 [00:00<00:02, 153.86it/s]Loading weights:  24%|██▎       | 94/399 [00:00<00:01, 171.32it/s]Loading weights:  30%|███       | 120/399 [00:00<00:01, 196.09it/s]Loading weights:  37%|███▋      | 148/399 [00:00<00:01, 220.85it/s]Loading weights:  45%|████▌     | 180/399 [00:01<00:00, 245.12it/s]Loading weights:  51%|█████▏    | 205/399 [00:01<00:00, 243.30it/s]Loading weights:  59%|█████▉    | 235/399 [00:01<00:00, 253.40it/s]Loading weights:  65%|██████▌   | 261/399 [00:01<00:00, 253.17it/s]Loading weights:  73%|███████▎  | 290/399 [00:01<00:00, 262.13it/s]Loading weights:  79%|███████▉  | 317/399 [00:01<00:00, 264.29it/s]Loading weights:  86%|████████▋ | 345/399 [00:01<00:00, 268.73it/s]Loading weights:  93%|█████████▎| 372/399 [00:01<00:00, 256.31it/s]Loading weights: 100%|█████████▉| 398/399 [00:01<00:00, 247.20it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 204.50it/s]
+xstest_prompt/nf4: 20/450 elapsed=8s
+xstest_prompt/nf4: 40/450 elapsed=15s
+xstest_prompt/nf4: 60/450 elapsed=24s
+xstest_prompt/nf4: 80/450 elapsed=32s
+xstest_prompt/nf4: 100/450 elapsed=40s
+xstest_prompt/nf4: 120/450 elapsed=49s
+xstest_prompt/nf4: 140/450 elapsed=57s
+xstest_prompt/nf4: 160/450 elapsed=66s
+xstest_prompt/nf4: 180/450 elapsed=74s
+xstest_prompt/nf4: 200/450 elapsed=82s
+xstest_prompt/nf4: 220/450 elapsed=89s
+xstest_prompt/nf4: 240/450 elapsed=99s
+xstest_prompt/nf4: 260/450 elapsed=108s
+xstest_prompt/nf4: 280/450 elapsed=117s
+xstest_prompt/nf4: 300/450 elapsed=128s
+xstest_prompt/nf4: 320/450 elapsed=137s
+xstest_prompt/nf4: 340/450 elapsed=146s
+xstest_prompt/nf4: 360/450 elapsed=154s
+xstest_prompt/nf4: 380/450 elapsed=164s
+xstest_prompt/nf4: 400/450 elapsed=174s
+xstest_prompt/nf4: 420/450 elapsed=183s
+xstest_prompt/nf4: 440/450 elapsed=191s
+xstest_prompt/nf4: 450/450 elapsed=196s
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:15,  5.28it/s]Loading weights:   1%|          | 2/399 [00:00<01:04,  6.18it/s]Loading weights:   2%|▏         | 6/399 [00:00<00:23, 16.99it/s]Loading weights:   4%|▍         | 16/399 [00:00<00:09, 41.55it/s]Loading weights:   7%|▋         | 27/399 [00:00<00:06, 61.43it/s]Loading weights:  10%|█         | 40/399 [00:00<00:04, 81.89it/s]Loading weights:  12%|█▏        | 49/399 [00:00<00:04, 81.45it/s]Loading weights:  15%|█▍        | 59/399 [00:00<00:04, 84.27it/s]Loading weights:  18%|█▊        | 70/399 [00:01<00:03, 87.95it/s]Loading weights:  21%|██        | 82/399 [00:01<00:03, 95.63it/s]Loading weights:  24%|██▎       | 94/399 [00:01<00:03, 98.18it/s]Loading weights:  26%|██▋       | 105/399 [00:01<00:02, 99.81it/s]Loading weights:  29%|██▉       | 116/399 [00:01<00:02, 101.17it/s]Loading weights:  33%|███▎      | 131/399 [00:01<00:02, 109.95it/s]Loading weights:  36%|███▌      | 143/399 [00:01<00:02, 111.43it/s]Loading weights:  39%|███▉      | 155/399 [00:01<00:02, 112.61it/s]Loading weights:  42%|████▏     | 167/399 [00:01<00:02, 105.52it/s]Loading weights:  45%|████▌     | 180/399 [00:02<00:01, 109.97it/s]Loading weights:  48%|████▊     | 192/399 [00:02<00:01, 111.32it/s]Loading weights:  51%|█████     | 204/399 [00:02<00:01, 108.46it/s]Loading weights:  55%|█████▍    | 218/399 [00:02<00:01, 116.40it/s]Loading weights:  58%|█████▊    | 230/399 [00:02<00:01, 112.12it/s]Loading weights:  61%|██████    | 243/399 [00:02<00:01, 116.06it/s]Loading weights:  64%|██████▍   | 255/399 [00:02<00:01, 115.66it/s]Loading weights:  67%|██████▋   | 267/399 [00:02<00:01, 110.50it/s]Loading weights:  70%|██████▉   | 279/399 [00:03<00:01, 98.73it/s] Loading weights:  73%|███████▎  | 290/399 [00:03<00:01, 94.90it/s]Loading weights:  75%|███████▌  | 301/399 [00:03<00:01, 97.12it/s]Loading weights:  78%|███████▊  | 311/399 [00:03<00:00, 95.68it/s]Loading weights:  80%|████████  | 321/399 [00:03<00:00, 92.93it/s]Loading weights:  84%|████████▎ | 334/399 [00:03<00:00, 100.45it/s]Loading weights:  86%|████████▋ | 345/399 [00:03<00:00, 102.59it/s]Loading weights:  90%|████████▉ | 358/399 [00:03<00:00, 105.71it/s]Loading weights:  92%|█████████▏| 369/399 [00:03<00:00, 103.70it/s]Loading weights:  95%|█████████▌| 380/399 [00:04<00:00, 104.02it/s]Loading weights:  98%|█████████▊| 391/399 [00:04<00:00, 99.00it/s] Loading weights: 100%|██████████| 399/399 [00:04<00:00, 95.07it/s]
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 2431.16it/s]
+xstest_prompt/fp8: 20/450 elapsed=23s
+xstest_prompt/fp8: 40/450 elapsed=36s
+xstest_prompt/fp8: 60/450 elapsed=50s
+xstest_prompt/fp8: 80/450 elapsed=62s
+xstest_prompt/fp8: 100/450 elapsed=79s
+xstest_prompt/fp8: 120/450 elapsed=97s
+xstest_prompt/fp8: 140/450 elapsed=115s
+xstest_prompt/fp8: 160/450 elapsed=132s
+xstest_prompt/fp8: 180/450 elapsed=145s
+xstest_prompt/fp8: 200/450 elapsed=155s
+xstest_prompt/fp8: 220/450 elapsed=166s
+xstest_prompt/fp8: 240/450 elapsed=179s
+xstest_prompt/fp8: 260/450 elapsed=192s
+xstest_prompt/fp8: 280/450 elapsed=203s
+xstest_prompt/fp8: 300/450 elapsed=217s
+xstest_prompt/fp8: 320/450 elapsed=229s
+xstest_prompt/fp8: 340/450 elapsed=242s
+xstest_prompt/fp8: 360/450 elapsed=254s
+xstest_prompt/fp8: 380/450 elapsed=269s
+xstest_prompt/fp8: 400/450 elapsed=286s
+xstest_prompt/fp8: 420/450 elapsed=301s
+xstest_prompt/fp8: 440/450 elapsed=316s
+xstest_prompt/fp8: 450/450 elapsed=323s
+
+xstest_prompt (prompt_safety_contrast, n=450)
+  bf16: accuracy=0.9044 FNR=0.04 FPR=0.14 invalid=0
+  nf4: accuracy=0.8911 FNR=0.05 FPR=0.156 invalid=0
+  fp8: accuracy=0.9022 FNR=0.045 FPR=0.14 invalid=0
+  bf16_vs_nf4: flips=10, regressions=8, recoveries=2
+  bf16_vs_fp8: flips=1, regressions=1, recoveries=0
+  nf4_vs_fp8: flips=9, regressions=2, recoveries=7
+Saved: /home/uraz/guard-study/guard_five_datasets/five_results/cross_dataset_summary.json /home/uraz/guard-study/guard_five_datasets/five_results/summary_table.csv

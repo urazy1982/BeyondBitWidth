@@ -1,0 +1,474 @@
+Generating 330k_train split:   0%|          | 0/300567 [00:00<?, ? examples/s]Generating 330k_train split:   7%|▋         | 21333/300567 [00:00<00:02, 121890.77 examples/s]Generating 330k_train split:  14%|█▍        | 42574/300567 [00:00<00:01, 132305.83 examples/s]Generating 330k_train split:  21%|██        | 63839/300567 [00:00<00:01, 133910.91 examples/s]Generating 330k_train split:  28%|██▊       | 85134/300567 [00:00<00:01, 141531.04 examples/s]Generating 330k_train split:  35%|███▌      | 106416/300567 [00:00<00:01, 141749.04 examples/s]Generating 330k_train split:  42%|████▏     | 127724/300567 [00:00<00:01, 145686.78 examples/s]Generating 330k_train split:  50%|████▉     | 149012/300567 [00:01<00:01, 145001.76 examples/s]Generating 330k_train split:  57%|█████▋    | 170271/300567 [00:01<00:00, 146841.33 examples/s]Generating 330k_train split:  64%|██████▎   | 191535/300567 [00:01<00:00, 147830.08 examples/s]Generating 330k_train split:  71%|███████   | 212812/300567 [00:01<00:00, 150090.61 examples/s]Generating 330k_train split:  78%|███████▊  | 234106/300567 [00:01<00:00, 149803.43 examples/s]Generating 330k_train split:  85%|████████▍ | 255377/300567 [00:01<00:00, 152462.58 examples/s]Generating 330k_train split:  92%|█████████▏| 276729/300567 [00:01<00:00, 153515.06 examples/s]Generating 330k_train split:  99%|█████████▉| 297990/300567 [00:02<00:00, 153833.03 examples/s]Generating 330k_train split: 100%|██████████| 300567/300567 [00:02<00:00, 146919.28 examples/s]
+Generating 330k_test split:   0%|          | 0/33396 [00:00<?, ? examples/s]Generating 330k_test split:  64%|██████▍   | 21331/33396 [00:00<00:00, 179870.20 examples/s]Generating 330k_test split: 100%|██████████| 33396/33396 [00:00<00:00, 182350.84 examples/s]
+Generating 30k_train split:   0%|          | 0/27186 [00:00<?, ? examples/s]Generating 30k_train split: 100%|██████████| 27186/27186 [00:00<00:00, 258821.97 examples/s]Generating 30k_train split: 100%|██████████| 27186/27186 [00:00<00:00, 258207.75 examples/s]
+Generating 30k_test split:   0%|          | 0/3021 [00:00<?, ? examples/s]Generating 30k_test split: 100%|██████████| 3021/3021 [00:00<00:00, 230272.82 examples/s]
+beavertails_response: prepared 3021; labels {'unsafe': 1733, 'safe': 1288}
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:16,  5.21it/s]Loading weights:   1%|          | 2/399 [00:00<01:11,  5.57it/s]Loading weights:   7%|▋         | 26/399 [00:00<00:04, 77.98it/s]Loading weights:  12%|█▏        | 49/399 [00:00<00:02, 121.68it/s]Loading weights:  18%|█▊        | 72/399 [00:00<00:02, 151.41it/s]Loading weights:  24%|██▎       | 94/399 [00:00<00:01, 169.45it/s]Loading weights:  30%|███       | 120/399 [00:00<00:01, 193.98it/s]Loading weights:  36%|███▋      | 145/399 [00:00<00:01, 209.88it/s]Loading weights:  42%|████▏     | 169/399 [00:01<00:01, 213.64it/s]Loading weights:  48%|████▊     | 192/399 [00:01<00:00, 215.14it/s]Loading weights:  54%|█████▍    | 215/399 [00:01<00:00, 214.68it/s]Loading weights:  60%|██████    | 241/399 [00:01<00:00, 221.10it/s]Loading weights:  67%|██████▋   | 268/399 [00:01<00:00, 222.49it/s]Loading weights:  73%|███████▎  | 292/399 [00:01<00:00, 221.58it/s]Loading weights:  80%|████████  | 320/399 [00:01<00:00, 235.43it/s]Loading weights:  86%|████████▋ | 345/399 [00:01<00:00, 235.79it/s]Loading weights:  92%|█████████▏| 369/399 [00:01<00:00, 221.55it/s]Loading weights:  98%|█████████▊| 392/399 [00:02<00:00, 222.20it/s]Loading weights: 100%|██████████| 399/399 [00:02<00:00, 189.53it/s]
+beavertails_response/bf16: 20/3021 elapsed=9s
+beavertails_response/bf16: 40/3021 elapsed=17s
+beavertails_response/bf16: 60/3021 elapsed=25s
+beavertails_response/bf16: 80/3021 elapsed=33s
+beavertails_response/bf16: 100/3021 elapsed=42s
+beavertails_response/bf16: 120/3021 elapsed=51s
+beavertails_response/bf16: 140/3021 elapsed=59s
+beavertails_response/bf16: 160/3021 elapsed=67s
+beavertails_response/bf16: 180/3021 elapsed=75s
+beavertails_response/bf16: 200/3021 elapsed=83s
+beavertails_response/bf16: 220/3021 elapsed=91s
+beavertails_response/bf16: 240/3021 elapsed=99s
+beavertails_response/bf16: 260/3021 elapsed=108s
+beavertails_response/bf16: 280/3021 elapsed=117s
+beavertails_response/bf16: 300/3021 elapsed=126s
+beavertails_response/bf16: 320/3021 elapsed=135s
+beavertails_response/bf16: 340/3021 elapsed=145s
+beavertails_response/bf16: 360/3021 elapsed=155s
+beavertails_response/bf16: 380/3021 elapsed=165s
+beavertails_response/bf16: 400/3021 elapsed=176s
+beavertails_response/bf16: 420/3021 elapsed=186s
+beavertails_response/bf16: 440/3021 elapsed=196s
+beavertails_response/bf16: 460/3021 elapsed=205s
+beavertails_response/bf16: 480/3021 elapsed=214s
+beavertails_response/bf16: 500/3021 elapsed=224s
+beavertails_response/bf16: 520/3021 elapsed=233s
+beavertails_response/bf16: 540/3021 elapsed=241s
+beavertails_response/bf16: 560/3021 elapsed=250s
+beavertails_response/bf16: 580/3021 elapsed=258s
+beavertails_response/bf16: 600/3021 elapsed=266s
+beavertails_response/bf16: 620/3021 elapsed=274s
+beavertails_response/bf16: 640/3021 elapsed=283s
+beavertails_response/bf16: 660/3021 elapsed=292s
+beavertails_response/bf16: 680/3021 elapsed=301s
+beavertails_response/bf16: 700/3021 elapsed=310s
+beavertails_response/bf16: 720/3021 elapsed=319s
+beavertails_response/bf16: 740/3021 elapsed=328s
+beavertails_response/bf16: 760/3021 elapsed=336s
+beavertails_response/bf16: 780/3021 elapsed=344s
+beavertails_response/bf16: 800/3021 elapsed=352s
+beavertails_response/bf16: 820/3021 elapsed=360s
+beavertails_response/bf16: 840/3021 elapsed=369s
+beavertails_response/bf16: 860/3021 elapsed=378s
+beavertails_response/bf16: 880/3021 elapsed=387s
+beavertails_response/bf16: 900/3021 elapsed=395s
+beavertails_response/bf16: 920/3021 elapsed=403s
+beavertails_response/bf16: 940/3021 elapsed=411s
+beavertails_response/bf16: 960/3021 elapsed=419s
+beavertails_response/bf16: 980/3021 elapsed=427s
+beavertails_response/bf16: 1000/3021 elapsed=435s
+beavertails_response/bf16: 1020/3021 elapsed=443s
+beavertails_response/bf16: 1040/3021 elapsed=451s
+beavertails_response/bf16: 1060/3021 elapsed=459s
+beavertails_response/bf16: 1080/3021 elapsed=468s
+beavertails_response/bf16: 1100/3021 elapsed=475s
+beavertails_response/bf16: 1120/3021 elapsed=483s
+beavertails_response/bf16: 1140/3021 elapsed=490s
+beavertails_response/bf16: 1160/3021 elapsed=498s
+beavertails_response/bf16: 1180/3021 elapsed=507s
+beavertails_response/bf16: 1200/3021 elapsed=516s
+beavertails_response/bf16: 1220/3021 elapsed=526s
+beavertails_response/bf16: 1240/3021 elapsed=535s
+beavertails_response/bf16: 1260/3021 elapsed=545s
+beavertails_response/bf16: 1280/3021 elapsed=555s
+beavertails_response/bf16: 1300/3021 elapsed=566s
+beavertails_response/bf16: 1320/3021 elapsed=576s
+beavertails_response/bf16: 1340/3021 elapsed=585s
+beavertails_response/bf16: 1360/3021 elapsed=595s
+beavertails_response/bf16: 1380/3021 elapsed=605s
+beavertails_response/bf16: 1400/3021 elapsed=615s
+beavertails_response/bf16: 1420/3021 elapsed=625s
+beavertails_response/bf16: 1440/3021 elapsed=634s
+beavertails_response/bf16: 1460/3021 elapsed=644s
+beavertails_response/bf16: 1480/3021 elapsed=653s
+beavertails_response/bf16: 1500/3021 elapsed=663s
+beavertails_response/bf16: 1520/3021 elapsed=673s
+beavertails_response/bf16: 1540/3021 elapsed=682s
+beavertails_response/bf16: 1560/3021 elapsed=691s
+beavertails_response/bf16: 1580/3021 elapsed=699s
+beavertails_response/bf16: 1600/3021 elapsed=708s
+beavertails_response/bf16: 1620/3021 elapsed=716s
+beavertails_response/bf16: 1640/3021 elapsed=725s
+beavertails_response/bf16: 1660/3021 elapsed=733s
+beavertails_response/bf16: 1680/3021 elapsed=741s
+beavertails_response/bf16: 1700/3021 elapsed=748s
+beavertails_response/bf16: 1720/3021 elapsed=755s
+beavertails_response/bf16: 1740/3021 elapsed=763s
+beavertails_response/bf16: 1760/3021 elapsed=770s
+beavertails_response/bf16: 1780/3021 elapsed=777s
+beavertails_response/bf16: 1800/3021 elapsed=785s
+beavertails_response/bf16: 1820/3021 elapsed=792s
+beavertails_response/bf16: 1840/3021 elapsed=800s
+beavertails_response/bf16: 1860/3021 elapsed=807s
+beavertails_response/bf16: 1880/3021 elapsed=814s
+beavertails_response/bf16: 1900/3021 elapsed=821s
+beavertails_response/bf16: 1920/3021 elapsed=829s
+beavertails_response/bf16: 1940/3021 elapsed=837s
+beavertails_response/bf16: 1960/3021 elapsed=844s
+beavertails_response/bf16: 1980/3021 elapsed=852s
+beavertails_response/bf16: 2000/3021 elapsed=858s
+beavertails_response/bf16: 2020/3021 elapsed=865s
+beavertails_response/bf16: 2040/3021 elapsed=872s
+beavertails_response/bf16: 2060/3021 elapsed=880s
+beavertails_response/bf16: 2080/3021 elapsed=886s
+beavertails_response/bf16: 2100/3021 elapsed=894s
+beavertails_response/bf16: 2120/3021 elapsed=901s
+beavertails_response/bf16: 2140/3021 elapsed=908s
+beavertails_response/bf16: 2160/3021 elapsed=915s
+beavertails_response/bf16: 2180/3021 elapsed=922s
+beavertails_response/bf16: 2200/3021 elapsed=929s
+beavertails_response/bf16: 2220/3021 elapsed=936s
+beavertails_response/bf16: 2240/3021 elapsed=944s
+beavertails_response/bf16: 2260/3021 elapsed=951s
+beavertails_response/bf16: 2280/3021 elapsed=959s
+beavertails_response/bf16: 2300/3021 elapsed=966s
+beavertails_response/bf16: 2320/3021 elapsed=973s
+beavertails_response/bf16: 2340/3021 elapsed=981s
+beavertails_response/bf16: 2360/3021 elapsed=989s
+beavertails_response/bf16: 2380/3021 elapsed=997s
+beavertails_response/bf16: 2400/3021 elapsed=1005s
+beavertails_response/bf16: 2420/3021 elapsed=1013s
+beavertails_response/bf16: 2440/3021 elapsed=1020s
+beavertails_response/bf16: 2460/3021 elapsed=1027s
+beavertails_response/bf16: 2480/3021 elapsed=1034s
+beavertails_response/bf16: 2500/3021 elapsed=1042s
+beavertails_response/bf16: 2520/3021 elapsed=1050s
+beavertails_response/bf16: 2540/3021 elapsed=1057s
+beavertails_response/bf16: 2560/3021 elapsed=1065s
+beavertails_response/bf16: 2580/3021 elapsed=1073s
+beavertails_response/bf16: 2600/3021 elapsed=1081s
+beavertails_response/bf16: 2620/3021 elapsed=1089s
+beavertails_response/bf16: 2640/3021 elapsed=1096s
+beavertails_response/bf16: 2660/3021 elapsed=1104s
+beavertails_response/bf16: 2680/3021 elapsed=1111s
+beavertails_response/bf16: 2700/3021 elapsed=1120s
+beavertails_response/bf16: 2720/3021 elapsed=1127s
+beavertails_response/bf16: 2740/3021 elapsed=1135s
+beavertails_response/bf16: 2760/3021 elapsed=1142s
+beavertails_response/bf16: 2780/3021 elapsed=1149s
+beavertails_response/bf16: 2800/3021 elapsed=1157s
+beavertails_response/bf16: 2820/3021 elapsed=1166s
+beavertails_response/bf16: 2840/3021 elapsed=1174s
+beavertails_response/bf16: 2860/3021 elapsed=1184s
+beavertails_response/bf16: 2880/3021 elapsed=1193s
+beavertails_response/bf16: 2900/3021 elapsed=1201s
+beavertails_response/bf16: 2920/3021 elapsed=1208s
+beavertails_response/bf16: 2940/3021 elapsed=1216s
+beavertails_response/bf16: 2960/3021 elapsed=1225s
+beavertails_response/bf16: 2980/3021 elapsed=1234s
+beavertails_response/bf16: 3000/3021 elapsed=1241s
+beavertails_response/bf16: 3020/3021 elapsed=1249s
+beavertails_response/bf16: 3021/3021 elapsed=1249s
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:09,  5.69it/s]Loading weights:   1%|          | 2/399 [00:00<01:06,  5.95it/s]Loading weights:   4%|▍         | 16/399 [00:00<00:07, 50.32it/s]Loading weights:  10%|▉         | 38/399 [00:00<00:03, 103.78it/s]Loading weights:  15%|█▌        | 60/399 [00:00<00:02, 138.30it/s]Loading weights:  21%|██        | 82/399 [00:00<00:01, 162.47it/s]Loading weights:  26%|██▌       | 104/399 [00:00<00:01, 176.71it/s]Loading weights:  32%|███▏      | 126/399 [00:00<00:01, 187.81it/s]Loading weights:  37%|███▋      | 148/399 [00:01<00:01, 194.51it/s]Loading weights:  43%|████▎     | 170/399 [00:01<00:01, 199.95it/s]Loading weights:  48%|████▊     | 192/399 [00:01<00:01, 201.85it/s]Loading weights:  54%|█████▎    | 214/399 [00:01<00:00, 203.13it/s]Loading weights:  59%|█████▉    | 236/399 [00:01<00:00, 205.20it/s]Loading weights:  65%|██████▍   | 258/399 [00:01<00:00, 206.62it/s]Loading weights:  70%|███████   | 280/399 [00:01<00:00, 206.91it/s]Loading weights:  76%|███████▌  | 302/399 [00:01<00:00, 208.56it/s]Loading weights:  81%|████████  | 324/399 [00:01<00:00, 207.19it/s]Loading weights:  87%|████████▋ | 346/399 [00:02<00:00, 205.25it/s]Loading weights:  92%|█████████▏| 368/399 [00:02<00:00, 207.66it/s]Loading weights:  98%|█████████▊| 390/399 [00:02<00:00, 208.06it/s]Loading weights: 100%|██████████| 399/399 [00:02<00:00, 177.21it/s]
+beavertails_response/nf4: 20/3021 elapsed=10s
+beavertails_response/nf4: 40/3021 elapsed=20s
+beavertails_response/nf4: 60/3021 elapsed=30s
+beavertails_response/nf4: 80/3021 elapsed=40s
+beavertails_response/nf4: 100/3021 elapsed=51s
+beavertails_response/nf4: 120/3021 elapsed=63s
+beavertails_response/nf4: 140/3021 elapsed=75s
+beavertails_response/nf4: 160/3021 elapsed=85s
+beavertails_response/nf4: 180/3021 elapsed=96s
+beavertails_response/nf4: 200/3021 elapsed=106s
+beavertails_response/nf4: 220/3021 elapsed=115s
+beavertails_response/nf4: 240/3021 elapsed=126s
+beavertails_response/nf4: 260/3021 elapsed=136s
+beavertails_response/nf4: 280/3021 elapsed=146s
+beavertails_response/nf4: 300/3021 elapsed=155s
+beavertails_response/nf4: 320/3021 elapsed=164s
+beavertails_response/nf4: 340/3021 elapsed=174s
+beavertails_response/nf4: 360/3021 elapsed=187s
+beavertails_response/nf4: 380/3021 elapsed=201s
+beavertails_response/nf4: 400/3021 elapsed=216s
+beavertails_response/nf4: 420/3021 elapsed=232s
+beavertails_response/nf4: 440/3021 elapsed=248s
+beavertails_response/nf4: 460/3021 elapsed=265s
+beavertails_response/nf4: 480/3021 elapsed=282s
+beavertails_response/nf4: 500/3021 elapsed=299s
+beavertails_response/nf4: 520/3021 elapsed=314s
+beavertails_response/nf4: 540/3021 elapsed=329s
+beavertails_response/nf4: 560/3021 elapsed=345s
+beavertails_response/nf4: 580/3021 elapsed=361s
+beavertails_response/nf4: 600/3021 elapsed=378s
+beavertails_response/nf4: 620/3021 elapsed=394s
+beavertails_response/nf4: 640/3021 elapsed=410s
+beavertails_response/nf4: 660/3021 elapsed=426s
+beavertails_response/nf4: 680/3021 elapsed=442s
+beavertails_response/nf4: 700/3021 elapsed=460s
+beavertails_response/nf4: 720/3021 elapsed=477s
+beavertails_response/nf4: 740/3021 elapsed=492s
+beavertails_response/nf4: 760/3021 elapsed=505s
+beavertails_response/nf4: 780/3021 elapsed=519s
+beavertails_response/nf4: 800/3021 elapsed=534s
+beavertails_response/nf4: 820/3021 elapsed=547s
+beavertails_response/nf4: 840/3021 elapsed=559s
+beavertails_response/nf4: 860/3021 elapsed=573s
+beavertails_response/nf4: 880/3021 elapsed=583s
+beavertails_response/nf4: 900/3021 elapsed=593s
+beavertails_response/nf4: 920/3021 elapsed=602s
+beavertails_response/nf4: 940/3021 elapsed=612s
+beavertails_response/nf4: 960/3021 elapsed=621s
+beavertails_response/nf4: 980/3021 elapsed=630s
+beavertails_response/nf4: 1000/3021 elapsed=638s
+beavertails_response/nf4: 1020/3021 elapsed=646s
+beavertails_response/nf4: 1040/3021 elapsed=655s
+beavertails_response/nf4: 1060/3021 elapsed=668s
+beavertails_response/nf4: 1080/3021 elapsed=681s
+beavertails_response/nf4: 1100/3021 elapsed=693s
+beavertails_response/nf4: 1120/3021 elapsed=705s
+beavertails_response/nf4: 1140/3021 elapsed=718s
+beavertails_response/nf4: 1160/3021 elapsed=731s
+beavertails_response/nf4: 1180/3021 elapsed=743s
+beavertails_response/nf4: 1200/3021 elapsed=755s
+beavertails_response/nf4: 1220/3021 elapsed=768s
+beavertails_response/nf4: 1240/3021 elapsed=781s
+beavertails_response/nf4: 1260/3021 elapsed=794s
+beavertails_response/nf4: 1280/3021 elapsed=807s
+beavertails_response/nf4: 1300/3021 elapsed=820s
+beavertails_response/nf4: 1320/3021 elapsed=832s
+beavertails_response/nf4: 1340/3021 elapsed=842s
+beavertails_response/nf4: 1360/3021 elapsed=854s
+beavertails_response/nf4: 1380/3021 elapsed=866s
+beavertails_response/nf4: 1400/3021 elapsed=879s
+beavertails_response/nf4: 1420/3021 elapsed=891s
+beavertails_response/nf4: 1440/3021 elapsed=903s
+beavertails_response/nf4: 1460/3021 elapsed=914s
+beavertails_response/nf4: 1480/3021 elapsed=925s
+beavertails_response/nf4: 1500/3021 elapsed=937s
+beavertails_response/nf4: 1520/3021 elapsed=950s
+beavertails_response/nf4: 1540/3021 elapsed=963s
+beavertails_response/nf4: 1560/3021 elapsed=975s
+beavertails_response/nf4: 1580/3021 elapsed=986s
+beavertails_response/nf4: 1600/3021 elapsed=997s
+beavertails_response/nf4: 1620/3021 elapsed=1007s
+beavertails_response/nf4: 1640/3021 elapsed=1018s
+beavertails_response/nf4: 1660/3021 elapsed=1029s
+beavertails_response/nf4: 1680/3021 elapsed=1039s
+beavertails_response/nf4: 1700/3021 elapsed=1050s
+beavertails_response/nf4: 1720/3021 elapsed=1062s
+beavertails_response/nf4: 1740/3021 elapsed=1074s
+beavertails_response/nf4: 1760/3021 elapsed=1086s
+beavertails_response/nf4: 1780/3021 elapsed=1097s
+beavertails_response/nf4: 1800/3021 elapsed=1109s
+beavertails_response/nf4: 1820/3021 elapsed=1121s
+beavertails_response/nf4: 1840/3021 elapsed=1134s
+beavertails_response/nf4: 1860/3021 elapsed=1148s
+beavertails_response/nf4: 1880/3021 elapsed=1161s
+beavertails_response/nf4: 1900/3021 elapsed=1175s
+beavertails_response/nf4: 1920/3021 elapsed=1188s
+beavertails_response/nf4: 1940/3021 elapsed=1202s
+beavertails_response/nf4: 1960/3021 elapsed=1215s
+beavertails_response/nf4: 1980/3021 elapsed=1228s
+beavertails_response/nf4: 2000/3021 elapsed=1241s
+beavertails_response/nf4: 2020/3021 elapsed=1254s
+beavertails_response/nf4: 2040/3021 elapsed=1267s
+beavertails_response/nf4: 2060/3021 elapsed=1281s
+beavertails_response/nf4: 2080/3021 elapsed=1295s
+beavertails_response/nf4: 2100/3021 elapsed=1309s
+beavertails_response/nf4: 2120/3021 elapsed=1323s
+beavertails_response/nf4: 2140/3021 elapsed=1335s
+beavertails_response/nf4: 2160/3021 elapsed=1347s
+beavertails_response/nf4: 2180/3021 elapsed=1359s
+beavertails_response/nf4: 2200/3021 elapsed=1370s
+beavertails_response/nf4: 2220/3021 elapsed=1381s
+beavertails_response/nf4: 2240/3021 elapsed=1393s
+beavertails_response/nf4: 2260/3021 elapsed=1405s
+beavertails_response/nf4: 2280/3021 elapsed=1415s
+beavertails_response/nf4: 2300/3021 elapsed=1425s
+beavertails_response/nf4: 2320/3021 elapsed=1437s
+beavertails_response/nf4: 2340/3021 elapsed=1448s
+beavertails_response/nf4: 2360/3021 elapsed=1460s
+beavertails_response/nf4: 2380/3021 elapsed=1472s
+beavertails_response/nf4: 2400/3021 elapsed=1483s
+beavertails_response/nf4: 2420/3021 elapsed=1494s
+beavertails_response/nf4: 2440/3021 elapsed=1504s
+beavertails_response/nf4: 2460/3021 elapsed=1514s
+beavertails_response/nf4: 2480/3021 elapsed=1525s
+beavertails_response/nf4: 2500/3021 elapsed=1535s
+beavertails_response/nf4: 2520/3021 elapsed=1545s
+beavertails_response/nf4: 2540/3021 elapsed=1555s
+beavertails_response/nf4: 2560/3021 elapsed=1566s
+beavertails_response/nf4: 2580/3021 elapsed=1575s
+beavertails_response/nf4: 2600/3021 elapsed=1584s
+beavertails_response/nf4: 2620/3021 elapsed=1593s
+beavertails_response/nf4: 2640/3021 elapsed=1601s
+beavertails_response/nf4: 2660/3021 elapsed=1609s
+beavertails_response/nf4: 2680/3021 elapsed=1618s
+beavertails_response/nf4: 2700/3021 elapsed=1626s
+beavertails_response/nf4: 2720/3021 elapsed=1634s
+beavertails_response/nf4: 2740/3021 elapsed=1642s
+beavertails_response/nf4: 2760/3021 elapsed=1651s
+beavertails_response/nf4: 2780/3021 elapsed=1659s
+beavertails_response/nf4: 2800/3021 elapsed=1667s
+beavertails_response/nf4: 2820/3021 elapsed=1675s
+beavertails_response/nf4: 2840/3021 elapsed=1683s
+beavertails_response/nf4: 2860/3021 elapsed=1692s
+beavertails_response/nf4: 2880/3021 elapsed=1700s
+beavertails_response/nf4: 2900/3021 elapsed=1708s
+beavertails_response/nf4: 2920/3021 elapsed=1716s
+beavertails_response/nf4: 2940/3021 elapsed=1724s
+beavertails_response/nf4: 2960/3021 elapsed=1733s
+beavertails_response/nf4: 2980/3021 elapsed=1741s
+beavertails_response/nf4: 3000/3021 elapsed=1750s
+beavertails_response/nf4: 3020/3021 elapsed=1758s
+beavertails_response/nf4: 3021/3021 elapsed=1759s
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:21,  4.86it/s]Loading weights:   1%|          | 2/399 [00:00<01:12,  5.45it/s]Loading weights:   1%|          | 4/399 [00:00<00:41,  9.57it/s]Loading weights:  10%|▉         | 38/399 [00:00<00:03, 107.95it/s]Loading weights:  21%|██        | 83/399 [00:00<00:01, 209.01it/s]Loading weights:  34%|███▍      | 136/399 [00:00<00:00, 301.14it/s]Loading weights:  47%|████▋     | 188/399 [00:00<00:00, 364.30it/s]Loading weights:  59%|█████▉    | 237/399 [00:01<00:00, 398.42it/s]Loading weights:  73%|███████▎  | 292/399 [00:01<00:00, 441.64it/s]Loading weights:  85%|████████▍ | 339/399 [00:01<00:00, 450.03it/s]Loading weights:  97%|█████████▋| 389/399 [00:01<00:00, 460.43it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 301.79it/s]
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 2497.52it/s]
+beavertails_response/fp8: 20/3021 elapsed=22s
+beavertails_response/fp8: 40/3021 elapsed=34s
+beavertails_response/fp8: 60/3021 elapsed=46s
+beavertails_response/fp8: 80/3021 elapsed=59s
+beavertails_response/fp8: 100/3021 elapsed=72s
+beavertails_response/fp8: 120/3021 elapsed=85s
+beavertails_response/fp8: 140/3021 elapsed=98s
+beavertails_response/fp8: 160/3021 elapsed=109s
+beavertails_response/fp8: 180/3021 elapsed=122s
+beavertails_response/fp8: 200/3021 elapsed=134s
+beavertails_response/fp8: 220/3021 elapsed=146s
+beavertails_response/fp8: 240/3021 elapsed=158s
+beavertails_response/fp8: 260/3021 elapsed=171s
+beavertails_response/fp8: 280/3021 elapsed=185s
+beavertails_response/fp8: 300/3021 elapsed=198s
+beavertails_response/fp8: 320/3021 elapsed=209s
+beavertails_response/fp8: 340/3021 elapsed=221s
+beavertails_response/fp8: 360/3021 elapsed=234s
+beavertails_response/fp8: 380/3021 elapsed=246s
+beavertails_response/fp8: 400/3021 elapsed=258s
+beavertails_response/fp8: 420/3021 elapsed=270s
+beavertails_response/fp8: 440/3021 elapsed=282s
+beavertails_response/fp8: 460/3021 elapsed=294s
+beavertails_response/fp8: 480/3021 elapsed=306s
+beavertails_response/fp8: 500/3021 elapsed=319s
+beavertails_response/fp8: 520/3021 elapsed=331s
+beavertails_response/fp8: 540/3021 elapsed=343s
+beavertails_response/fp8: 560/3021 elapsed=356s
+beavertails_response/fp8: 580/3021 elapsed=368s
+beavertails_response/fp8: 600/3021 elapsed=380s
+beavertails_response/fp8: 620/3021 elapsed=393s
+beavertails_response/fp8: 640/3021 elapsed=405s
+beavertails_response/fp8: 660/3021 elapsed=418s
+beavertails_response/fp8: 680/3021 elapsed=430s
+beavertails_response/fp8: 700/3021 elapsed=443s
+beavertails_response/fp8: 720/3021 elapsed=456s
+beavertails_response/fp8: 740/3021 elapsed=468s
+beavertails_response/fp8: 760/3021 elapsed=480s
+beavertails_response/fp8: 780/3021 elapsed=492s
+beavertails_response/fp8: 800/3021 elapsed=505s
+beavertails_response/fp8: 820/3021 elapsed=516s
+beavertails_response/fp8: 840/3021 elapsed=528s
+beavertails_response/fp8: 860/3021 elapsed=541s
+beavertails_response/fp8: 880/3021 elapsed=552s
+beavertails_response/fp8: 900/3021 elapsed=565s
+beavertails_response/fp8: 920/3021 elapsed=577s
+beavertails_response/fp8: 940/3021 elapsed=590s
+beavertails_response/fp8: 960/3021 elapsed=602s
+beavertails_response/fp8: 980/3021 elapsed=615s
+beavertails_response/fp8: 1000/3021 elapsed=627s
+beavertails_response/fp8: 1020/3021 elapsed=639s
+beavertails_response/fp8: 1040/3021 elapsed=651s
+beavertails_response/fp8: 1060/3021 elapsed=664s
+beavertails_response/fp8: 1080/3021 elapsed=677s
+beavertails_response/fp8: 1100/3021 elapsed=690s
+beavertails_response/fp8: 1120/3021 elapsed=702s
+beavertails_response/fp8: 1140/3021 elapsed=714s
+beavertails_response/fp8: 1160/3021 elapsed=727s
+beavertails_response/fp8: 1180/3021 elapsed=738s
+beavertails_response/fp8: 1200/3021 elapsed=751s
+beavertails_response/fp8: 1220/3021 elapsed=764s
+beavertails_response/fp8: 1240/3021 elapsed=775s
+beavertails_response/fp8: 1260/3021 elapsed=787s
+beavertails_response/fp8: 1280/3021 elapsed=799s
+beavertails_response/fp8: 1300/3021 elapsed=812s
+beavertails_response/fp8: 1320/3021 elapsed=824s
+beavertails_response/fp8: 1340/3021 elapsed=836s
+beavertails_response/fp8: 1360/3021 elapsed=848s
+beavertails_response/fp8: 1380/3021 elapsed=860s
+beavertails_response/fp8: 1400/3021 elapsed=872s
+beavertails_response/fp8: 1420/3021 elapsed=884s
+beavertails_response/fp8: 1440/3021 elapsed=896s
+beavertails_response/fp8: 1460/3021 elapsed=908s
+beavertails_response/fp8: 1480/3021 elapsed=920s
+beavertails_response/fp8: 1500/3021 elapsed=932s
+beavertails_response/fp8: 1520/3021 elapsed=944s
+beavertails_response/fp8: 1540/3021 elapsed=956s
+beavertails_response/fp8: 1560/3021 elapsed=968s
+beavertails_response/fp8: 1580/3021 elapsed=980s
+beavertails_response/fp8: 1600/3021 elapsed=992s
+beavertails_response/fp8: 1620/3021 elapsed=1005s
+beavertails_response/fp8: 1640/3021 elapsed=1018s
+beavertails_response/fp8: 1660/3021 elapsed=1030s
+beavertails_response/fp8: 1680/3021 elapsed=1043s
+beavertails_response/fp8: 1700/3021 elapsed=1055s
+beavertails_response/fp8: 1720/3021 elapsed=1067s
+beavertails_response/fp8: 1740/3021 elapsed=1079s
+beavertails_response/fp8: 1760/3021 elapsed=1091s
+beavertails_response/fp8: 1780/3021 elapsed=1104s
+beavertails_response/fp8: 1800/3021 elapsed=1116s
+beavertails_response/fp8: 1820/3021 elapsed=1128s
+beavertails_response/fp8: 1840/3021 elapsed=1141s
+beavertails_response/fp8: 1860/3021 elapsed=1153s
+beavertails_response/fp8: 1880/3021 elapsed=1165s
+beavertails_response/fp8: 1900/3021 elapsed=1178s
+beavertails_response/fp8: 1920/3021 elapsed=1190s
+beavertails_response/fp8: 1940/3021 elapsed=1203s
+beavertails_response/fp8: 1960/3021 elapsed=1215s
+beavertails_response/fp8: 1980/3021 elapsed=1228s
+beavertails_response/fp8: 2000/3021 elapsed=1240s
+beavertails_response/fp8: 2020/3021 elapsed=1251s
+beavertails_response/fp8: 2040/3021 elapsed=1263s
+beavertails_response/fp8: 2060/3021 elapsed=1277s
+beavertails_response/fp8: 2080/3021 elapsed=1289s
+beavertails_response/fp8: 2100/3021 elapsed=1301s
+beavertails_response/fp8: 2120/3021 elapsed=1313s
+beavertails_response/fp8: 2140/3021 elapsed=1326s
+beavertails_response/fp8: 2160/3021 elapsed=1338s
+beavertails_response/fp8: 2180/3021 elapsed=1349s
+beavertails_response/fp8: 2200/3021 elapsed=1362s
+beavertails_response/fp8: 2220/3021 elapsed=1374s
+beavertails_response/fp8: 2240/3021 elapsed=1387s
+beavertails_response/fp8: 2260/3021 elapsed=1400s
+beavertails_response/fp8: 2280/3021 elapsed=1412s
+beavertails_response/fp8: 2300/3021 elapsed=1424s
+beavertails_response/fp8: 2320/3021 elapsed=1436s
+beavertails_response/fp8: 2340/3021 elapsed=1449s
+beavertails_response/fp8: 2360/3021 elapsed=1461s
+beavertails_response/fp8: 2380/3021 elapsed=1474s
+beavertails_response/fp8: 2400/3021 elapsed=1486s
+beavertails_response/fp8: 2420/3021 elapsed=1499s
+beavertails_response/fp8: 2440/3021 elapsed=1511s
+beavertails_response/fp8: 2460/3021 elapsed=1523s
+beavertails_response/fp8: 2480/3021 elapsed=1536s
+beavertails_response/fp8: 2500/3021 elapsed=1548s
+beavertails_response/fp8: 2520/3021 elapsed=1560s
+beavertails_response/fp8: 2540/3021 elapsed=1573s
+beavertails_response/fp8: 2560/3021 elapsed=1585s
+beavertails_response/fp8: 2580/3021 elapsed=1598s
+beavertails_response/fp8: 2600/3021 elapsed=1610s
+beavertails_response/fp8: 2620/3021 elapsed=1623s
+beavertails_response/fp8: 2640/3021 elapsed=1635s
+beavertails_response/fp8: 2660/3021 elapsed=1647s
+beavertails_response/fp8: 2680/3021 elapsed=1660s
+beavertails_response/fp8: 2700/3021 elapsed=1673s
+beavertails_response/fp8: 2720/3021 elapsed=1685s
+beavertails_response/fp8: 2740/3021 elapsed=1696s
+beavertails_response/fp8: 2760/3021 elapsed=1709s
+beavertails_response/fp8: 2780/3021 elapsed=1721s
+beavertails_response/fp8: 2800/3021 elapsed=1733s
+beavertails_response/fp8: 2820/3021 elapsed=1746s
+beavertails_response/fp8: 2840/3021 elapsed=1758s
+beavertails_response/fp8: 2860/3021 elapsed=1770s
+beavertails_response/fp8: 2880/3021 elapsed=1782s
+beavertails_response/fp8: 2900/3021 elapsed=1794s
+beavertails_response/fp8: 2920/3021 elapsed=1806s
+beavertails_response/fp8: 2940/3021 elapsed=1818s
+beavertails_response/fp8: 2960/3021 elapsed=1831s
+beavertails_response/fp8: 2980/3021 elapsed=1843s
+beavertails_response/fp8: 3000/3021 elapsed=1856s
+beavertails_response/fp8: 3020/3021 elapsed=1869s
+beavertails_response/fp8: 3021/3021 elapsed=1869s
+
+beavertails_response (response_safety, n=3021)
+  bf16: accuracy=0.8457 FNR=0.1361800346220427 FPR=0.17857142857142858 invalid=0
+  nf4: accuracy=0.8461 FNR=0.13675706866705137 FPR=0.17701863354037267 invalid=0
+  fp8: accuracy=0.8467 FNR=0.13733410271206 FPR=0.17468944099378883 invalid=0
+  bf16_vs_nf4: flips=29, regressions=14, recoveries=15
+  bf16_vs_fp8: flips=15, regressions=6, recoveries=9
+  nf4_vs_fp8: flips=34, regressions=16, recoveries=18
+Saved: /home/uraz/guard-study/guard_five_datasets/five_results/cross_dataset_summary.json /home/uraz/guard-study/guard_five_datasets/five_results/summary_table.csv

@@ -1,0 +1,23 @@
+{
+  "model": "meta-llama/Llama-Guard-3-8B",
+  "hf_revision": "7327bd9f6efbbe6101dc6cc4736302b3cbb6e425",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "transformers": "5.22.2",
+  "bitsandbytes": "0.50.2",
+  "seed": 20261108,
+  "max_new_tokens": 16,
+  "max_input_tokens": 2048,
+  "datasets": [
+    "xstest_prompt",
+    "beavertails_response"
+  ],
+  "arms": [
+    "bf16",
+    "nf4",
+    "fp4"
+  ],
+  "run_utc": "2026-11-09T07:37:50.960775+00:00",
+  "task_note": "Llama Guard policy differs from Qwen; within-family contrasts only"
+}

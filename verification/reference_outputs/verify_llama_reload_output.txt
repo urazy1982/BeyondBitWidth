@@ -1,0 +1,27 @@
+orig hash environment.json                           OK
+orig hash xstest_prompt/llama_selection.json         OK
+orig hash xstest_prompt/llama_manifest.json          OK
+orig hash xstest_prompt/nf4.json                     OK
+orig hash xstest_prompt/fp4.json                     OK
+orig hash beavertails_response/llama_selection.json  OK
+orig hash beavertails_response/llama_manifest.json   OK
+orig hash beavertails_response/nf4.json              OK
+orig hash beavertails_response/fp4.json              OK
+
+== xstest_prompt (n=450)  timestamps: nf4_A=2026-11-09T08:21:18.775621+00:00, nf4_B=2026-11-09T08:24:48.752336+00:00, fp4_A=2026-11-09T08:28:17.984857+00:00, fp4_B=2026-11-09T08:31:43.027107+00:00
+  nf4: A vs B = 0, orig vs A = 0, orig vs B = 0
+       FN counts {'orig': 35, 'A': 35, 'B': 35}
+  fp4: A vs B = 0, orig vs A = 0, orig vs B = 0
+       FN counts {'orig': 43, 'A': 43, 'B': 43}
+  NF4-vs-FP4 flips: orig=12 A=12 B=12 identical_sets=True
+  fresh A NF4->FP4: newly missed unsafe=8, recovered unsafe=0
+
+== beavertails_response (n=1500)  timestamps: nf4_A=2026-11-09T08:23:59.079297+00:00, nf4_B=2026-11-09T08:27:28.777296+00:00, fp4_A=2026-11-09T08:30:54.582991+00:00, fp4_B=2026-11-09T08:34:22.053166+00:00
+  nf4: A vs B = 0, orig vs A = 0, orig vs B = 0
+       FN counts {'orig': 365, 'A': 365, 'B': 365}
+  fp4: A vs B = 0, orig vs A = 0, orig vs B = 0
+       FN counts {'orig': 396, 'A': 396, 'B': 396}
+  NF4-vs-FP4 flips: orig=42 A=42 B=42 identical_sets=True
+  fresh A NF4->FP4: newly missed unsafe=32, recovered unsafe=1
+
+ISSUES: 0

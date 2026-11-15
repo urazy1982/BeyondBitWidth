@@ -1,0 +1,27 @@
+{
+  "dataset": "xstest_prompt",
+  "n": 256,
+  "bf16_A_vs_B": {
+    "paired": 256,
+    "changed": 0,
+    "changed_rate": 0.0,
+    "invalid_pairs": 0,
+    "changed_ids": []
+  },
+  "original_vs_repeat_A": {
+    "paired": 256,
+    "changed": 0,
+    "changed_rate": 0.0,
+    "invalid_pairs": 0,
+    "changed_ids": []
+  },
+  "original_vs_repeat_B": {
+    "paired": 256,
+    "changed": 0,
+    "changed_rate": 0.0,
+    "invalid_pairs": 0,
+    "changed_ids": []
+  },
+  "same_loaded_model_for_A_B": true,
+  "caveat": "Original BF16 model commit was not frozen; difference from historical BF16 may include model version drift."
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-08",
+  "overall_status": "PARTIAL_NOT_CERTIFIED",
+  "model": "Qwen/Qwen3Guard-Gen-4B",
+  "datasets_reported": 4,
+  "unique_inputs_reported": 9224,
+  "precision_arms": 5,
+  "classification_records_reported": 46120,
+  "cpu_validation": {
+    "original_tests_passed": 5,
+    "additional_tests_passed": 8,
+    "analysis_bitwise_repeatability": "PASS",
+    "repeated_csv_sha256": "991d70ff8747ae395098dd5f8756fa37b69e558b49e2856ef3427a942823d265",
+    "summary_invariants_from_prior_audit": 2362,
+    "summary_invariant_status": "PASS"
+  },
+  "raw_archive_verification": {
+    "status": "BLOCKED",
+    "reason": "file materialized by Files service but not readable in CPU container",
+    "checksum_verified": false,
+    "raw_records_verified": false
+  },
+  "gpu_repeatability": {
+    "status": "NOT_TESTED",
+    "reason": "no same-setting repeat model predictions in evidence and no local 5090 access"
+  },
+  "literature_novelty": {
+    "status": "TARGETED_REVIEW_NOT_CERTIFIED_FIRST",
+    "nearest_general_fixed_bit_format": "arxiv:2305.12356",
+    "nearest_safety_quantization": "DOI:10.1109/ACCESS.2026.3703899",
+    "quantized_guard_artifact": "iskiai/Qwen3Guard-Stream-4B-bnb-fp4"
+  },
+  "statistics": {
+    "nf4_fp4_toxicchat_accuracy_p_exact": 0.007275502036308492,
+    "holm4": 0.02910200814523397,
+    "holm8": 0.05820401629046794,
+    "any_FNR_significant_after_holm": false
+  },
+  "publication_ready": false
+}

@@ -1,0 +1,129 @@
+{
+  "environment": {
+    "utc": "2026-11-08T18:30:34.419451+00:00",
+    "model": "Qwen/Qwen3Guard-Gen-4B",
+    "model_commit": null,
+    "tokenizer_commit": null,
+    "torch": "2.11.0+cu128",
+    "transformers": "5.22.2",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "max_new_tokens": "from frozen manifest",
+    "do_sample": false,
+    "padding": "same single-item batch in every run",
+    "cudnn_benchmark": false,
+    "deterministic_algorithms": false,
+    "per_class": 128,
+    "selection_seed": 20261108
+  },
+  "datasets": [
+    {
+      "dataset": "qwen_thinking",
+      "n": 256,
+      "bf16_A_vs_B": {
+        "paired": 256,
+        "changed": 0,
+        "changed_rate": 0.0,
+        "invalid_pairs": 0,
+        "changed_ids": []
+      },
+      "original_vs_repeat_A": {
+        "paired": 256,
+        "changed": 0,
+        "changed_rate": 0.0,
+        "invalid_pairs": 0,
+        "changed_ids": []
+      },
+      "original_vs_repeat_B": {
+        "paired": 256,
+        "changed": 0,
+        "changed_rate": 0.0,
+        "invalid_pairs": 0,
+        "changed_ids": []
+      },
+      "same_loaded_model_for_A_B": true,
+      "caveat": "Original BF16 model commit was not frozen; difference from historical BF16 may include model version drift."
+    },
+    {
+      "dataset": "toxicchat_prompt",
+      "n": 256,
+      "bf16_A_vs_B": {
+        "paired": 256,
+        "changed": 0,
+        "changed_rate": 0.0,
+        "invalid_pairs": 0,
+        "changed_ids": []
+      },
+      "original_vs_repeat_A": {
+        "paired": 256,
+        "changed": 0,
+        "changed_rate": 0.0,
+        "invalid_pairs": 0,
+        "changed_ids": []
+      },
+      "original_vs_repeat_B": {
+        "paired": 256,
+        "changed": 0,
+        "changed_rate": 0.0,
+        "invalid_pairs": 0,
+        "changed_ids": []
+      },
+      "same_loaded_model_for_A_B": true,
+      "caveat": "Original BF16 model commit was not frozen; difference from historical BF16 may include model version drift."
+    },
+    {
+      "dataset": "xstest_prompt",
+      "n": 256,
+      "bf16_A_vs_B": {
+        "paired": 256,
+        "changed": 0,
+        "changed_rate": 0.0,
+        "invalid_pairs": 0,
+        "changed_ids": []
+      },
+      "original_vs_repeat_A": {
+        "paired": 256,
+        "changed": 0,
+        "changed_rate": 0.0,
+        "invalid_pairs": 0,
+        "changed_ids": []
+      },
+      "original_vs_repeat_B": {
+        "paired": 256,
+        "changed": 0,
+        "changed_rate": 0.0,
+        "invalid_pairs": 0,
+        "changed_ids": []
+      },
+      "same_loaded_model_for_A_B": true,
+      "caveat": "Original BF16 model commit was not frozen; difference from historical BF16 may include model version drift."
+    },
+    {
+      "dataset": "beavertails_response",
+      "n": 256,
+      "bf16_A_vs_B": {
+        "paired": 256,
+        "changed": 0,
+        "changed_rate": 0.0,
+        "invalid_pairs": 0,
+        "changed_ids": []
+      },
+      "original_vs_repeat_A": {
+        "paired": 256,
+        "changed": 0,
+        "changed_rate": 0.0,
+        "invalid_pairs": 0,
+        "changed_ids": []
+      },
+      "original_vs_repeat_B": {
+        "paired": 256,
+        "changed": 0,
+        "changed_rate": 0.0,
+        "invalid_pairs": 0,
+        "changed_ids": []
+      },
+      "same_loaded_model_for_A_B": true,
+      "caveat": "Original BF16 model commit was not frozen; difference from historical BF16 may include model version drift."
+    }
+  ]
+}

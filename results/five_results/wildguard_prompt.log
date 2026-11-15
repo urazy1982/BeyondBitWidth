@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/home/uraz/guard-study/guard_five_datasets/run_five.py", line 276, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/uraz/guard-study/guard_five_datasets/run_five.py", line 271, in main
+    prepare(root,names,args)
+  File "/home/uraz/guard-study/guard_five_datasets/run_five.py", line 127, in prepare
+    rows,meta=build_selection(name,tok,args.max_items,args.max_input_tokens,args.seed)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/uraz/guard-study/guard_five_datasets/run_five.py", line 82, in build_selection
+    ds,meta=get_source(name)
+            ^^^^^^^^^^^^^^^^
+  File "/home/uraz/guard-study/guard_five_datasets/run_five.py", line 36, in get_source
+    ds=load_dataset('allenai/wildguardmix','wildguardtest',split='test')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/uraz/guard-study/.venv/lib/python3.12/site-packages/datasets/load.py", line 1667, in load_dataset
+    builder_instance = load_dataset_builder(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/uraz/guard-study/.venv/lib/python3.12/site-packages/datasets/load.py", line 1290, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/uraz/guard-study/.venv/lib/python3.12/site-packages/datasets/load.py", line 1176, in dataset_module_factory
+    raise e1 from None
+  File "/home/uraz/guard-study/.venv/lib/python3.12/site-packages/datasets/load.py", line 1164, in dataset_module_factory
+    raise DatasetNotFoundError(message) from e
+datasets.exceptions.DatasetNotFoundError: Dataset 'allenai/wildguardmix' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/allenai/wildguardmix to ask for access.

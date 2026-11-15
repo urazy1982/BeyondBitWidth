@@ -1,0 +1,30 @@
+{
+  "model": "Qwen/Qwen3Guard-Gen-4B",
+  "dataset": "beavertails_response",
+  "source": {
+    "repo": "PKU-Alignment/BeaverTails",
+    "split": "30k_test",
+    "task": "response_safety",
+    "source_rows": 3021,
+    "eligible_rows_before_sampling": 3021,
+    "selected_rows": 3021,
+    "excluded": {},
+    "label_counts": {
+      "unsafe": 1733,
+      "safe": 1288
+    },
+    "category_counts": {
+      "beavertails": 3021
+    },
+    "source_fingerprint": "6fbba689018821ef"
+  },
+  "n": 3021,
+  "seed": 20261107,
+  "max_items": 5000,
+  "max_input_tokens": 1536,
+  "max_new_tokens": 48,
+  "selection_sha256": "3d142ad74e9aa76241aa6676549e7581cd7334ba13d104545c5cd8fc78870762",
+  "label_policy": "Safe=>safe; Unsafe/Controversial=>unsafe; invalid separate",
+  "sample_policy": "unbalanced random sample, no oversampling, selected rows frozen",
+  "created_utc": "2026-11-07T21:29:07.836416+00:00"
+}

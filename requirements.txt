@@ -1,0 +1,5 @@
+# Verification and analysis (CPU)
+scipy>=1.10
+matplotlib>=3.7
+# GPU experiments (code/experiments) were run with:
+# torch==2.11.0+cu128  transformers==5.22.2  bitsandbytes==0.50.2  huggingface_hub  datasets

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below, together with the benchmark datasets and guard models it builds on."
+title: "Beyond Bit-Width: Model-Dependent Safety Risk under Fixed-Precision Quantization of LLM Guardrails (data, code and verification)"
+authors:
+  - family-names: "Yavanoğlu"
+    given-names: "Uraz"
+    orcid: "https://orcid.org/0000-0001-8358-8150"
+    affiliation: "Department of Computer Engineering, Faculty of Engineering, Gazi University, Ankara, Türkiye"
+    email: "uraz@gazi.edu.tr"
+version: "1.2.0"
+date-released: "2026-11-15"
+license:
+  - MIT
+  - CC-BY-NC-4.0
+repository-code: "https://github.com/urazy1982/BeyondBitWidth"
+keywords:
+  - large language models
+  - guardrails
+  - content moderation
+  - quantization
+  - numerical precision
+  - reproducibility
+  - AI security

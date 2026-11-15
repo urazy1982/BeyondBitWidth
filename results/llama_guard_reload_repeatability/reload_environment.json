@@ -1,0 +1,23 @@
+{
+  "model": "meta-llama/Llama-Guard-3-8B",
+  "revision": "7327bd9f6efbbe6101dc6cc4736302b3cbb6e425",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.2",
+  "bitsandbytes": "0.50.2",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "max_input_tokens": 2048,
+  "max_new_tokens": 16,
+  "original_sha256": {
+    "environment.json": "b2bf853426a8ba0abd4ba0b325e9b528329eec14b0adafd032c684ffc27afc5c",
+    "xstest_prompt/llama_selection.json": "3c4f4f234e6272125d62d580279a7dcde0bce76a71f86c64b7ab89ce7c0323fc",
+    "xstest_prompt/llama_manifest.json": "aa6a638e7c78272bb66c637c50c160139de02990d3ced48dd22ca0dfbcddd3e5",
+    "xstest_prompt/nf4.json": "1814cb89e42949397de71211b9d6464b1a773419433780df84430fdaa59e8a8d",
+    "xstest_prompt/fp4.json": "aa512bb3cd832438f0219132fe08bb32e8c116f8a379129b22bdae8e4fede721",
+    "beavertails_response/llama_selection.json": "f6e96765d1ead1dfe4579b8d467509f905adc65d0175fef3aaeabc4637497969",
+    "beavertails_response/llama_manifest.json": "43ce241507d57c0699559bd77f343db5d1c85d8f3eb738cd956d831815bd1765",
+    "beavertails_response/nf4.json": "ea7249bcd661255126e30532c23a2e7c317741bcfd22dd547549fca534a56b7a",
+    "beavertails_response/fp4.json": "b1cd4f219ea3e5db81ebae3abdbbcca5de5907c8b86fe74972371565c601e8a0"
+  },
+  "created_utc": "2026-11-09T08:20:25.032995+00:00"
+}

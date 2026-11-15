@@ -1,0 +1,40 @@
+{
+  "model": "Qwen/Qwen3Guard-Gen-4B",
+  "dataset": "qwen_thinking",
+  "source": {
+    "repo": "Qwen/Qwen3GuardTest",
+    "split": "thinking",
+    "task": "response_safety",
+    "source_rows": 1059,
+    "eligible_rows_before_sampling": 753,
+    "selected_rows": 753,
+    "excluded": {
+      "over_input_limit": 306
+    },
+    "label_counts": {
+      "unsafe": 318,
+      "safe": 435
+    },
+    "category_counts": {
+      "Unethical Acts": 106,
+      "": 435,
+      "Non-violent Illegal Acts": 95,
+      "Violent": 58,
+      "PII, Personally Identifiable Information": 26,
+      "Sexual Content or Sexual Acts": 14,
+      "Copyright Violation": 2,
+      "Politically Sensitive Topics": 11,
+      "Suicide & Self-Harm": 6
+    },
+    "source_fingerprint": "efbfc138728a95d8"
+  },
+  "n": 753,
+  "seed": 20261107,
+  "max_items": 5000,
+  "max_input_tokens": 1536,
+  "max_new_tokens": 48,
+  "selection_sha256": "b21700e27e37fad4f5e4c86d0247336204ff786d962a1a26d872d994fac783df",
+  "label_policy": "Safe=>safe; Unsafe/Controversial=>unsafe; invalid separate",
+  "sample_policy": "unbalanced random sample, no oversampling, selected rows frozen",
+  "created_utc": "2026-11-07T19:22:08.944477+00:00"
+}
